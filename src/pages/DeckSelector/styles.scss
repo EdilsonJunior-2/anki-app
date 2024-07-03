@@ -1,0 +1,22 @@
+.ant-collapse {
+    width: 100%;
+    border: none;
+
+    &-item {
+        .collapse-header {
+            padding: .5rem !important;
+        }
+    }
+
+    &-content-box {
+        padding: 0 !important;
+
+        ul {
+            margin: 0;
+
+            li {
+                margin: .5rem 0;
+            }
+        }
+    }
+}
