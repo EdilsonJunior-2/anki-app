@@ -23,13 +23,11 @@ export default () => {
 				<ul>
 					{category.decks.map((deck) => (
 						<li key={deck.id}>
-							<button
-								className="borderless"
-								type="button"
-								onClick={() => pickCards(deck.id)}
-							>
+							<p>
 								{deck.name}
-							</button>
+							</p>
+							<button
+								onClick={() => pickCards(deck.id)}>Estudar</button>
 						</li>
 					))}
 				</ul>
