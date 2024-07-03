@@ -1,403 +1,551 @@
-{
-  "decks": [
-    {
-      "name": "Anatomia",
-      "categories": [
-        {
-          "name": "Neuroanatomia",
-          "categories": [
-            {
-              "id": 1,
-              "name": "Sistema nervoso central (SNC)",
-              "category": "Visão geral",
-              "cards": [
-                {
-                  "id": 1,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_1.jpg",
-                  "answer": "Cérebro"
-                },
-                {
-                  "id": 2,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_2.jpg",
-                  "answer": "Lobo frontal"
-                },
-                {
-                  "id": 3,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_3.jpg",
-                  "answer": "Lobo temporal"
-                },
-                {
-                  "id": 4,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_4.jpg",
-                  "answer": "Lobo parietal"
-                },
-                {
-                  "id": 5,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_5.jpg",
-                  "answer": "Lobo occipital"
-                },
-                {
-                  "id": 6,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_6.jpg",
-                  "answer": "Lobo insular"
-                },
-                {
-                  "id": 7,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_7.jpg",
-                  "answer": "Cerebelo"
-                },
-                {
-                  "id": 8,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_8.jpg",
-                  "answer": "Tronco encefálico"
-                },
-                {
-                  "id": 9,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_9.jpg",
-                  "answer": "Mesencéfalo"
-                },
-                {
-                  "id": 10,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_10.jpg",
-                  "answer": "Ponte"
-                },
-                {
-                  "id": 11,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_11.jpg",
-                  "answer": "Bulbo"
-                },
-                {
-                  "id": 12,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_12.jpg",
-                  "answer": "Corpo caloso"
-                },
-                {
-                  "id": 13,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_13.jpg",
-                  "answer": "Tálamo"
-                },
-                {
-                  "id": 14,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_14.jpg",
-                  "answer": "Hipófise"
-                },
-                {
-                  "id": 15,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_15.jpg",
-                  "answer": "Ventrículo lateral"
-                },
-                {
-                  "id": 16,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_16.jpg",
-                  "answer": "Diencéfalo"
-                },
-                {
-                  "id": 17,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_17.jpg",
-                  "answer": "Terceiro ventrículo"
-                },
-                {
-                  "id": 18,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_18.jpg",
-                  "answer": "Quarto ventrículo"
-                },
-                {
-                  "id": 19,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNC/SNC_19.jpg",
-                  "answer": "Lobo límbico"
-                }
-              ]
-            },
-            {
-              "id": 2,
-              "name": "Sistema nervoso periférico (SNP)",
-              "category": "Visão geral",
-              "cards": [
-                {
-                  "id": 20,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_1.jpg",
-                  "answer": "Nervo espinhal"
-                },
-                {
-                  "id": 21,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_2.jpg",
-                  "answer": "Raiz anterior do nervo espinhal"
-                },
-                {
-                  "id": 22,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_3.jpg",
-                  "answer": "Raiz posterior do nervo espinhal"
-                },
-                {
-                  "id": 23,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_4.jpg",
-                  "answer": "Gânglio espinhal"
-                },
-                {
-                  "id": 24,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_5.jpg",
-                  "answer": "Epineuro"
-                },
-                {
-                  "id": 25,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_6.jpg",
-                  "answer": "Fascículo nervoso"
-                },
-                {
-                  "id": 26,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_7.jpg",
-                  "answer": "Bainha de mielina"
-                },
-                {
-                  "id": 27,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_8.jpg",
-                  "answer": "Axônio periférico mielínico"
-                },
-                {
-                  "id": 28,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_9.jpg",
-                  "answer": "Axônio periférico amielínico"
-                },
-                {
-                  "id": 29,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_10.jpg",
-                  "answer": "Perineuro"
-                },
-                {
-                  "id": 30,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_11.jpg",
-                  "answer": "Endoneuro"
-                },
-                {
-                  "id": 31,
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Geral/SNP/SNP_12.jpg",
-                  "answer": "Vasa nervorum"
-                }
-              ]
-            },
-            {
-              "id": 3,
-              "name": "Cerebro",
-              "category": "Visão geral",
-              "cards": []
-            },
-            {
-              "id": 4,
-              "category": "Cerebelo",
-              "name": "Córtex cerebelar",
-              "cards": [
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_1.jpg",
-                  "answer": "Lobo anterior do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_2.jpg",
-                  "answer": "Óvula do vérmis"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_3.jpg",
-                  "answer": "Pirâmide do vérmis"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_4.jpg",
-                  "answer": "Lóbulo semilunar superior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_5.jpg",
-                  "answer": "Lóbulo flóculo-nodular"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_6.jpg",
-                  "answer": "Tenda do Cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_7.jpg",
-                  "answer": "Pedúnculo cerebelar superior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_8.jpg",
-                  "answer": "Lóbulo anterior do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_9.jpg",
-                  "answer": "Véu medular superior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_10.jpg",
-                  "answer": "Língula do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_11.jpg",
-                  "answer": "Pedúnculo cereblar médio"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_12.jpg",
-                  "answer": "Túber do vérmis"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_13.jpg",
-                  "answer": "Lóbulo quadrangular anterior do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_14.jpg",
-                  "answer": "Declive"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_15.jpg",
-                  "answer": "Lóbulo semilunar inferior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_16.jpg",
-                  "answer": "Cúlmen"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_17.jpg",
-                  "answer": "Fissura horizontal do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_18.jpg",
-                  "answer": "Tenda do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_19.jpg",
-                  "answer": "Tonsila do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_20.jpg",
-                  "answer": "Cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_21.jpg",
-                  "answer": "Pedúnculo cerebelar inferior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_22.jpg",
-                  "answer": "Lobo posterior do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_23.jpg",
-                  "answer": "Fissura retrotonsilar do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_24.jpg",
-                  "answer": "Incisura do tentório"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_25.jpg",
-                  "answer": "Lóbulo quadrangular posterior do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_26.jpg",
-                  "answer": "Lóbulo biventre do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_27.jpg",
-                  "answer": "Véu medular inferior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_28.jpg",
-                  "answer": "Folium"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_29.jpg",
-                  "answer": "Quarto ventrículo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_30.jpg",
-                  "answer": "Lóbulo central do vérmis"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_31.jpg",
-                  "answer": "Flóculos"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_32.jpg",
-                  "answer": "Fissura cerebelar primária"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_33.jpg",
-                  "answer": "Vérmis"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_34.jpg",
-                  "answer": "Nódulo do vérmis"
-                }
-              ]
-            },
-            {
-              "id": 5,
-              "name": "Núcleos do cerebelo",
-              "category": "Cerebelo",
-              "cards": [
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_1.jpg",
-                  "answer": "Córtex cerebelar"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_2.jpg",
-                  "answer": "Substância branca do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_3.jpg",
-                  "answer": "Zona medial do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_4.jpg",
-                  "answer": "Zona intermediária do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_5.jpg",
-                  "answer": "Zona lateral do cerebelo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_6.jpg",
-                  "answer": "Núcleo fastigial"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_7.jpg",
-                  "answer": "Núcleo emboliforme"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_8.jpg",
-                  "answer": "Núcleo globoso"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_9.jpg",
-                  "answer": "Núcleo denteado"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_10.jpg",
-                  "answer": "Decussação do pedúnculo cerebelar superior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_11.jpg",
-                  "answer": "Fascículo longitudinal medial"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_12.jpg",
-                  "answer": "Quarto ventrículo"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_13.jpg",
-                  "answer": "Véu medular superior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_14.jpg",
-                  "answer": "Pedúnculo cerebelar superior"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_15.jpg",
-                  "answer": "Vérmis"
-                },
-                {
-                  "questionImage": "./images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_16.jpg",
-                  "answer": "Língula do cerebelo"
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    }
-  ]
-}
+[
+  {
+    "name": "Visão Geral",
+    "decks": [
+      {
+        "id": 1,
+        "name": "Sistema nervoso central (SNC): Introdução ao encéfalo",
+        "cards": [
+          {
+            "id": 1,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_1.jpg",
+            "answer": "Cérebro"
+          },
+          {
+            "id": 2,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_2.jpg",
+            "answer": "Lobo frontal"
+          },
+          {
+            "id": 3,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_3.jpg",
+            "answer": "Lobo temporal"
+          },
+          {
+            "id": 4,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_4.jpg",
+            "answer": "Lobo parietal"
+          },
+          {
+            "id": 5,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_5.jpg",
+            "answer": "Lobo occipital"
+          },
+          {
+            "id": 6,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_6.jpg",
+            "answer": "Lobo insular"
+          },
+          {
+            "id": 7,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_7.jpg",
+            "answer": "Cerebelo"
+          },
+          {
+            "id": 8,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_8.jpg",
+            "answer": "Tronco encefálico"
+          },
+          {
+            "id": 9,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_9.jpg",
+            "answer": "Mesencéfalo"
+          },
+          {
+            "id": 10,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_10.jpg",
+            "answer": "Ponte"
+          },
+          {
+            "id": 11,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_11.jpg",
+            "answer": "Bulbo"
+          },
+          {
+            "id": 12,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_12.jpg",
+            "answer": "Corpo caloso"
+          },
+          {
+            "id": 13,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_13.jpg",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 14,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_14.jpg",
+            "answer": "Hipófise"
+          },
+          {
+            "id": 15,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_15.jpg",
+            "answer": "Ventrículo lateral"
+          },
+          {
+            "id": 16,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_16.jpg",
+            "answer": "Diencéfalo"
+          },
+          {
+            "id": 17,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_17.jpg",
+            "answer": "Terceiro ventrículo"
+          },
+          {
+            "id": 18,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_18.jpg",
+            "answer": "Quarto ventrículo"
+          },
+          {
+            "id": 19,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_19.jpg",
+            "answer": "Lobo límbico"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "name": "Sistema nervoso periférico (SNP): Nervos, gânglios e plexos",
+        "cards": [
+          {
+            "id": 20,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_1.jpg",
+            "answer": "Nervo espinhal"
+          },
+          {
+            "id": 21,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_2.jpg",
+            "answer": "Raiz anterior do nervo espinhal"
+          },
+          {
+            "id": 22,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_3.jpg",
+            "answer": "Raiz posterior do nervo espinhal"
+          },
+          {
+            "id": 23,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_4.jpg",
+            "answer": "Gânglio espinhal"
+          },
+          {
+            "id": 24,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_5.jpg",
+            "answer": "Epineuro"
+          },
+          {
+            "id": 25,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_6.jpg",
+            "answer": "Fascículo nervoso"
+          },
+          {
+            "id": 26,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_7.jpg",
+            "answer": "Bainha de mielina"
+          },
+          {
+            "id": 27,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_8.jpg",
+            "answer": "Axônio periférico mielínico"
+          },
+          {
+            "id": 28,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_9.jpg",
+            "answer": "Axônio periférico amielínico"
+          },
+          {
+            "id": 29,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_10.jpg",
+            "answer": "Perineuro"
+          },
+          {
+            "id": 30,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_11.jpg",
+            "answer": "Endoneuro"
+          },
+          {
+            "id": 31,
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_12.jpg",
+            "answer": "Vasa nervorum"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cérebro",
+    "decks": [
+      {
+        "id": 3,
+        "name": "Visão Geral do Cérebro",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "name": "Vista lateral do cérebro",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "name": "Vista medial do cérebro",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "name": "Vista inferior do cérebro",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "name": "Vista coronal do cérebro",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "name": "Áreas de Brodmann",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "name": "Hipocampo, fórnix e corpo amigdaloide",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "name": "Núcleos da base",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "name": "Corte transversal do encéfalo",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "name": "Homúnculo motor e sensitivo",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Diencéfalo",
+    "decks": [
+      {
+        "id": 13,
+        "name": "Visão geral do diencéfalo",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "name": "Tálamo",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "name": "Núcleos do tálamo",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "name": "Hipotálamo",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "name": "Hipófise",
+        "cards": [
+          {
+            "question": "",
+            "answer": ""
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Cerebelo",
+    "decks": [
+      {
+        "id": 18,
+        "name": "Córtex cerebelar",
+        "cards": [
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_1.jpg",
+            "answer": "Lobo anterior do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_2.jpg",
+            "answer": "Óvula do vérmis"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_3.jpg",
+            "answer": "Pirâmide do vérmis"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_4.jpg",
+            "answer": "Lóbulo semilunar superior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_5.jpg",
+            "answer": "Lóbulo flóculo-nodular"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_6.jpg",
+            "answer": "Tenda do Cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_7.jpg",
+            "answer": "Pedúnculo cerebelar superior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_8.jpg",
+            "answer": "Lóbulo anterior do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_9.jpg",
+            "answer": "Véu medular superior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_10.jpg",
+            "answer": "Língula do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_11.jpg",
+            "answer": "Pedúnculo cereblar médio"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_12.jpg",
+            "answer": "Túber do vérmis"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_13.jpg",
+            "answer": "Lóbulo quadrangular anterior do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_14.jpg",
+            "answer": "Declive"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_15.jpg",
+            "answer": "Lóbulo semilunar inferior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_16.jpg",
+            "answer": "Cúlmen"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_17.jpg",
+            "answer": "Fissura horizontal do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_18.jpg",
+            "answer": "Tenda do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_19.jpg",
+            "answer": "Tonsila do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_20.jpg",
+            "answer": "Cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_21.jpg",
+            "answer": "Pedúnculo cerebelar inferior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_22.jpg",
+            "answer": "Lobo posterior do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_23.jpg",
+            "answer": "Fissura retrotonsilar do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_24.jpg",
+            "answer": "Incisura do tentório"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_25.jpg",
+            "answer": "Lóbulo quadrangular posterior do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_26.jpg",
+            "answer": "Lóbulo biventre do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_27.jpg",
+            "answer": "Véu medular inferior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_28.jpg",
+            "answer": "Folium"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_29.jpg",
+            "answer": "Quarto ventrículo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_30.jpg",
+            "answer": "Lóbulo central do vérmis"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_31.jpg",
+            "answer": "Flóculos"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_32.jpg",
+            "answer": "Fissura cerebelar primária"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_33.jpg",
+            "answer": "Vérmis"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_34.jpg",
+            "answer": "Nódulo do vérmis"
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "name": "Núcleos do cerebelo",
+        "cards": [
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_1.jpg",
+            "answer": "Córtex cerebelar"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_2.jpg",
+            "answer": "Substância branca do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_3.jpg",
+            "answer": "Zona medial do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_4.jpg",
+            "answer": "Zona intermediária do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_5.jpg",
+            "answer": "Zona lateral do cerebelo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_6.jpg",
+            "answer": "Núcleo fastigial"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_7.jpg",
+            "answer": "Núcleo emboliforme"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_8.jpg",
+            "answer": "Núcleo globoso"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_9.jpg",
+            "answer": "Núcleo denteado"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_10.jpg",
+            "answer": "Decussação do pedúnculo cerebelar superior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_11.jpg",
+            "answer": "Fascículo longitudinal medial"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_12.jpg",
+            "answer": "Quarto ventrículo"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_13.jpg",
+            "answer": "Véu medular superior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_14.jpg",
+            "answer": "Pedúnculo cerebelar superior"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_15.jpg",
+            "answer": "Vérmis"
+          },
+          {
+            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_16.jpg",
+            "answer": "Língula do cerebelo"
+          }
+        ]
+      }
+    ]
+  }
+]
