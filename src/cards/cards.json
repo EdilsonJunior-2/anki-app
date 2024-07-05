@@ -8,115 +8,115 @@
         "cards": [
           {
             "id": 1,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_1.jpg",
+            "question": "src/cards/images/Geral/SNC/1.jpg",
             "type": "Image",
             "answer": "Cérebro"
           },
           {
             "id": 2,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_2.jpg",
+            "question": "src/cards/images/Geral/SNC/2.jpg",
             "type": "Image",
             "answer": "Lobo frontal"
           },
           {
             "id": 3,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_3.jpg",
+            "question": "src/cards/images/Geral/SNC/3.jpg",
             "type": "Image",
             "answer": "Lobo temporal"
           },
           {
             "id": 4,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_4.jpg",
+            "question": "src/cards/images/Geral/SNC/4.jpg",
             "type": "Image",
             "answer": "Lobo parietal"
           },
           {
             "id": 5,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_5.jpg",
+            "question": "src/cards/images/Geral/SNC/5.jpg",
             "type": "Image",
             "answer": "Lobo occipital"
           },
           {
             "id": 6,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_6.jpg",
+            "question": "src/cards/images/Geral/SNC/6.jpg",
             "type": "Image",
             "answer": "Lobo insular"
           },
           {
             "id": 7,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_7.jpg",
+            "question": "src/cards/images/Geral/SNC/7.jpg",
             "type": "Image",
             "answer": "Cerebelo"
           },
           {
             "id": 8,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_8.jpg",
+            "question": "src/cards/images/Geral/SNC/8.jpg",
             "type": "Image",
             "answer": "Tronco encefálico"
           },
           {
             "id": 9,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_9.jpg",
+            "question": "src/cards/images/Geral/SNC/9.jpg",
             "type": "Image",
             "answer": "Mesencéfalo"
           },
           {
             "id": 10,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_10.jpg",
+            "question": "src/cards/images/Geral/SNC/10.jpg",
             "type": "Image",
             "answer": "Ponte"
           },
           {
             "id": 11,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_11.jpg",
+            "question": "src/cards/images/Geral/SNC/11.jpg",
             "type": "Image",
             "answer": "Bulbo"
           },
           {
             "id": 12,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_12.jpg",
+            "question": "src/cards/images/Geral/SNC/12.jpg",
             "type": "Image",
             "answer": "Corpo caloso"
           },
           {
             "id": 13,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_13.jpg",
+            "question": "src/cards/images/Geral/SNC/13.jpg",
             "type": "Image",
             "answer": "Tálamo"
           },
           {
             "id": 14,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_14.jpg",
+            "question": "src/cards/images/Geral/SNC/14.jpg",
             "type": "Image",
             "answer": "Hipófise"
           },
           {
             "id": 15,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_15.jpg",
+            "question": "src/cards/images/Geral/SNC/15.jpg",
             "type": "Image",
             "answer": "Ventrículo lateral"
           },
           {
             "id": 16,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_16.jpg",
+            "question": "src/cards/images/Geral/SNC/16.jpg",
             "type": "Image",
             "answer": "Diencéfalo"
           },
           {
             "id": 17,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_17.jpg",
+            "question": "src/cards/images/Geral/SNC/17.jpg",
             "type": "Image",
             "answer": "Terceiro ventrículo"
           },
           {
             "id": 18,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_18.jpg",
+            "question": "src/cards/images/Geral/SNC/18.jpg",
             "type": "Image",
             "answer": "Quarto ventrículo"
           },
           {
             "id": 19,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNC/SNC_19.jpg",
+            "question": "src/cards/images/Geral/SNC/19.jpg",
             "type": "Image",
             "answer": "Lobo límbico"
           },
@@ -170,73 +170,73 @@
         "cards": [
           {
             "id": 27,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_1.jpg",
+            "question": "src/cards/images/Geral/SNP/1.jpg",
             "type": "Image",
             "answer": "Nervo espinhal"
           },
           {
             "id": 28,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_2.jpg",
+            "question": "src/cards/images/Geral/SNP/2.jpg",
             "type": "Image",
             "answer": "Raiz anterior do nervo espinhal"
           },
           {
             "id": 29,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_3.jpg",
+            "question": "src/cards/images/Geral/SNP/3.jpg",
             "type": "Image",
             "answer": "Raiz posterior do nervo espinhal"
           },
           {
             "id": 30,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_4.jpg",
+            "question": "src/cards/images/Geral/SNP/4.jpg",
             "type": "Image",
             "answer": "Gânglio espinhal"
           },
           {
             "id": 31,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_5.jpg",
+            "question": "src/cards/images/Geral/SNP/5.jpg",
             "type": "Image",
             "answer": "Epineuro"
           },
           {
             "id": 32,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_6.jpg",
+            "question": "src/cards/images/Geral/SNP/6.jpg",
             "type": "Image",
             "answer": "Fascículo nervoso"
           },
           {
             "id": 33,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_7.jpg",
+            "question": "src/cards/images/Geral/SNP/7.jpg",
             "type": "Image",
             "answer": "Bainha de mielina"
           },
           {
             "id": 34,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_8.jpg",
+            "question": "src/cards/images/Geral/SNP/8.jpg",
             "type": "Image",
             "answer": "Axônio periférico mielínico"
           },
           {
             "id": 35,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_9.jpg",
+            "question": "src/cards/images/Geral/SNP/9.jpg",
             "type": "Image",
             "answer": "Axônio periférico amielínico"
           },
           {
             "id": 36,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_10.jpg",
+            "question": "src/cards/images/Geral/SNP/10.jpg",
             "type": "Image",
             "answer": "Perineuro"
           },
           {
             "id": 37,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_11.jpg",
+            "question": "src/cards/images/Geral/SNP/11.jpg",
             "type": "Image",
             "answer": "Endoneuro"
           },
           {
             "id": 38,
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Geral/SNP/SNP_12.jpg",
+            "question": "src/cards/images/Geral/SNP/12.jpg",
             "type": "Image",
             "answer": "Vasa nervorum"
           },
@@ -282,9 +282,352 @@
         "name": "Visão Geral do Cérebro",
         "cards": [
           {
-            "question": "",
+            "id": 44,
+            "question": "src/cards/images/Cerebro/Geral/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Lóbulo parietal inferior"
+          },
+          {
+            "id": 45,
+            "question": "src/cards/images/Cerebro/Geral/2.jpg",
+            "type": "Image",
+            "answer": "Corpo caloso"
+          },
+          {
+            "id": 46,
+            "question": "src/cards/images/Cerebro/Geral/3.jpg",
+            "type": "Image",
+            "answer": "Lobo insular"
+          },
+          {
+            "id": 47,
+            "question": "src/cards/images/Cerebro/Geral/4.jpg",
+            "type": "Image",
+            "answer": "Lóbulo parietal superior"
+          },
+          {
+            "id": 48,
+            "question": "src/cards/images/Cerebro/Geral/5.jpg",
+            "type": "Image",
+            "answer": "Giro angular"
+          },
+          {
+            "id": 49,
+            "question": "src/cards/images/Cerebro/Geral/6.jpg",
+            "type": "Image",
+            "answer": "Giro longo da ínsula"
+          },
+          {
+            "id": 50,
+            "question": "src/cards/images/Cerebro/Geral/7.jpg",
+            "type": "Image",
+            "answer": "Giro pós-central"
+          },
+          {
+            "id": 51,
+            "question": "src/cards/images/Cerebro/Geral/8.jpg",
+            "type": "Image",
+            "answer": "Giro parahipocampal"
+          },
+          {
+            "id": 52,
+            "question": "src/cards/images/Cerebro/Geral/9.jpg",
+            "type": "Image",
+            "answer": "Sulco central"
+          },
+          {
+            "id": 53,
+            "question": "src/cards/images/Cerebro/Geral/10.jpg",
+            "type": "Image",
+            "answer": "Lobo occipital"
+          },
+          {
+            "id": 54,
+            "question": "src/cards/images/Cerebro/Geral/11.jpg",
+            "type": "Image",
+            "answer": "Giro frontal superior"
+          },
+          {
+            "id": 55,
+            "question": "src/cards/images/Cerebro/Geral/12.jpg",
+            "type": "Image",
+            "answer": "Sulco lateral"
+          },
+          {
+            "id": 56,
+            "question": "src/cards/images/Cerebro/Geral/13.jpg",
+            "type": "Image",
+            "answer": "Lobo frontal"
+          },
+          {
+            "id": 57,
+            "question": "src/cards/images/Cerebro/Geral/14.jpg",
+            "type": "Image",
+            "answer": "Lobo temporal"
+          },
+          {
+            "id": 58,
+            "question": "src/cards/images/Cerebro/Geral/15.jpg",
+            "type": "Image",
+            "answer": "Giro do cíngulo"
+          },
+          {
+            "id": 59,
+            "question": "src/cards/images/Cerebro/Geral/16.jpg",
+            "type": "Image",
+            "answer": "Lobo parietal"
+          },
+          {
+            "id": 60,
+            "question": "src/cards/images/Cerebro/Geral/17.jpg",
+            "type": "Image",
+            "answer": "Giro temporal inferior"
+          },
+          {
+            "id": 61,
+            "question": "src/cards/images/Cerebro/Geral/18.jpg",
+            "type": "Image",
+            "answer": "Giro pré-central"
+          },
+          {
+            "id": 62,
+            "question": "src/cards/images/Cerebro/Geral/19.jpg",
+            "type": "Image",
+            "answer": "Giro frontal médio"
+          },
+          {
+            "id": 63,
+            "question": "src/cards/images/Cerebro/Geral/20.jpg",
+            "type": "Image",
+            "answer": "Cérebro"
+          },
+          {
+            "id": 64,
+            "question": "src/cards/images/Cerebro/Geral/21.jpg",
+            "type": "Image",
+            "answer": "Giro temporal superior"
+          },
+          {
+            "id": 65,
+            "question": "src/cards/images/Cerebro/Geral/22.jpg",
+            "type": "Image",
+            "answer": "Cérebro"
+          },
+          {
+            "id": 66,
+            "question": "src/cards/images/Cerebro/Geral/23.jpg",
+            "type": "Image",
+            "answer": "Giro frontal inferior"
+          },
+          {
+            "id": 67,
+            "question": "src/cards/images/Cerebro/Geral/24.jpg",
+            "type": "Image",
+            "answer": "Giro temporal médio"
+          },
+          {
+            "id": 68,
+            "question": "src/cards/images/Cerebro/Geral/25.jpg",
+            "type": "Image",
+            "answer": "Lobo límbico"
+          },
+          {
+            "id": 69,
+            "question": "Posição do lobo frontal",
+            "type": "Discursive",
+            "answer": "Anterior ao sulco central, superior ao sulco lateral"
+          },
+          {
+            "id": 70,
+            "question": "Giros/áreas do lobo frontal",
+            "type": "Discursive",
+            "answer": "Giros pré-central e giros frontais superior, médio e inferior"
+          },
+          {
+            "id": 71,
+            "question": "Funções do lobo frontal",
+            "type": "Discursive",
+            "answer": "Controle do movimento voluntário, envolvido na atenção, tarefas de memória de curto prazo, motivação, planejamento, fala"
+          },
+          {
+            "id": 72,
+            "question": "Posição do lobo parietal",
+            "type": "Discursive",
+            "answer": "Posterior ao sulco central"
+          },
+          {
+            "id": 73,
+            "question": "Giros/áreas do lobo parietal",
+            "type": "Discursive",
+            "answer": "Giro pós-central, lóbulo parietal superior, lóbulo parietal interior (giros angular e supramarginal)"
+          },
+          {
+            "id": 74,
+            "question": "Funções do lobo parietal",
+            "type": "Discursive",
+            "answer": "Processamento de estímulos simatossensoriais (toque, dor, pressão e temperatura), integração de outros estímulos sensoriais (paladar, audição, visão e olfato), mapeamento e atenção visuoespacial, processamento de linguagem e interpretação numérica"
+          },
+          {
+            "id": 75,
+            "question": "Posição do lobo temporal",
+            "type": "Discursive",
+            "answer": "Superfície lateral do cérebro, inferior ao sulco lateral"
+          },
+          {
+            "id": 76,
+            "question": "Giros/áreas do lobo temporal",
+            "type": "Discursive",
+            "answer": "Giros temporais superior, médio e inferior"
+          },
+          {
+            "id": 77,
+            "question": "Função do lobo temporal",
+            "type": "Discursive",
+            "answer": "Decodificação de estímulos sensoriais (visuais e auditivos) em significados úteis para retenção de memória visual e compreensão da linguagem"
+          },
+          {
+            "id": 78,
+            "question": "Posição do lobo occipital",
+            "type": "Discursive",
+            "answer": "Posterior ao logos parietal e temporal"
+          },
+          {
+            "id": 79,
+            "question": "Giros do lobo occipital",
+            "type": "Discursive",
+            "answer": "Giros occipitais"
+          },
+          {
+            "id": 80,
+            "question": "Função do lobo occipital",
+            "type": "Discursive",
+            "answer": "Centro para o processamento visual"
+          },
+          {
+            "id": 81,
+            "question": "Posição do lobo insular",
+            "type": "Discursive",
+            "answer": "Profundo aos lobos temporal, parietal e frontal"
+          },
+          {
+            "id": 82,
+            "question": "Giros/áreas do lobo insular",
+            "type": "Discursive",
+            "answer": "Giros longos e curtos da ínsula"
+          },
+          {
+            "id": 83,
+            "question": "Funções do lobo insular",
+            "type": "Discursive",
+            "answer": "Processamento e integração da sensação do paladar, sensibilidade visceral e álgica e funções vestibulares"
+          },
+          {
+            "id": 84,
+            "question": "Posição do lobo límbico",
+            "type": "Discursive",
+            "answer": "Superfície medial de cada hemisfério cerebral, envolvendo todo o corpo caloso"
+          },
+          {
+            "id": 85,
+            "question": "Giros/áreas do lobo límbico",
+            "type": "Discursive",
+            "answer": "Giros paraterminal, do cíngulo e parahipocampal"
+          },
+          {
+            "id": 86,
+            "question": "Funções do lobo límbico",
+            "type": "Discursive",
+            "answer": "Modulação das emoções, modulação das funções viscerais e autonômicas, aprendizado, memória"
+          },
+          {
+            "id": 87,
+            "question": "Áreas responsáveis pela associação visual",
+            "type": "Discursive",
+            "answer": "Parte anterior do lobo occipital, partes posteriores dos lobos parietal e temporal"
+          },
+          {
+            "id": 88,
+            "question": "Responsabilidades das áreas de associação visual",
+            "type": "Discursive",
+            "answer": "Orientação espacial, percepção de profundidade, localização, movimento e velocidade dos objetos no espaço"
+          },
+          {
+            "id": 89,
+            "question": "Áreas responsáveis pela associação parleto-occipito-temporal",
+            "type": "Discursive",
+            "answer": "Partes posteriores dos lobos parietal/occipital/temporal"
+          },
+          {
+            "id": 90,
+            "question": "Responsabilidades das áreas de associação parleto-occipito-temporal",
+            "type": "Discursive",
+            "answer": "Interpretação de sinais das áreas somatossensoriais, visuais e auditivas adjacentes (por exemplo, consciência visoespacial, linguagem visual (leitura), denominação de objetos), aprendizado de habilidades motoras finas"
+          },
+          {
+            "id": 91,
+            "question": "Área de Wernicke",
+            "type": "Discursive",
+            "answer": "Parte posterolateral do lobo temporal (geralmente à esquerda)"
+          },
+          {
+            "id": 92,
+            "question": "Responsabilidade da área de Wernicke",
+            "type": "Discursive",
+            "answer": "Coompreensão de linguagem"
+          },
+          {
+            "id": 93,
+            "question": "Área responsavel pela associação temporal",
+            "type": "Discursive",
+            "answer": "Polo anterior do lobo temporal"
+          },
+          {
+            "id": 94,
+            "question": "Responsabilidades da área de associação temporal",
+            "type": "Discursive",
+            "answer": "Processos de reconhecimento/associação, comportamento, emoções e motivação"
+          },
+          {
+            "id": 95,
+            "question": "Responsabilidade da área frontal anterior (pré-frontal)",
+            "type": "Discursive",
+            "answer": "Funções mentais superiores, comportamento, personalidade"
+          },
+          {
+            "id": 96,
+            "question": "Localização dos campos oculares frontais",
+            "type": "Discursive",
+            "answer": "Anterior ao córtex pré-motor"
+          },
+          {
+            "id": 97,
+            "question": "Responsabilidade dos campos oculares frontais",
+            "type": "Discursive",
+            "answer": "Coordenação dos movimentos oculares"
+          },
+          {
+            "id": 98,
+            "question": "Localização da área de Broca",
+            "type": "Discursive",
+            "answer": "Lobo frontal ínfero-lateral (geralmente no hemisfério esquerdo)"
+          },
+          {
+            "id": 99,
+            "question": "Responsabilidade da área de Broca",
+            "type": "Discursive",
+            "answer": "Desenvolvimento de linguagem (produção/formação de palavras)"
+          },
+          {
+            "id": 100,
+            "question": "Áreas responsáveis pela associação límbica",
+            "type": "Discursive",
+            "answer": "Polo anterior do lobo temporal, parte ventral do lobo frontal, giro do cíngulo"
+          },
+          {
+            "id": 101,
+            "question": "Responsabilidade da área de associação límbica",
+            "type": "Discursive",
+            "answer": "Processos de reconhecimento/associação, comportamento, emoções e motivação"
           }
         ]
       },
@@ -293,9 +636,268 @@
         "name": "Vista lateral do cérebro",
         "cards": [
           {
-            "question": "",
+            "id": 102,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Parte triangular do giro frontal inferior"
+          },
+          {
+            "id": 103,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/2.jpg",
+            "type": "Image",
+            "answer": "Lóbulo perietal inferior"
+          },
+          {
+            "id": 104,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/3.jpg",
+            "type": "Image",
+            "answer": "Sulco intraparietal"
+          },
+          {
+            "id": 105,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/4.jpg",
+            "type": "Image",
+            "answer": "Giro supramarginal"
+          },
+          {
+            "id": 106,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/5.jpg",
+            "type": "Image",
+            "answer": "Opérculo temporal"
+          },
+          {
+            "id": 107,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/6.jpg",
+            "type": "Image",
+            "answer": "Sulco temporal superior"
+          },
+          {
+            "id": 108,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/7.jpg",
+            "type": "Image",
+            "answer": "Sulco temporal infeior"
+          },
+          {
+            "id": 109,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/8.jpg",
+            "type": "Image",
+            "answer": "Polo frontal"
+          },
+          {
+            "id": 110,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/9.jpg",
+            "type": "Image",
+            "answer": "Ramo anterior do sulco cerebral lateral"
+          },
+          {
+            "id": 111,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/10.jpg",
+            "type": "Image",
+            "answer": "Sulco parieto-occipital"
+          },
+          {
+            "id": 112,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/11.jpg",
+            "type": "Image",
+            "answer": "Opérculo frontal"
+          },
+          {
+            "id": 113,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/12.jpg",
+            "type": "Image",
+            "answer": "Parte orbital do giro frontal inferior"
+          },
+          {
+            "id": 114,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/13.jpg",
+            "type": "Image",
+            "answer": "Lóbulo perietal superior"
+          },
+          {
+            "id": 115,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/14.jpg",
+            "type": "Image",
+            "answer": "Giro pós-central"
+          },
+          {
+            "id": 116,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/15.jpg",
+            "type": "Image",
+            "answer": "Sulco central"
+          },
+          {
+            "id": 117,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/16.jpg",
+            "type": "Image",
+            "answer": "Giro angular"
+          },
+          {
+            "id": 118,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/17.jpg",
+            "type": "Image",
+            "answer": "Opérculo parietal"
+          },
+          {
+            "id": 119,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/18.jpg",
+            "type": "Image",
+            "answer": "Polo occipital"
+          },
+          {
+            "id": 120,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/19.jpg",
+            "type": "Image",
+            "answer": "Lobo occipital"
+          },
+          {
+            "id": 121,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/20.jpg",
+            "type": "Image",
+            "answer": "Giro frontal superior"
+          },
+          {
+            "id": 122,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/21.jpg",
+            "type": "Image",
+            "answer": "Sulco pós-central"
+          },
+          {
+            "id": 123,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/22.jpg",
+            "type": "Image",
+            "answer": "Sulco frontal superior"
+          },
+          {
+            "id": 124,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/23.jpg",
+            "type": "Image",
+            "answer": "Lobo frontal"
+          },
+          {
+            "id": 125,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/24.jpg",
+            "type": "Image",
+            "answer": "Ramo ascendente do sulco cerebral lateral"
+          },
+          {
+            "id": 126,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/25.jpg",
+            "type": "Image",
+            "answer": "Lobo temporal"
+          },
+          {
+            "id": 127,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/26.jpg",
+            "type": "Image",
+            "answer": "Lobo parietal"
+          },
+          {
+            "id": 128,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/27.jpg",
+            "type": "Image",
+            "answer": "Giro temporal inferior"
+          },
+          {
+            "id": 129,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/28.jpg",
+            "type": "Image",
+            "answer": "Giro pré-central"
+          },
+          {
+            "id": 130,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/29.jpg",
+            "type": "Image",
+            "answer": "Giro frontal médio"
+          },
+          {
+            "id": 131,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/30.jpg",
+            "type": "Image",
+            "answer": "Sulco pré-central"
+          },
+          {
+            "id": 132,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/31.jpg",
+            "type": "Image",
+            "answer": "Polo temporal"
+          },
+          {
+            "id": 133,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/32.jpg",
+            "type": "Image",
+            "answer": "Giro temporal superior"
+          },
+          {
+            "id": 134,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/33.jpg",
+            "type": "Image",
+            "answer": "Giro frontal inferior"
+          },
+          {
+            "id": 135,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/34.jpg",
+            "type": "Image",
+            "answer": "Giro temporal médio"
+          },
+          {
+            "id": 136,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/35.jpg",
+            "type": "Image",
+            "answer": "Sulco frontal inferior"
+          },
+          {
+            "id": 137,
+            "question": "src/cards/images/Cerebro/EncefaloLateral/36.jpg",
+            "type": "Image",
+            "answer": "Ramo posterior do sulco cerebral lateral"
+          },
+          {
+            "id": 138,
+            "question": "Giros do lobo frontal",
+            "type": "Discursive",
+            "answer": "Giro pré-central (córtex motor); giros frontais superior, médio e inferior (córtex pré-frontal)"
+          },
+          {
+            "id": 139,
+            "question": "Sulcos do lobo frontal",
+            "type": "Discursive",
+            "answer": "Sulco pré-central, sulco frontal superior, sulco frontal inferior"
+          },
+          {
+            "id": 140,
+            "question": "Giros do lobo parietal",
+            "type": "Discursive",
+            "answer": "Giro pós-central, lóbulo parietal superior, lóbulo parietal inferior (giro supramarginal, giro angular)"
+          },
+          {
+            "id": 141,
+            "question": "Sulcos do lobo parietal",
+            "type": "Discursive",
+            "answer": "Sulco pós-central, sulco intraparietal"
+          },
+          {
+            "id": 142,
+            "question": "Giros do lobo temporal",
+            "type": "Discursive",
+            "answer": "Giro temporal superior, giro temporal médio, giro temporal inferior"
+          },
+          {
+            "id": 143,
+            "question": "Sulcos do lobo temporal",
+            "type": "Discursive",
+            "answer": "Sulco temporal superior, sulco temporal inferior, incisura pré-occipital"
+          },
+          {
+            "id": 144,
+            "question": "Giros do lobo occipital",
+            "type": "Discursive",
+            "answer": "Giros occipitais superior e inferior"
+          },
+          {
+            "id": 145,
+            "question": "Sulcos do lobo occipital",
+            "type": "Discursive",
+            "answer": "Sulco parieto-occipital, incisura pré-occipital"
           }
         ]
       },
@@ -304,9 +906,316 @@
         "name": "Vista medial do cérebro",
         "cards": [
           {
-            "question": "",
+            "id": 146,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Sulco parieto-occiptal"
+          },
+          {
+            "id": 147,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/2.jpg",
+            "type": "Image",
+            "answer": "Órgão vascular da lâmina terminal"
+          },
+          {
+            "id": 148,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/3.jpg",
+            "type": "Image",
+            "answer": "Giro do cíngulo"
+          },
+          {
+            "id": 149,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/4.jpg",
+            "type": "Image",
+            "answer": "Colículo superior"
+          },
+          {
+            "id": 150,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/5.jpg",
+            "type": "Image",
+            "answer": "Recesso infundibular do 3º ventrículo"
+          },
+          {
+            "id": 151,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/6.jpg",
+            "type": "Image",
+            "answer": "Lâmina terminal"
+          },
+          {
+            "id": 152,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/7.jpg",
+            "type": "Image",
+            "answer": "Sulco do corpo caloso"
+          },
+          {
+            "id": 153,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/8.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 154,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/9.jpg",
+            "type": "Image",
+            "answer": "Corpo mamilar"
+          },
+          {
+            "id": 155,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/10.jpg",
+            "type": "Image",
+            "answer": "Aqueduto cerebral"
+          },
+          {
+            "id": 156,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/11.jpg",
+            "type": "Image",
+            "answer": "Istmo do giro do cíngulo"
+          },
+          {
+            "id": 157,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/12.jpg",
+            "type": "Image",
+            "answer": "Giro frontal medial"
+          },
+          {
+            "id": 158,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/13.jpg",
+            "type": "Image",
+            "answer": "Lobo frontal"
+          },
+          {
+            "id": 159,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/14.jpg",
+            "type": "Image",
+            "answer": "Glândula pineal"
+          },
+          {
+            "id": 160,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/15.jpg",
+            "type": "Image",
+            "answer": "Sulco marginal"
+          },
+          {
+            "id": 161,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/16.jpg",
+            "type": "Image",
+            "answer": "Comissura anterior"
+          },
+          {
+            "id": 162,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/17.jpg",
+            "type": "Image",
+            "answer": "Sulco central"
+          },
+          {
+            "id": 163,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/18.jpg",
+            "type": "Image",
+            "answer": "Área postrema"
+          },
+          {
+            "id": 164,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/19.jpg",
+            "type": "Image",
+            "answer": "órgão subfornicial"
+          },
+          {
+            "id": 165,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/20.jpg",
+            "type": "Image",
+            "answer": "Cerebelo"
+          },
+          {
+            "id": 166,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/21.jpg",
+            "type": "Image",
+            "answer": "Lobo occipital"
+          },
+          {
+            "id": 167,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/22.jpg",
+            "type": "Image",
+            "answer": "Aderência intertalâmica"
+          },
+          {
+            "id": 168,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/23.jpg",
+            "type": "Image",
+            "answer": "Recesso supra-óptico"
+          },
+          {
+            "id": 169,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/24.jpg",
+            "type": "Image",
+            "answer": "Quarto ventrículo"
+          },
+          {
+            "id": 170,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/25.jpg",
+            "type": "Image",
+            "answer": "Corpo caloso"
+          },
+          {
+            "id": 171,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/26.jpg",
+            "type": "Image",
+            "answer": "Plexo corióideo do terceiro ventrículo"
+          },
+          {
+            "id": 172,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/27.jpg",
+            "type": "Image",
+            "answer": "Lóbulo paracentral"
+          },
+          {
+            "id": 173,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/28.jpg",
+            "type": "Image",
+            "answer": "Hipófise"
+          },
+          {
+            "id": 174,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/29.jpg",
+            "type": "Image",
+            "answer": "Colículo inferior"
+          },
+          {
+            "id": 175,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/30.jpg",
+            "type": "Image",
+            "answer": "Ponte"
+          },
+          {
+            "id": 176,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/31.jpg",
+            "type": "Image",
+            "answer": "Quiasma óptico"
+          },
+          {
+            "id": 177,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/32.jpg",
+            "type": "Image",
+            "answer": "Teto do mesencéfalo"
+          },
+          {
+            "id": 178,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/33.jpg",
+            "type": "Image",
+            "answer": "Lobo parietal"
+          },
+          {
+            "id": 179,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/34.jpg",
+            "type": "Image",
+            "answer": "Véu medular superior"
+          },
+          {
+            "id": 180,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/35.jpg",
+            "type": "Image",
+            "answer": "Comissura posterior"
+          },
+          {
+            "id": 181,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/36.jpg",
+            "type": "Image",
+            "answer": "Comissura habenular"
+          },
+          {
+            "id": 182,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/37.jpg",
+            "type": "Image",
+            "answer": "Septo pelúcido"
+          },
+          {
+            "id": 183,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/38.jpg",
+            "type": "Image",
+            "answer": "Fórnix"
+          },
+          {
+            "id": 184,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/39.jpg",
+            "type": "Image",
+            "answer": "Cúneo"
+          },
+          {
+            "id": 185,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/40.jpg",
+            "type": "Image",
+            "answer": "Bulbo"
+          },
+          {
+            "id": 186,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/41.jpg",
+            "type": "Image",
+            "answer": "Órgão subcomissural"
+          },
+          {
+            "id": 187,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/42.jpg",
+            "type": "Image",
+            "answer": "Pré-cúneo"
+          },
+          {
+            "id": 188,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/43.jpg",
+            "type": "Image",
+            "answer": "Sulco paracentral"
+          },
+          {
+            "id": 189,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/44.jpg",
+            "type": "Image",
+            "answer": "Mesencéfalo"
+          },
+          {
+            "id": 190,
+            "question": "src/cards/images/Cerebro/EncefaloMedial/45.jpg",
+            "type": "Image",
+            "answer": "Sulco calcarino"
+          },
+          {
+            "id": 191,
+            "question": "Localização do cérebro",
+            "type": "Discursive",
+            "answer": "Acima do restante do encéfalo"
+          },
+          {
+            "id": 192,
+            "question": "Giros e lóbulos do cérebro",
+            "type": "Discursive",
+            "answer": "Giro frontal medial, lóbulo paracentral (lobo frontal), pré-cúneo (lobo parietal), cúneo (lobo occipital), giro do cíngulo (lobo límbico)"
+          },
+          {
+            "id": 193,
+            "question": "Sulcos do cérebro",
+            "type": "Discursive",
+            "answer": "Sulco paracentral, sulco marginal, sulco parieto-occipital, sulco calcarino, sulco do corpo caloso"
+          },
+          {
+            "id": 194,
+            "question": "Partes do diencéfalo",
+            "type": "Discursive",
+            "answer": "Tálamo, hipotálamo, glândula hipófise (pituitária), glândula pineal"
+          },
+          {
+            "id": 195,
+            "question": "Localização do tronco encefálico",
+            "type": "Discursive",
+            "answer": "Inferior ao diencéfalo, superior à medula espinal"
+          },
+          {
+            "id": 196,
+            "question": "Estruturas do tronco encefálico",
+            "type": "Discursive",
+            "answer": "Mesencéfalo, ponte, bulbo"
+          },
+          {
+            "id": 197,
+            "question": "Localização do cerebelo",
+            "type": "Discursive",
+            "answer": "posterior à ponte, inferior ao lobo occipital"
           }
         ]
       },
@@ -315,9 +1224,286 @@
         "name": "Vista inferior do cérebro",
         "cards": [
           {
-            "question": "",
+            "id": 198,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Esplênio do corpo caloso"
+          },
+          {
+            "id": 199,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/2.jpg",
+            "type": "Image",
+            "answer": "Unco"
+          },
+          {
+            "id": 200,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/3.jpg",
+            "type": "Image",
+            "answer": "Quiasma óptico"
+          },
+          {
+            "id": 201,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/4.jpg",
+            "type": "Image",
+            "answer": "Giro temporal inferior"
+          },
+          {
+            "id": 202,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/5.jpg",
+            "type": "Image",
+            "answer": "Giro occipitotemporal medial"
+          },
+          {
+            "id": 203,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/6.jpg",
+            "type": "Image",
+            "answer": "Sulco colateral"
+          },
+          {
+            "id": 204,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/7.jpg",
+            "type": "Image",
+            "answer": "Pedúnculo cerebral"
+          },
+          {
+            "id": 205,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/8.jpg",
+            "type": "Image",
+            "answer": "Porção anterior da superfície inferior do cérebro"
+          },
+          {
+            "id": 206,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/9.jpg",
+            "type": "Image",
+            "answer": "Hipófise"
+          },
+          {
+            "id": 207,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/10.jpg",
+            "type": "Image",
+            "answer": "Giros occipitotemporais"
+          },
+          {
+            "id": 208,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/11.jpg",
+            "type": "Image",
+            "answer": "Cúneo"
+          },
+          {
+            "id": 209,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/12.jpg",
+            "type": "Image",
+            "answer": "Porção posterior da superfície inferior do cérebro"
+          },
+          {
+            "id": 210,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/13.jpg",
+            "type": "Image",
+            "answer": "Pulvinar do tálamo"
+          },
+          {
+            "id": 211,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/14.jpg",
+            "type": "Image",
+            "answer": "Giro parahipocampal"
+          },
+          {
+            "id": 212,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/15.jpg",
+            "type": "Image",
+            "answer": "Sulco rinal"
+          },
+          {
+            "id": 213,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/16.jpg",
+            "type": "Image",
+            "answer": "Trato olfatório"
+          },
+          {
+            "id": 214,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/17.jpg",
+            "type": "Image",
+            "answer": "Sulco calcarino"
+          },
+          {
+            "id": 215,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/18.jpg",
+            "type": "Image",
+            "answer": "Sulco lateral"
+          },
+          {
+            "id": 216,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/19.jpg",
+            "type": "Image",
+            "answer": "Trato óptico"
+          },
+          {
+            "id": 217,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/20.jpg",
+            "type": "Image",
+            "answer": "Aqueduto cerebral"
+          },
+          {
+            "id": 218,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/21.jpg",
+            "type": "Image",
+            "answer": "Sulco médio-fusiforme"
+          },
+          {
+            "id": 219,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/22.jpg",
+            "type": "Image",
+            "answer": "Giro lingual"
+          },
+          {
+            "id": 220,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/23.jpg",
+            "type": "Image",
+            "answer": "Fissura longitudinal do cérebro"
+          },
+          {
+            "id": 221,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/24.jpg",
+            "type": "Image",
+            "answer": "Substância negra"
+          },
+          {
+            "id": 222,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/25.jpg",
+            "type": "Image",
+            "answer": "Sulcos orbitais"
+          },
+          {
+            "id": 223,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/26.jpg",
+            "type": "Image",
+            "answer": "Núcleo rubro"
+          },
+          {
+            "id": 224,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/27.jpg",
+            "type": "Image",
+            "answer": "Sulco temporal inferior"
+          },
+          {
+            "id": 225,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/28.jpg",
+            "type": "Image",
+            "answer": "Corpo mamilar"
+          },
+          {
+            "id": 226,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/29.jpg",
+            "type": "Image",
+            "answer": "Giro occipitotemporal lateral"
+          },
+          {
+            "id": 227,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/30.jpg",
+            "type": "Image",
+            "answer": "Istmo do giro do cíngulo"
+          },
+          {
+            "id": 228,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/31.jpg",
+            "type": "Image",
+            "answer": "Giros orbitários"
+          },
+          {
+            "id": 229,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/32.jpg",
+            "type": "Image",
+            "answer": "Sulco occipitotemporal"
+          },
+          {
+            "id": 230,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/33.jpg",
+            "type": "Image",
+            "answer": "Bulbo olfatório"
+          },
+          {
+            "id": 231,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/34.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado medial"
+          },
+          {
+            "id": 232,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/35.jpg",
+            "type": "Image",
+            "answer": "Substância perfurada anterior"
+          },
+          {
+            "id": 233,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/36.jpg",
+            "type": "Image",
+            "answer": "Substância perfurada posterior"
+          },
+          {
+            "id": 234,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/37.jpg",
+            "type": "Image",
+            "answer": "Sulco olfatório"
+          },
+          {
+            "id": 235,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/38.jpg",
+            "type": "Image",
+            "answer": "Joelho do corpo caloso"
+          },
+          {
+            "id": 236,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/39.jpg",
+            "type": "Image",
+            "answer": "Giro reto"
+          },
+          {
+            "id": 237,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/40.jpg",
+            "type": "Image",
+            "answer": "Nervo óptico"
+          },
+          {
+            "id": 238,
+            "question": "src/cards/images/Cerebro/EncefaloInferior/41.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado lateral"
+          },
+          {
+            "id": 239,
+            "question": "Giros anteriores da parte inferior do cérebro",
+            "type": "Discursive",
+            "answer": "Giro reto, giros orbitais anterior, posterior, médio e lateral"
+          },
+          {
+            "id": 240,
+            "question": "Sulcos anteriores da parte inferior do cérebro",
+            "type": "Discursive",
+            "answer": "Sulco olfatório, sulco lateral"
+          },
+          {
+            "id": 241,
+            "question": "Giros posteriores da parte inferior do cérebro",
+            "type": "Discursive",
+            "answer": "Giro lingual, giro parahipocampal, giro occipitotemporal medial, giro occipitotemporal lateral, giro temporal inferior"
+          },
+          {
+            "id": 242,
+            "question": "Sulcos posteriores da parte inferior do cérebro",
+            "type": "Discursive",
+            "answer": "Sulco colateral, sulco rinal, sulco médio-fusiforme, sulco occipitotemporal"
+          },
+          {
+            "id": 243,
+            "question": "Estruturas do diencéfalo (inferior)",
+            "type": "Discursive",
+            "answer": "Glândula hipófise (pituitária), corpos mamilares, corpos geniculados medial e lateral"
+          },
+          {
+            "id": 244,
+            "question": "Estruturas do tronco encefálico (inferior)",
+            "type": "Discursive",
+            "answer": "Pedúnculo cerebral, substância negra, núcleo rubro, aqueduto do mesencéfalo"
           }
         ]
       },
@@ -326,9 +1512,172 @@
         "name": "Vista coronal do cérebro",
         "cards": [
           {
-            "question": "",
+            "id": 245,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Corpo do núcelo caudado"
+          },
+          {
+            "id": 246,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/2.jpg",
+            "type": "Image",
+            "answer": "Terceiro ventrículo"
+          },
+          {
+            "id": 247,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/3.jpg",
+            "type": "Image",
+            "answer": "Cápsula interna"
+          },
+          {
+            "id": 248,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/4.jpg",
+            "type": "Image",
+            "answer": "Giro do cíngulo"
+          },
+          {
+            "id": 249,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/5.jpg",
+            "type": "Image",
+            "answer": "Cápsula externa"
+          },
+          {
+            "id": 250,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/6.jpg",
+            "type": "Image",
+            "answer": "Corpo mamilar"
+          },
+          {
+            "id": 251,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/7.jpg",
+            "type": "Image",
+            "answer": "Globo pálido"
+          },
+          {
+            "id": 252,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/8.jpg",
+            "type": "Image",
+            "answer": "Tronco do corpo caloso"
+          },
+          {
+            "id": 253,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/9.jpg",
+            "type": "Image",
+            "answer": "Lobo insular"
+          },
+          {
+            "id": 254,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/10.jpg",
+            "type": "Image",
+            "answer": "Núcleo lentiforme"
+          },
+          {
+            "id": 255,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/11.jpg",
+            "type": "Image",
+            "answer": "Globo pálido medial"
+          },
+          {
+            "id": 256,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/12.jpg",
+            "type": "Image",
+            "answer": "Núcelo subtalâmico"
+          },
+          {
+            "id": 257,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/13.jpg",
+            "type": "Image",
+            "answer": "Cauda do núcelo caudado"
+          },
+          {
+            "id": 258,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/14.jpg",
+            "type": "Image",
+            "answer": "Corno temporal do ventrículo lateral"
+          },
+          {
+            "id": 259,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/15.jpg",
+            "type": "Image",
+            "answer": "Putâmen"
+          },
+          {
+            "id": 260,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/16.jpg",
+            "type": "Image",
+            "answer": "Hipocampo"
+          },
+          {
+            "id": 261,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/17.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 262,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/18.jpg",
+            "type": "Image",
+            "answer": "Claustro"
+          },
+          {
+            "id": 263,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/19.jpg",
+            "type": "Image",
+            "answer": "Cápsula externa"
+          },
+          {
+            "id": 264,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/20.jpg",
+            "type": "Image",
+            "answer": "Globo pálido lateral"
+          },
+          {
+            "id": 265,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/21.jpg",
+            "type": "Image",
+            "answer": "Corpo do ventrículo lateral"
+          },
+          {
+            "id": 266,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/22.jpg",
+            "type": "Image",
+            "answer": "Trato óptico"
+          },
+          {
+            "id": 267,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/23.jpg",
+            "type": "Image",
+            "answer": "Aderência intertalâmica"
+          },
+          {
+            "id": 268,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/24.jpg",
+            "type": "Image",
+            "answer": "Substância negra"
+          },
+          {
+            "id": 269,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/25.jpg",
+            "type": "Image",
+            "answer": "Corpo do fórnix"
+          },
+          {
+            "id": 270,
+            "question": "src/cards/images/Cerebro/EncefaloCoronal/26.jpg",
+            "type": "Image",
+            "answer": "Plexo corióideo do ventrículo lateral"
+          },
+          {
+            "id": 271,
+            "question": "Componentes visíveis na substância cinzenta",
+            "type": "Discursive",
+            "answer": "Tálamo, núcleos da base (núcleo caudado, putâmen, globo pálido), hipocampo, claustro, núcelo subtalâmico, substância negra"
+          },
+          {
+            "id": 272,
+            "question": "Componentes visíveis na substância branca",
+            "type": "Discursive",
+            "answer": "Tronco do corpo caloso, corpo do fórnix, ramo posterior da cápsula interna, cápsula externa, cápsula extrema"
           }
         ]
       },
@@ -337,9 +1686,256 @@
         "name": "Áreas de Brodmann",
         "cards": [
           {
-            "question": "",
+            "id": 273,
+            "question": "Definição de Área de Brodmann",
+            "type": "Discursive",
+            "answer": "Uma área de Brodmann é definida como uma região do córtex cerebral mapeada de acordo com a citoarquitetura do tecido cortical cerebral"
+          },
+          {
+            "id": 274,
+            "question": "src/cards/images/Cerebro/Brodmann/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Área 30 de Brodmann"
+          },
+          {
+            "id": 275,
+            "question": "src/cards/images/Cerebro/Brodmann/2.jpg",
+            "type": "Image",
+            "answer": "Área 17 de Brodmann"
+          },
+          {
+            "id": 276,
+            "question": "src/cards/images/Cerebro/Brodmann/3.jpg",
+            "type": "Image",
+            "answer": "Área 28 de Brodmann"
+          },
+          {
+            "id": 277,
+            "question": "src/cards/images/Cerebro/Brodmann/4.jpg",
+            "type": "Image",
+            "answer": "Área 18 de Brodmann"
+          },
+          {
+            "id": 278,
+            "question": "src/cards/images/Cerebro/Brodmann/5.jpg",
+            "type": "Image",
+            "answer": "Área 31 de Brodmann"
+          },
+          {
+            "id": 279,
+            "question": "src/cards/images/Cerebro/Brodmann/6.jpg",
+            "type": "Image",
+            "answer": "Área 2 de Brodmann"
+          },
+          {
+            "id": 280,
+            "question": "src/cards/images/Cerebro/Brodmann/7.jpg",
+            "type": "Image",
+            "answer": "Área 19 de Brodmann"
+          },
+          {
+            "id": 281,
+            "question": "src/cards/images/Cerebro/Brodmann/8.jpg",
+            "type": "Image",
+            "answer": "Área 20 de Brodmann"
+          },
+          {
+            "id": 282,
+            "question": "src/cards/images/Cerebro/Brodmann/9.jpg",
+            "type": "Image",
+            "answer": "Área 35 de Brodmann"
+          },
+          {
+            "id": 283,
+            "question": "src/cards/images/Cerebro/Brodmann/10.jpg",
+            "type": "Image",
+            "answer": "Área 38 de Brodmann"
+          },
+          {
+            "id": 284,
+            "question": "src/cards/images/Cerebro/Brodmann/11.jpg",
+            "type": "Image",
+            "answer": "Área 5 de Brodmann"
+          },
+          {
+            "id": 285,
+            "question": "src/cards/images/Cerebro/Brodmann/12.jpg",
+            "type": "Image",
+            "answer": "Área 37 de Brodmann"
+          },
+          {
+            "id": 286,
+            "question": "src/cards/images/Cerebro/Brodmann/13.jpg",
+            "type": "Image",
+            "answer": "Área 36 de Brodmann"
+          },
+          {
+            "id": 287,
+            "question": "src/cards/images/Cerebro/Brodmann/14.jpg",
+            "type": "Image",
+            "answer": "Área 34 de Brodmann"
+          },
+          {
+            "id": 288,
+            "question": "src/cards/images/Cerebro/Brodmann/15.jpg",
+            "type": "Image",
+            "answer": "Área 42 de Brodmann"
+          },
+          {
+            "id": 289,
+            "question": "src/cards/images/Cerebro/Brodmann/16.jpg",
+            "type": "Image",
+            "answer": "Área 27 de Brodmann"
+          },
+          {
+            "id": 290,
+            "question": "src/cards/images/Cerebro/Brodmann/17.jpg",
+            "type": "Image",
+            "answer": "Área 1 de Brodmann"
+          },
+          {
+            "id": 291,
+            "question": "src/cards/images/Cerebro/Brodmann/18.jpg",
+            "type": "Image",
+            "answer": "Área 45 de Brodmann"
+          },
+          {
+            "id": 292,
+            "question": "src/cards/images/Cerebro/Brodmann/19.jpg",
+            "type": "Image",
+            "answer": "Área 21 de Brodmann"
+          },
+          {
+            "id": 293,
+            "question": "src/cards/images/Cerebro/Brodmann/20.jpg",
+            "type": "Image",
+            "answer": "Área 10 de Brodmann"
+          },
+          {
+            "id": 294,
+            "question": "src/cards/images/Cerebro/Brodmann/21.jpg",
+            "type": "Image",
+            "answer": "Área 40 de Brodmann"
+          },
+          {
+            "id": 295,
+            "question": "src/cards/images/Cerebro/Brodmann/22.jpg",
+            "type": "Image",
+            "answer": "Área 39 de Brodmann"
+          },
+          {
+            "id": 296,
+            "question": "src/cards/images/Cerebro/Brodmann/23.jpg",
+            "type": "Image",
+            "answer": "Área 8 de Brodmann"
+          },
+          {
+            "id": 297,
+            "question": "src/cards/images/Cerebro/Brodmann/24.jpg",
+            "type": "Image",
+            "answer": "Área 43 de Brodmann"
+          },
+          {
+            "id": 298,
+            "question": "src/cards/images/Cerebro/Brodmann/25.jpg",
+            "type": "Image",
+            "answer": "Área 9 de Brodmann"
+          },
+          {
+            "id": 299,
+            "question": "src/cards/images/Cerebro/Brodmann/26.jpg",
+            "type": "Image",
+            "answer": "Área 52 de Brodmann"
+          },
+          {
+            "id": 300,
+            "question": "src/cards/images/Cerebro/Brodmann/27.jpg",
+            "type": "Image",
+            "answer": "Área 11 de Brodmann"
+          },
+          {
+            "id": 301,
+            "question": "src/cards/images/Cerebro/Brodmann/28.jpg",
+            "type": "Image",
+            "answer": "Área 17 de Brodmann"
+          },
+          {
+            "id": 302,
+            "question": "src/cards/images/Cerebro/Brodmann/29.jpg",
+            "type": "Image",
+            "answer": "Área 47 de Brodmann"
+          },
+          {
+            "id": 303,
+            "question": "src/cards/images/Cerebro/Brodmann/30.jpg",
+            "type": "Image",
+            "answer": "Área 32 de Brodmann"
+          },
+          {
+            "id": 304,
+            "question": "src/cards/images/Cerebro/Brodmann/31.jpg",
+            "type": "Image",
+            "answer": "Área 41 de Brodmann"
+          },
+          {
+            "id": 305,
+            "question": "src/cards/images/Cerebro/Brodmann/32.jpg",
+            "type": "Image",
+            "answer": "Área 7 de Brodmann"
+          },
+          {
+            "id": 306,
+            "question": "src/cards/images/Cerebro/Brodmann/33.jpg",
+            "type": "Image",
+            "answer": "Área 44 de Brodmann"
+          },
+          {
+            "id": 307,
+            "question": "src/cards/images/Cerebro/Brodmann/34.jpg",
+            "type": "Image",
+            "answer": "Área 3 de Brodmann"
+          },
+          {
+            "id": 308,
+            "question": "src/cards/images/Cerebro/Brodmann/35.jpg",
+            "type": "Image",
+            "answer": "Área 33 de Brodmann"
+          },
+          {
+            "id": 309,
+            "question": "src/cards/images/Cerebro/Brodmann/36.jpg",
+            "type": "Image",
+            "answer": "Área 6 de Brodmann"
+          },
+          {
+            "id": 310,
+            "question": "src/cards/images/Cerebro/Brodmann/37.jpg",
+            "type": "Image",
+            "answer": "Área 22 de Brodmann"
+          },
+          {
+            "id": 311,
+            "question": "src/cards/images/Cerebro/Brodmann/38.jpg",
+            "type": "Image",
+            "answer": "Área 23 de Brodmann"
+          },
+          {
+            "id": 312,
+            "question": "src/cards/images/Cerebro/Brodmann/39.jpg",
+            "type": "Image",
+            "answer": "Área 25 de Brodmann"
+          },
+          {
+            "id": 313,
+            "question": "src/cards/images/Cerebro/Brodmann/40.jpg",
+            "type": "Image",
+            "answer": "Área 4 de Brodmann"
+          },
+          {
+            "id": 314,
+            "question": "src/cards/images/Cerebro/Brodmann/41.jpg",
+            "type": "Image",
+            "answer": "Área 24 de Brodmann"
           }
         ]
       },
@@ -348,9 +1944,178 @@
         "name": "Hipocampo, fórnix e corpo amigdaloide",
         "cards": [
           {
-            "question": "",
+            "id": 315,
+            "question": "src/cards/images/Cerebro/HFA/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Hipocampo"
+          },
+          {
+            "id": 316,
+            "question": "src/cards/images/Cerebro/HFA/2.jpg",
+            "type": "Image",
+            "answer": "Fímbria do hipocampo"
+          },
+          {
+            "id": 317,
+            "question": "src/cards/images/Cerebro/HFA/3.jpg",
+            "type": "Image",
+            "answer": "Giro denteado"
+          },
+          {
+            "id": 318,
+            "question": "src/cards/images/Cerebro/HFA/4.jpg",
+            "type": "Image",
+            "answer": "Fórnix"
+          },
+          {
+            "id": 319,
+            "question": "src/cards/images/Cerebro/HFA/5.jpg",
+            "type": "Image",
+            "answer": "Corpo mamilar"
+          },
+          {
+            "id": 320,
+            "question": "src/cards/images/Cerebro/HFA/6.jpg",
+            "type": "Image",
+            "answer": "Comissura anterior"
+          },
+          {
+            "id": 321,
+            "question": "src/cards/images/Cerebro/HFA/7.jpg",
+            "type": "Image",
+            "answer": "Corpo caloso"
+          },
+          {
+            "id": 322,
+            "question": "src/cards/images/Cerebro/HFA/8.jpg",
+            "type": "Image",
+            "answer": "Septo pelúcido"
+          },
+          {
+            "id": 323,
+            "question": "src/cards/images/Cerebro/HFA/9.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 324,
+            "question": "src/cards/images/Cerebro/HFA/10.jpg",
+            "type": "Image",
+            "answer": "Aderência intertalâmica"
+          },
+          {
+            "id": 325,
+            "question": "src/cards/images/Cerebro/HFA/11.jpg",
+            "type": "Image",
+            "answer": "Estria medular do tálamo"
+          },
+          {
+            "id": 326,
+            "question": "src/cards/images/Cerebro/HFA/12.jpg",
+            "type": "Image",
+            "answer": "Sulco hipotalâmico"
+          },
+          {
+            "id": 327,
+            "question": "src/cards/images/Cerebro/HFA/13.jpg",
+            "type": "Image",
+            "answer": "Tegmento mesencefálico"
+          },
+          {
+            "id": 328,
+            "question": "src/cards/images/Cerebro/HFA/14.jpg",
+            "type": "Image",
+            "answer": "Núcleo rubro"
+          },
+          {
+            "id": 329,
+            "question": "src/cards/images/Cerebro/HFA/15.jpg",
+            "type": "Image",
+            "answer": "Substância negra"
+          },
+          {
+            "id": 330,
+            "question": "src/cards/images/Cerebro/HFA/16.jpg",
+            "type": "Image",
+            "answer": "Glândula pineal"
+          },
+          {
+            "id": 331,
+            "question": "src/cards/images/Cerebro/HFA/17.jpg",
+            "type": "Image",
+            "answer": "Teto do mesencéfalo"
+          },
+          {
+            "id": 332,
+            "question": "src/cards/images/Cerebro/HFA/18.jpg",
+            "type": "Image",
+            "answer": "Ventrículo lateral"
+          },
+          {
+            "id": 333,
+            "question": "src/cards/images/Cerebro/HFA/19.jpg",
+            "type": "Image",
+            "answer": "Corno temporal do ventrículo lateral"
+          },
+          {
+            "id": 334,
+            "question": "src/cards/images/Cerebro/HFA/20.jpg",
+            "type": "Image",
+            "answer": "Corno occipital do ventrículo lateral"
+          },
+          {
+            "id": 335,
+            "question": "Definição de formação hipocampal",
+            "type": "Discursive",
+            "answer": "Estrutura proeminente em formato de “C”, profunda no lobo temporal de ambos os hemisférios cerebrais"
+          },
+          {
+            "id": 336,
+            "question": "Estrutura da formação hipocampal",
+            "type": "Discursive",
+            "answer": "Hipocampo propriamente dito, giro denteado, complexo subicular, córtex entorrinal"
+          },
+          {
+            "id": 337,
+            "question": "Funções da formação hipocampal",
+            "type": "Discursive",
+            "answer": "Aprendizado e linguagem"
+          },
+          {
+            "id": 338,
+            "question": "Definição de fórnix",
+            "type": "Discursive",
+            "answer": "Feixe de fibras nervosas em formato de “C” que se estende desde o hipocampo até os corpos mamilares e núcleo anterior do tálamo"
+          },
+          {
+            "id": 339,
+            "question": "Estrutura do fórnix",
+            "type": "Discursive",
+            "answer": "Colunas, corpo, ramo, álveo, fímbrias"
+          },
+          {
+            "id": 340,
+            "question": "Função do fórnix",
+            "type": "Discursive",
+            "answer": "Formação de importantes conexões subcorticais: hipocampo para os corpos mamilares, corpos mamilares para o núcleo anterior do tálamo, e hipocampo para o núcleo septal e núcleo accumbens"
+          },
+          {
+            "id": 341,
+            "question": "Definição de corpo amigdaloide",
+            "type": "Discursive",
+            "answer": "Grupo de núcleos de formato amendoado localizado no lobo temporal de cada um dos hemisférios cerebrais"
+          },
+          {
+            "id": 342,
+            "question": "Estrutura do corpo amigdaloide",
+            "type": "Discursive",
+            "answer": "3 grupos de núcleos (basolateral, corticomedial, centromedial)"
+          },
+          {
+            "id": 343,
+            "question": "Funções do corpo amigdaloide",
+            "type": "Discursive",
+            "answer": "Resposta ao estresse, comportamento alimentar, funções respiratória e cardiovascular"
           }
         ]
       },
@@ -359,9 +2124,130 @@
         "name": "Núcleos da base",
         "cards": [
           {
-            "question": "",
+            "id": 344,
+            "question": "src/cards/images/Cerebro/NucleosBase/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Núcleo caudado"
+          },
+          {
+            "id": 345,
+            "question": "src/cards/images/Cerebro/NucleosBase/2.jpg",
+            "type": "Image",
+            "answer": "Cabeça do núcleo caudado"
+          },
+          {
+            "id": 346,
+            "question": "src/cards/images/Cerebro/NucleosBase/3.jpg",
+            "type": "Image",
+            "answer": "Corpo do núcleo caudado"
+          },
+          {
+            "id": 347,
+            "question": "src/cards/images/Cerebro/NucleosBase/4.jpg",
+            "type": "Image",
+            "answer": "Cauda do núcleo caudado"
+          },
+          {
+            "id": 348,
+            "question": "src/cards/images/Cerebro/NucleosBase/5.jpg",
+            "type": "Image",
+            "answer": "Putâmen"
+          },
+          {
+            "id": 349,
+            "question": "src/cards/images/Cerebro/NucleosBase/6.jpg",
+            "type": "Image",
+            "answer": "Globo pálido"
+          },
+          {
+            "id": 350,
+            "question": "src/cards/images/Cerebro/NucleosBase/7.jpg",
+            "type": "Image",
+            "answer": "Globo pálido lateral"
+          },
+          {
+            "id": 351,
+            "question": "src/cards/images/Cerebro/NucleosBase/8.jpg",
+            "type": "Image",
+            "answer": "Globo pálido medial"
+          },
+          {
+            "id": 352,
+            "question": "src/cards/images/Cerebro/NucleosBase/9.jpg",
+            "type": "Image",
+            "answer": "Núcleo lentiforme"
+          },
+          {
+            "id": 353,
+            "question": "src/cards/images/Cerebro/NucleosBase/10.jpg",
+            "type": "Image",
+            "answer": "Corpo estriado"
+          },
+          {
+            "id": 354,
+            "question": "src/cards/images/Cerebro/NucleosBase/11.jpg",
+            "type": "Image",
+            "answer": "Substância negra"
+          },
+          {
+            "id": 355,
+            "question": "src/cards/images/Cerebro/NucleosBase/12.jpg",
+            "type": "Image",
+            "answer": "Núcleo subtalâmico"
+          },
+          {
+            "id": 356,
+            "question": "src/cards/images/Cerebro/NucleosBase/13.jpg",
+            "type": "Image",
+            "answer": "Núcleo accumbens"
+          },
+          {
+            "id": 357,
+            "question": "src/cards/images/Cerebro/NucleosBase/14.jpg",
+            "type": "Image",
+            "answer": "Fenda para a cápsula interna"
+          },
+          {
+            "id": 358,
+            "question": "src/cards/images/Cerebro/NucleosBase/15.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 359,
+            "question": "src/cards/images/Cerebro/NucleosBase/16.jpg",
+            "type": "Image",
+            "answer": "Estria terminal"
+          },
+          {
+            "id": 360,
+            "question": "src/cards/images/Cerebro/NucleosBase/17.jpg",
+            "type": "Image",
+            "answer": "Corpo amigdaloide"
+          },
+          {
+            "id": 361,
+            "question": "Definição dos núcleos da base",
+            "type": "Discursive",
+            "answer": "Grupo de núcleos subcorticais que modulam a atividade motora voluntária"
+          },
+          {
+            "id": 362,
+            "question": "Componentes dos núcleos da base",
+            "type": "Discursive",
+            "answer": "Núcleo caudado, putâmen e Globo pálido (Estruturas funcionalmente relacionadas: Núcleo subtalâmico e substância negra)"
+          },
+          {
+            "id": 363,
+            "question": "Função dos núcleos da base",
+            "type": "Discursive",
+            "answer": "Planejamento e modulação do movimento, memória, movimentação ocular, sistema de recompensa, motivação"
+          },
+          {
+            "id": 364,
+            "question": "Circuitos dos núcleos da base",
+            "type": "Discursive",
+            "answer": "Circuito motor (controle do movimento, dividido entre vias direta [excitatória, início do movimento], indireta [inibitória, término do movimento] e hiperdireta [inibitória, inibição dos movimentos extemporâneos]), aprendizado (aprendizado dos movimentos), límbico (expressão emocional dos movimentos) e oculomotor (movimentos oculares)"
           }
         ]
       },
@@ -370,9 +2256,208 @@
         "name": "Corte transversal do encéfalo",
         "cards": [
           {
-            "question": "",
+            "id": 365,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Tálamo"
+          },
+          {
+            "id": 366,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/2.jpg",
+            "type": "Image",
+            "answer": "Aderência intertalâmica"
+          },
+          {
+            "id": 367,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/3.jpg",
+            "type": "Image",
+            "answer": "Globo pálido"
+          },
+          {
+            "id": 368,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/4.jpg",
+            "type": "Image",
+            "answer": "Putâmen"
+          },
+          {
+            "id": 369,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/5.jpg",
+            "type": "Image",
+            "answer": "Cabeça do núcleo caudado"
+          },
+          {
+            "id": 370,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/6.jpg",
+            "type": "Image",
+            "answer": "Cauda do núcleo caudado"
+          },
+          {
+            "id": 371,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/7.jpg",
+            "type": "Image",
+            "answer": "Claustro"
+          },
+          {
+            "id": 372,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/8.jpg",
+            "type": "Image",
+            "answer": "Joelho do corpo caloso"
+          },
+          {
+            "id": 373,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/9.jpg",
+            "type": "Image",
+            "answer": "Esplênio do corpo caloso"
+          },
+          {
+            "id": 374,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/10.jpg",
+            "type": "Image",
+            "answer": "Coluna do fórnix"
+          },
+          {
+            "id": 375,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/11.jpg",
+            "type": "Image",
+            "answer": "Ramos do fórnix"
+          },
+          {
+            "id": 376,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/12.jpg",
+            "type": "Image",
+            "answer": "Cápsula interna"
+          },
+          {
+            "id": 377,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/13.jpg",
+            "type": "Image",
+            "answer": "Braço anterior da cápsula interna"
+          },
+          {
+            "id": 378,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/14.jpg",
+            "type": "Image",
+            "answer": "Joelho da cápsula interna"
+          },
+          {
+            "id": 379,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/15.jpg",
+            "type": "Image",
+            "answer": "Braço posterior da cápsula interna"
+          },
+          {
+            "id": 380,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/16.jpg",
+            "type": "Image",
+            "answer": "Parte retrolentiforme da cápsula interna"
+          },
+          {
+            "id": 381,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/17.jpg",
+            "type": "Image",
+            "answer": "Cápsula externa"
+          },
+          {
+            "id": 382,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/18.jpg",
+            "type": "Image",
+            "answer": "Cápsula extrema"
+          },
+          {
+            "id": 383,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/19.jpg",
+            "type": "Image",
+            "answer": "Lobo insular"
+          },
+          {
+            "id": 384,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/20.jpg",
+            "type": "Image",
+            "answer": "Giro do cíngulo"
+          },
+          {
+            "id": 385,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/21.jpg",
+            "type": "Image",
+            "answer": "Hipocampo"
+          },
+          {
+            "id": 386,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/22.jpg",
+            "type": "Image",
+            "answer": "Fímbria do hipocampo"
+          },
+          {
+            "id": 387,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/23.jpg",
+            "type": "Image",
+            "answer": "Habêncula"
+          },
+          {
+            "id": 388,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/24.jpg",
+            "type": "Image",
+            "answer": "Glândula pineal"
+          },
+          {
+            "id": 389,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/25.jpg",
+            "type": "Image",
+            "answer": "Cerebelo"
+          },
+          {
+            "id": 390,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/26.jpg",
+            "type": "Image",
+            "answer": "Sulco calcarino"
+          },
+          {
+            "id": 391,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/27.jpg",
+            "type": "Image",
+            "answer": "Corno anterior do ventrículo lateral"
+          },
+          {
+            "id": 392,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/28.jpg",
+            "type": "Image",
+            "answer": "Septo pelúcido"
+          },
+          {
+            "id": 393,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/29.jpg",
+            "type": "Image",
+            "answer": "Corno occipital do ventrículo lateral"
+          },
+          {
+            "id": 394,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/30.jpg",
+            "type": "Image",
+            "answer": "Plexo corióideo do ventrículo lateral"
+          },
+          {
+            "id": 395,
+            "question": "src/cards/images/Cerebro/EncefaloTransversal/31.jpg",
+            "type": "Image",
+            "answer": "Terceiro ventrículo"
+          },
+          {
+            "id": 396,
+            "question": "Estruturas visíveis na substância cinzenta",
+            "type": "Discursive",
+            "answer": "Tálamo, núcleos da base (núcleo caudado, putâmen, globo pálido), hipocampo, claustro"
+          },
+          {
+            "id": 397,
+            "question": "Estruturas visíveis na substância branca",
+            "type": "Discursive",
+            "answer": "Joelho e esplênio do corpo caloso; coluna e ramos do fórnix; ramo anterior, joelho, ramo posterior e parte retrolentiforme da cápsula interna; cápsula externa; cápsula extrema"
+          },
+          {
+            "id": 398,
+            "question": "Outras estruturas visíveis",
+            "type": "Discursive",
+            "answer": "Cornos frontal e occipital do ventrículo lateral do cérebro, plexo corióideo do ventrículo lateral, terceiro ventrículo, habênula, hipófise (glândula pituitária), septo pelúcido, hipocampo"
           }
         ]
       },
@@ -381,9 +2466,202 @@
         "name": "Homúnculo motor e sensitivo",
         "cards": [
           {
-            "question": "",
+            "id": 399,
+            "question": "src/cards/images/Diencéfalo/Homunculo/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Tálamo"
+          },
+          {
+            "id": 400,
+            "question": "src/cards/images/Diencéfalo/Homunculo/2.jpg",
+            "type": "Image",
+            "answer": "Aderência intertalâmica"
+          },
+          {
+            "id": 401,
+            "question": "src/cards/images/Diencéfalo/Homunculo/3.jpg",
+            "type": "Image",
+            "answer": "Globo pálido"
+          },
+          {
+            "id": 402,
+            "question": "src/cards/images/Diencéfalo/Homunculo/4.jpg",
+            "type": "Image",
+            "answer": "Putâmen"
+          },
+          {
+            "id": 403,
+            "question": "src/cards/images/Diencéfalo/Homunculo/5.jpg",
+            "type": "Image",
+            "answer": "Cabeça do núcleo caudado"
+          },
+          {
+            "id": 404,
+            "question": "src/cards/images/Diencéfalo/Homunculo/6.jpg",
+            "type": "Image",
+            "answer": "Cauda do núcleo caudado"
+          },
+          {
+            "id": 405,
+            "question": "src/cards/images/Diencéfalo/Homunculo/7.jpg",
+            "type": "Image",
+            "answer": "Claustro"
+          },
+          {
+            "id": 406,
+            "question": "src/cards/images/Diencéfalo/Homunculo/8.jpg",
+            "type": "Image",
+            "answer": "Joelho do corpo caloso"
+          },
+          {
+            "id": 407,
+            "question": "src/cards/images/Diencéfalo/Homunculo/9.jpg",
+            "type": "Image",
+            "answer": "Esplênio do corpo caloso"
+          },
+          {
+            "id": 408,
+            "question": "src/cards/images/Diencéfalo/Homunculo/10.jpg",
+            "type": "Image",
+            "answer": "Coluna do fórnix"
+          },
+          {
+            "id": 409,
+            "question": "src/cards/images/Diencéfalo/Homunculo/11.jpg",
+            "type": "Image",
+            "answer": "Ramos do fórnix"
+          },
+          {
+            "id": 410,
+            "question": "src/cards/images/Diencéfalo/Homunculo/12.jpg",
+            "type": "Image",
+            "answer": "Cápsula interna"
+          },
+          {
+            "id": 411,
+            "question": "src/cards/images/Diencéfalo/Homunculo/13.jpg",
+            "type": "Image",
+            "answer": "Braço anterior da cápsula interna"
+          },
+          {
+            "id": 412,
+            "question": "src/cards/images/Diencéfalo/Homunculo/14.jpg",
+            "type": "Image",
+            "answer": "Joelho da cápsula interna"
+          },
+          {
+            "id": 413,
+            "question": "src/cards/images/Diencéfalo/Homunculo/15.jpg",
+            "type": "Image",
+            "answer": "Braço posterior da cápsula interna"
+          },
+          {
+            "id": 414,
+            "question": "src/cards/images/Diencéfalo/Homunculo/16.jpg",
+            "type": "Image",
+            "answer": "Parte retrolentiforme da cápsula interna"
+          },
+          {
+            "id": 415,
+            "question": "src/cards/images/Diencéfalo/Homunculo/17.jpg",
+            "type": "Image",
+            "answer": "Cápsula externa"
+          },
+          {
+            "id": 416,
+            "question": "src/cards/images/Diencéfalo/Homunculo/18.jpg",
+            "type": "Image",
+            "answer": "Cápsula extrema"
+          },
+          {
+            "id": 417,
+            "question": "src/cards/images/Diencéfalo/Homunculo/19.jpg",
+            "type": "Image",
+            "answer": "Lobo insular"
+          },
+          {
+            "id": 418,
+            "question": "src/cards/images/Diencéfalo/Homunculo/20.jpg",
+            "type": "Image",
+            "answer": "Giro do cíngulo"
+          },
+          {
+            "id": 419,
+            "question": "src/cards/images/Diencéfalo/Homunculo/21.jpg",
+            "type": "Image",
+            "answer": "Hipocampo"
+          },
+          {
+            "id": 420,
+            "question": "src/cards/images/Diencéfalo/Homunculo/22.jpg",
+            "type": "Image",
+            "answer": "Fímbria do hipocampo"
+          },
+          {
+            "id": 421,
+            "question": "src/cards/images/Diencéfalo/Homunculo/23.jpg",
+            "type": "Image",
+            "answer": "Habêncula"
+          },
+          {
+            "id": 422,
+            "question": "src/cards/images/Diencéfalo/Homunculo/24.jpg",
+            "type": "Image",
+            "answer": "Glândula pineal"
+          },
+          {
+            "id": 423,
+            "question": "src/cards/images/Diencéfalo/Homunculo/25.jpg",
+            "type": "Image",
+            "answer": "Cerebelo"
+          },
+          {
+            "id": 424,
+            "question": "src/cards/images/Diencéfalo/Homunculo/26.jpg",
+            "type": "Image",
+            "answer": "Sulco calcarino"
+          },
+          {
+            "id": 425,
+            "question": "src/cards/images/Diencéfalo/Homunculo/27.jpg",
+            "type": "Image",
+            "answer": "Corno anterior do ventrículo lateral"
+          },
+          {
+            "id": 426,
+            "question": "src/cards/images/Diencéfalo/Homunculo/28.jpg",
+            "type": "Image",
+            "answer": "Septo pelúcido"
+          },
+          {
+            "id": 427,
+            "question": "src/cards/images/Diencéfalo/Homunculo/29.jpg",
+            "type": "Image",
+            "answer": "Corno occipital do ventrículo lateral"
+          },
+          {
+            "id": 428,
+            "question": "src/cards/images/Diencéfalo/Homunculo/30.jpg",
+            "type": "Image",
+            "answer": "Plexo corióideo do ventrículo lateral"
+          },
+          {
+            "id": 429,
+            "question": "src/cards/images/Diencéfalo/Homunculo/31.jpg",
+            "type": "Image",
+            "answer": "Terceiro ventrículo"
+          },
+          {
+            "id": 430,
+            "question": "Definição e tipos de homúnculo",
+            "type": "Discursive",
+            "answer": "Mapa topográfico da inervação sensitiva e motora do corpo. Dividido em motor e sensitivo"
+          },
+          {
+            "id": 431,
+            "question": "Localização do homúnculo",
+            "type": "Discursive",
+            "answer": "Motor: Giro pré-frontal (lobo frontal); Sensitivo: Giro pós-central (lobo parietal)"
           }
         ]
       }
@@ -397,9 +2675,142 @@
         "name": "Visão geral do diencéfalo",
         "cards": [
           {
-            "question": "",
+            "id": 432,
+            "question": "src/cards/images/Diencéfalo/Geral/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Cérebro"
+          },
+          {
+            "id": 433,
+            "question": "src/cards/images/Diencéfalo/Geral/2.jpg",
+            "type": "Image",
+            "answer": "Diencéfalo"
+          },
+          {
+            "id": 434,
+            "question": "src/cards/images/Diencéfalo/Geral/3.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 435,
+            "question": "src/cards/images/Diencéfalo/Geral/4.jpg",
+            "type": "Image",
+            "answer": "Aderência intertalâmica"
+          },
+          {
+            "id": 436,
+            "question": "src/cards/images/Diencéfalo/Geral/5.jpg",
+            "type": "Image",
+            "answer": "Hipotálamo"
+          },
+          {
+            "id": 437,
+            "question": "src/cards/images/Diencéfalo/Geral/6.jpg",
+            "type": "Image",
+            "answer": "Sulco hipotalâmico"
+          },
+          {
+            "id": 438,
+            "question": "src/cards/images/Diencéfalo/Geral/7.jpg",
+            "type": "Image",
+            "answer": "Hipófise"
+          },
+          {
+            "id": 439,
+            "question": "src/cards/images/Diencéfalo/Geral/8.jpg",
+            "type": "Image",
+            "answer": "Subtálamo"
+          },
+          {
+            "id": 440,
+            "question": "src/cards/images/Diencéfalo/Geral/9.jpg",
+            "type": "Image",
+            "answer": "Epitálamo"
+          },
+          {
+            "id": 441,
+            "question": "src/cards/images/Diencéfalo/Geral/10.jpg",
+            "type": "Image",
+            "answer": "Glândula pineal"
+          },
+          {
+            "id": 442,
+            "question": "src/cards/images/Diencéfalo/Geral/11.jpg",
+            "type": "Image",
+            "answer": "Comissura posterior"
+          },
+          {
+            "id": 443,
+            "question": "src/cards/images/Diencéfalo/Geral/12.jpg",
+            "type": "Image",
+            "answer": "Comissura habenular"
+          },
+          {
+            "id": 444,
+            "question": "src/cards/images/Diencéfalo/Geral/13.jpg",
+            "type": "Image",
+            "answer": "Corpo caloso"
+          },
+          {
+            "id": 445,
+            "question": "src/cards/images/Diencéfalo/Geral/14.jpg",
+            "type": "Image",
+            "answer": "Mesencéfalo"
+          },
+          {
+            "id": 446,
+            "question": "src/cards/images/Diencéfalo/Geral/15.jpg",
+            "type": "Image",
+            "answer": "Ponte"
+          },
+          {
+            "id": 447,
+            "question": "src/cards/images/Diencéfalo/Geral/16.jpg",
+            "type": "Image",
+            "answer": "Bulbo"
+          },
+          {
+            "id": 448,
+            "question": "src/cards/images/Diencéfalo/Geral/17.jpg",
+            "type": "Image",
+            "answer": "Terceiro ventrículo"
+          },
+          {
+            "id": 449,
+            "question": "src/cards/images/Diencéfalo/Geral/18.jpg",
+            "type": "Image",
+            "answer": "Corpo mamilar"
+          },
+          {
+            "id": 450,
+            "question": "src/cards/images/Diencéfalo/Geral/19.jpg",
+            "type": "Image",
+            "answer": "Quiasma óptico"
+          },
+          {
+            "id": 451,
+            "question": "src/cards/images/Diencéfalo/Geral/20.jpg",
+            "type": "Image",
+            "answer": "Tuber cinereum"
+          },
+          {
+            "id": 452,
+            "question": "Definição de diencéfalo",
+            "type": "Discursive",
+            "answer": "Parte caudal do prosencéfalo que ocupa a região central do encéfalo (ao redor do terceiro ventrículo) e conecta o telencéfalo a outras estruturas do sistema nervoso"
+          },
+          {
+            "id": 453,
+            "question": "Partes do diencéfalo",
+            "type": "Discursive",
+            "answer": "Tálamo, Epitálamo, Subtálamo, Hipotálamo"
+          },
+          {
+            "id": 454,
+            "question": "Principais funções do diencéfalo",
+            "type": "Discursive",
+            "answer": "Controle do sistema endócrino, manutenção da homeostade do corpo, regulação das emoções, comportamento e memória (através do sistema límbico), transmissão dos sinais sensitivos e motores entre o córtex cerebral e outras áreas do SNC, e regulação do ritmo cardíaco (ciclo sono-vigília)"
           }
         ]
       },
@@ -408,9 +2819,208 @@
         "name": "Tálamo",
         "cards": [
           {
-            "question": "",
+            "id": 455,
+            "question": "src/cards/images/Diencéfalo/Talamo/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Tálamo"
+          },
+          {
+            "id": 456,
+            "question": "src/cards/images/Diencéfalo/Talamo/2.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 457,
+            "question": "src/cards/images/Diencéfalo/Talamo/3.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 458,
+            "question": "src/cards/images/Diencéfalo/Talamo/4.jpg",
+            "type": "Image",
+            "answer": "Tálamo"
+          },
+          {
+            "id": 459,
+            "question": "src/cards/images/Diencéfalo/Talamo/5.jpg",
+            "type": "Image",
+            "answer": "Aderência intertalâmica"
+          },
+          {
+            "id": 460,
+            "question": "src/cards/images/Diencéfalo/Talamo/6.jpg",
+            "type": "Image",
+            "answer": "Pulvinar do tálamo"
+          },
+          {
+            "id": 461,
+            "question": "src/cards/images/Diencéfalo/Talamo/7.jpg",
+            "type": "Image",
+            "answer": "Pulvinar do tálamo"
+          },
+          {
+            "id": 462,
+            "question": "src/cards/images/Diencéfalo/Talamo/8.jpg",
+            "type": "Image",
+            "answer": "Estria medular do tálamo"
+          },
+          {
+            "id": 463,
+            "question": "src/cards/images/Diencéfalo/Talamo/9.jpg",
+            "type": "Image",
+            "answer": "Estria medular do tálamo"
+          },
+          {
+            "id": 464,
+            "question": "src/cards/images/Diencéfalo/Talamo/10.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado medial"
+          },
+          {
+            "id": 465,
+            "question": "src/cards/images/Diencéfalo/Talamo/11.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado medial"
+          },
+          {
+            "id": 466,
+            "question": "src/cards/images/Diencéfalo/Talamo/12.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado lateral"
+          },
+          {
+            "id": 467,
+            "question": "src/cards/images/Diencéfalo/Talamo/13.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado lateral"
+          },
+          {
+            "id": 468,
+            "question": "src/cards/images/Diencéfalo/Talamo/14.jpg",
+            "type": "Image",
+            "answer": "Septo pelúcido"
+          },
+          {
+            "id": 469,
+            "question": "src/cards/images/Diencéfalo/Talamo/15.jpg",
+            "type": "Image",
+            "answer": "Colículo superior"
+          },
+          {
+            "id": 470,
+            "question": "src/cards/images/Diencéfalo/Talamo/16.jpg",
+            "type": "Image",
+            "answer": "Colículo inferior"
+          },
+          {
+            "id": 471,
+            "question": "src/cards/images/Diencéfalo/Talamo/17.jpg",
+            "type": "Image",
+            "answer": "Hipocampo"
+          },
+          {
+            "id": 472,
+            "question": "src/cards/images/Diencéfalo/Talamo/18.jpg",
+            "type": "Image",
+            "answer": "Fímbria do hipocampo"
+          },
+          {
+            "id": 473,
+            "question": "src/cards/images/Diencéfalo/Talamo/19.jpg",
+            "type": "Image",
+            "answer": "Fórnix"
+          },
+          {
+            "id": 474,
+            "question": "src/cards/images/Diencéfalo/Talamo/20.jpg",
+            "type": "Image",
+            "answer": "Cerebelo"
+          },
+          {
+            "id": 475,
+            "question": "src/cards/images/Diencéfalo/Talamo/21.jpg",
+            "type": "Image",
+            "answer": "Calcar avis"
+          },
+          {
+            "id": 476,
+            "question": "src/cards/images/Diencéfalo/Talamo/22.jpg",
+            "type": "Image",
+            "answer": "Sulco calcarino"
+          },
+          {
+            "id": 477,
+            "question": "src/cards/images/Diencéfalo/Talamo/23.jpg",
+            "type": "Image",
+            "answer": "Ventrículo lateral"
+          },
+          {
+            "id": 478,
+            "question": "src/cards/images/Diencéfalo/Talamo/24.jpg",
+            "type": "Image",
+            "answer": "Plexo corióideo do ventrículo lateral"
+          },
+          {
+            "id": 479,
+            "question": "src/cards/images/Diencéfalo/Talamo/25.jpg",
+            "type": "Image",
+            "answer": "Terceiro ventrículo"
+          },
+          {
+            "id": 480,
+            "question": "src/cards/images/Diencéfalo/Talamo/26.jpg",
+            "type": "Image",
+            "answer": "Fissura longitudinal do cérebro"
+          },
+          {
+            "id": 481,
+            "question": "src/cards/images/Diencéfalo/Talamo/27.jpg",
+            "type": "Image",
+            "answer": "Cápsula interna"
+          },
+          {
+            "id": 482,
+            "question": "src/cards/images/Diencéfalo/Talamo/28.jpg",
+            "type": "Image",
+            "answer": "Cabeça do núcleo caudado"
+          },
+          {
+            "id": 483,
+            "question": "src/cards/images/Diencéfalo/Talamo/29.jpg",
+            "type": "Image",
+            "answer": "Corpo caloso"
+          },
+          {
+            "id": 484,
+            "question": "src/cards/images/Diencéfalo/Talamo/30.jpg",
+            "type": "Image",
+            "answer": "Glândula pineal"
+          },
+          {
+            "id": 485,
+            "question": "Definição de tálamo",
+            "type": "Discursive",
+            "answer": "Os tálamos são um par de estruturas ovoides, formados por substância cinzenta, encontrados no centro do cérebro, superiormente ao tronco encefálico"
+          },
+          {
+            "id": 486,
+            "question": "Limites dos tálamos",
+            "type": "Discursive",
+            "answer": "Forame interventricular (de Monro) (anterior); Átrio do ventrículo lateral (posterior); Terceiro ventrículo (medial); Braço posterior da cápsula interna (lateral); Assoalho do ventrículo lateral, estria medular (dorsal); Sulco hipotalâmico na parede lateral do terceiro ventrículo (separa o tálamo do hipotálamo) (ventral)"
+          },
+          {
+            "id": 487,
+            "question": "Características externas dos tálamos",
+            "type": "Discursive",
+            "answer": "Extrato zonal, lâmina medular externa, pulvinar do tálamo, corpo geniculado medial e corpo geniculado lateral"
+          },
+          {
+            "id": 488,
+            "question": "Funções dos tálamos",
+            "type": "Discursive",
+            "answer": "Transmissão de sinais límbicos, sensitivos e motores entre o córtex cerebral e o restante do sistema nervoso; Regulação da consciência, do sono e do estado de alerta"
           }
         ]
       },
@@ -419,9 +3029,148 @@
         "name": "Núcleos do tálamo",
         "cards": [
           {
-            "question": "",
+            "id": 489,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Tálamo"
+          },
+          {
+            "id": 490,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/2.jpg",
+            "type": "Image",
+            "answer": "Lâmina medular medial"
+          },
+          {
+            "id": 491,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/3.jpg",
+            "type": "Image",
+            "answer": "Núcleos anteriores do tálamo"
+          },
+          {
+            "id": 492,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/4.jpg",
+            "type": "Image",
+            "answer": "Núcleos laterais do tálamo"
+          },
+          {
+            "id": 493,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/5.jpg",
+            "type": "Image",
+            "answer": "Núcleo ventral anterior do tálamo"
+          },
+          {
+            "id": 494,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/6.jpg",
+            "type": "Image",
+            "answer": "Núcleo lateral dorsal"
+          },
+          {
+            "id": 495,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/7.jpg",
+            "type": "Image",
+            "answer": "Núcleo látero-posterior"
+          },
+          {
+            "id": 496,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/8.jpg",
+            "type": "Image",
+            "answer": "Núcleo ventral lateral"
+          },
+          {
+            "id": 497,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/9.jpg",
+            "type": "Image",
+            "answer": "Núcleo ventral póstero-lateral do tálamo"
+          },
+          {
+            "id": 498,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/10.jpg",
+            "type": "Image",
+            "answer": "Núcleo ventral póstero-medial"
+          },
+          {
+            "id": 499,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/11.jpg",
+            "type": "Image",
+            "answer": "Pulvinar do tálamo"
+          },
+          {
+            "id": 500,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/12.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado lateral"
+          },
+          {
+            "id": 501,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/13.jpg",
+            "type": "Image",
+            "answer": "Corpo geniculado medial"
+          },
+          {
+            "id": 502,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/14.jpg",
+            "type": "Image",
+            "answer": "Núcleo medial dorsal"
+          },
+          {
+            "id": 503,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/15.jpg",
+            "type": "Image",
+            "answer": "Núcleos intralaminares do tálamo"
+          },
+          {
+            "id": 504,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/16.jpg",
+            "type": "Image",
+            "answer": "Núcleos medianos do tálamo"
+          },
+          {
+            "id": 505,
+            "question": "src/cards/images/Diencéfalo/NucelosTalamo/17.jpg",
+            "type": "Image",
+            "answer": "Núcleo reticular do tálamo"
+          },
+          {
+            "id": 506,
+            "question": "Tipos de núcleo de tálamo",
+            "type": "Discursive",
+            "answer": "Núcleos de transmissão, núcleos de associação, núcleos inespecíficos"
+          },
+          {
+            "id": 507,
+            "question": "Grupos de núcleos",
+            "type": "Discursive",
+            "answer": "Núcleos anteriores, laterais, mediais, intralaminares, periventriculares (da linha média) e núcleo reticular"
+          },
+          {
+            "id": 508,
+            "question": "Núcleos anteriores do tálamo",
+            "type": "Discursive",
+            "answer": "Núcleos anteroventral, anterodorsal, anteromedial, dorsal lateral"
+          },
+          {
+            "id": 509,
+            "question": "Núcleos laterais do tálamo",
+            "type": "Discursive",
+            "answer": "Grupo ventral (ventral anterior, ventral lateral, ventrobasal (ventral posteromedial, ventral posterolateral)); Grupo dorsal (posterior) (lateral posterior, pulvinar); Núcleos geniculados medial e lateral"
+          },
+          {
+            "id": 510,
+            "question": "Núcleos mediais do tálamo",
+            "type": "Discursive",
+            "answer": "Núcleo mediodorsal (partes parvocelular, magnocelular e paralaminar)"
+          },
+          {
+            "id": 511,
+            "question": "Núcleos intralaminares",
+            "type": "Discursive",
+            "answer": "Grupo anterior: Núcleos central medial, paracentral, central lateral; Grupo central: Núcleos centromediano, parafascicular e subparafascicular; Grupo posterior: Núcleos limitante, suprageniculado"
+          },
+          {
+            "id": 512,
+            "question": "Núcleos medianos",
+            "type": "Discursive",
+            "answer": "Paraventricular, paratenial, medioventral (reuniens)"
           }
         ]
       },
@@ -430,9 +3179,202 @@
         "name": "Hipotálamo",
         "cards": [
           {
-            "question": "",
+            "id": 513,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Hipotálamo"
+          },
+          {
+            "id": 514,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/2.jpg",
+            "type": "Image",
+            "answer": "Área pré-óptica"
+          },
+          {
+            "id": 515,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/3.jpg",
+            "type": "Image",
+            "answer": "Núcleo periventricular do hipotálamo"
+          },
+          {
+            "id": 516,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/4.jpg",
+            "type": "Image",
+            "answer": "Núcleo pré-óptico medial"
+          },
+          {
+            "id": 517,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/5.jpg",
+            "type": "Image",
+            "answer": "Núcleo pré-óptico lateral"
+          },
+          {
+            "id": 518,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/6.jpg",
+            "type": "Image",
+            "answer": "Área hipotalâmica anterior"
+          },
+          {
+            "id": 519,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/7.jpg",
+            "type": "Image",
+            "answer": "Núcleo hipotalâmico anterior"
+          },
+          {
+            "id": 520,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/8.jpg",
+            "type": "Image",
+            "answer": "Núcleo supra-óptico"
+          },
+          {
+            "id": 521,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/9.jpg",
+            "type": "Image",
+            "answer": "Núcleo supraquiasmático"
+          },
+          {
+            "id": 522,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/10.jpg",
+            "type": "Image",
+            "answer": "Núcleo paraventricular do hipotálamo"
+          },
+          {
+            "id": 523,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/11.jpg",
+            "type": "Image",
+            "answer": "Área hipotalâmica intermédia"
+          },
+          {
+            "id": 524,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/12.jpg",
+            "type": "Image",
+            "answer": "Núcleo arqueado do hipotálamo"
+          },
+          {
+            "id": 525,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/13.jpg",
+            "type": "Image",
+            "answer": "Núcleo ventromedial do hipotálamo"
+          },
+          {
+            "id": 526,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/14.jpg",
+            "type": "Image",
+            "answer": "Núcleo dorsomedial do hipotálamo"
+          },
+          {
+            "id": 527,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/15.jpg",
+            "type": "Image",
+            "answer": "Área hipotalâmica posterior"
+          },
+          {
+            "id": 528,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/16.jpg",
+            "type": "Image",
+            "answer": "Núcleo posterior do hipotálamo"
+          },
+          {
+            "id": 529,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/17.jpg",
+            "type": "Image",
+            "answer": "Núcleo tuberomamilar"
+          },
+          {
+            "id": 530,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/18.jpg",
+            "type": "Image",
+            "answer": "Corpo mamilar"
+          },
+          {
+            "id": 531,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/19.jpg",
+            "type": "Image",
+            "answer": "Área hipotalâmica lateral"
+          },
+          {
+            "id": 532,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/20.jpg",
+            "type": "Image",
+            "answer": "Trato hipotálamo-hipofisário"
+          },
+          {
+            "id": 533,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/21.jpg",
+            "type": "Image",
+            "answer": "Fascículo mamilotalâmico"
+          },
+          {
+            "id": 534,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/22.jpg",
+            "type": "Image",
+            "answer": "Fascículo longitudinal posterior"
+          },
+          {
+            "id": 535,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/23.jpg",
+            "type": "Image",
+            "answer": "Fórnix"
+          },
+          {
+            "id": 536,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/24.jpg",
+            "type": "Image",
+            "answer": "Via hipotalâmica descendente"
+          },
+          {
+            "id": 537,
+            "question": "src/cards/images/Diencéfalo/Hipotalamo/25.jpg",
+            "type": "Image",
+            "answer": "Núcleo rubro"
+          },
+          {
+            "id": 538,
+            "question": "Definição de hipotálamo",
+            "type": "Discursive",
+            "answer": "O hipotálamo é uma estrutura bilateral do diencéfalo responsável por várias funções vitais e possui conexões com os sistemas endócrino, autônomo e límbico"
+          },
+          {
+            "id": 539,
+            "question": "Zonas do hipotálamo (plano coronal)",
+            "type": "Discursive",
+            "answer": "Zona periventricular, zona medial, zona lateral"
+          },
+          {
+            "id": 540,
+            "question": "Áreas do hipotálamo (plano sagital)",
+            "type": "Discursive",
+            "answer": "Área pré-óptica, área hipotalâmica anterior (quiasmática), área hipotalâmica intermediária (tuberal) e área hipotalâmica posterior (mamilar)"
+          },
+          {
+            "id": 541,
+            "question": "Núcleos do hipotálamo (Área pré-óptica)",
+            "type": "Discursive",
+            "answer": "Núcleo pré-óptico, núcleos periventriculares, núcleo pré-óptico medial, núcleo pré-óptico lateral"
+          },
+          {
+            "id": 542,
+            "question": "Núcleos do hipotálamo (Área anterior / supra-óptica)",
+            "type": "Discursive",
+            "answer": "Núcleo supraquiasmático, núcleos periventriculares, núcleo hipotalâmico anterior, núcleo paraventricular, núcleo supra-óptico, núcleo hipotalâmico lateral"
+          },
+          {
+            "id": 543,
+            "question": "Núcleos do hipotálamo (Área intermediária / tuberal)",
+            "type": "Discursive",
+            "answer": "Núcleo arqueado, núcleo dorsomedial, núcleo ventromedial, núcleo pré-mamilar, núcleos tuberais laterais"
+          },
+          {
+            "id": 544,
+            "question": "Núcleos do hipotálamo (Área posterior / mamilar)",
+            "type": "Discursive",
+            "answer": "Núcleo mamilar, núcleos hipotalâmicos posteriores, núcleo hipotalâmico lateral"
+          },
+          {
+            "id": 545,
+            "question": "Funções do hipotálamo",
+            "type": "Discursive",
+            "answer": "Controle do sistema endócrino, regulação da homeostase, do consumo de energia, apetite e ciclo sono-vigília"
           }
         ]
       },
@@ -441,9 +3383,142 @@
         "name": "Hipófise",
         "cards": [
           {
-            "question": "",
+            "id": 546,
+            "question": "src/cards/images/Diencéfalo/Hipofise/1.jpg",
             "type": "Image",
-            "answer": ""
+            "answer": "Hipófise"
+          },
+          {
+            "id": 547,
+            "question": "src/cards/images/Diencéfalo/Hipofise/2.jpg",
+            "type": "Image",
+            "answer": "Sela turca"
+          },
+          {
+            "id": 548,
+            "question": "src/cards/images/Diencéfalo/Hipofise/3.jpg",
+            "type": "Image",
+            "answer": "Fossa hipofisária"
+          },
+          {
+            "id": 549,
+            "question": "src/cards/images/Diencéfalo/Hipofise/4.jpg",
+            "type": "Image",
+            "answer": "Adeno-hipófise"
+          },
+          {
+            "id": 550,
+            "question": "src/cards/images/Diencéfalo/Hipofise/5.jpg",
+            "type": "Image",
+            "answer": "Parte distal da hipófise"
+          },
+          {
+            "id": 551,
+            "question": "src/cards/images/Diencéfalo/Hipofise/6.jpg",
+            "type": "Image",
+            "answer": "Parte tuberal da hipófise"
+          },
+          {
+            "id": 552,
+            "question": "src/cards/images/Diencéfalo/Hipofise/7.jpg",
+            "type": "Image",
+            "answer": "Parte intermédia da hipófise"
+          },
+          {
+            "id": 553,
+            "question": "src/cards/images/Diencéfalo/Hipofise/8.jpg",
+            "type": "Image",
+            "answer": "Fenda hipofisária"
+          },
+          {
+            "id": 554,
+            "question": "src/cards/images/Diencéfalo/Hipofise/9.jpg",
+            "type": "Image",
+            "answer": "Trabéculas fibrosas da adeno-hipófise"
+          },
+          {
+            "id": 555,
+            "question": "src/cards/images/Diencéfalo/Hipofise/10.jpg",
+            "type": "Image",
+            "answer": "Neuro-hipófise"
+          },
+          {
+            "id": 556,
+            "question": "src/cards/images/Diencéfalo/Hipofise/11.jpg",
+            "type": "Image",
+            "answer": "Parte nervosa da hipófise"
+          },
+          {
+            "id": 557,
+            "question": "src/cards/images/Diencéfalo/Hipofise/12.jpg",
+            "type": "Image",
+            "answer": "Haste infundibular"
+          },
+          {
+            "id": 558,
+            "question": "src/cards/images/Diencéfalo/Hipofise/13.jpg",
+            "type": "Image",
+            "answer": "Infundíbulo da hipófise"
+          },
+          {
+            "id": 559,
+            "question": "src/cards/images/Diencéfalo/Hipofise/14.jpg",
+            "type": "Image",
+            "answer": "Hipotálamo"
+          },
+          {
+            "id": 560,
+            "question": "src/cards/images/Diencéfalo/Hipofise/15.jpg",
+            "type": "Image",
+            "answer": "Eminência mediana do hipotálamo"
+          },
+          {
+            "id": 561,
+            "question": "src/cards/images/Diencéfalo/Hipofise/16.jpg",
+            "type": "Image",
+            "answer": "Lâmina terminal"
+          },
+          {
+            "id": 562,
+            "question": "src/cards/images/Diencéfalo/Hipofise/17.jpg",
+            "type": "Image",
+            "answer": "Quiasma óptico"
+          },
+          {
+            "id": 563,
+            "question": "src/cards/images/Diencéfalo/Hipofise/18.jpg",
+            "type": "Image",
+            "answer": "Corpo mamilar"
+          },
+          {
+            "id": 564,
+            "question": "Definição de hipófise",
+            "type": "Discursive",
+            "answer": "Glândula “mestre” do sistema endócrino que controla o restante das glândulas endócrinas"
+          },
+          {
+            "id": 565,
+            "question": "Partes principais da hipófise",
+            "type": "Discursive",
+            "answer": "Adenohipófise (lobo anterior, derivada do ectoderma oral) e Neurohipófise (lobo posterior, derivada do ectoderma neural)"
+          },
+          {
+            "id": 566,
+            "question": "Hormônios produzidos pela adenohipófise",
+            "type": "Discursive",
+            "answer": "Hormônio de crescimento (somatropina), prolactina, hormônio folículo-estimulante (FSH), hormônio luteinizante (LH), hormônio tireo-estimulante (TSH), hormônio adrenocorticotrópico (ACTH)"
+          },
+          {
+            "id": 567,
+            "question": "Hormônios produzidos pela neurohipófise",
+            "type": "Discursive",
+            "answer": "Ocitocina, hormônio antidiurético (vasopressina ou ADH)"
+          },
+          {
+            "id": 568,
+            "question": "Funções da hipófise",
+            "type": "Discursive",
+            "answer": "Regulação do metabolismo, crescimento, maturação sexual, reprodução, pressão sanguínea, lactação, resposta imune e muitas outras funções e processos físicos vitais"
           }
         ]
       }
@@ -457,172 +3532,172 @@
         "name": "Córtex cerebelar",
         "cards": [
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_1.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_1.jpg",
             "type": "Image",
             "answer": "Lobo anterior do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_2.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_2.jpg",
             "type": "Image",
             "answer": "Óvula do vérmis"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_3.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_3.jpg",
             "type": "Image",
             "answer": "Pirâmide do vérmis"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_4.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_4.jpg",
             "type": "Image",
             "answer": "Lóbulo semilunar superior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_5.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_5.jpg",
             "type": "Image",
             "answer": "Lóbulo flóculo-nodular"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_6.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_6.jpg",
             "type": "Image",
             "answer": "Tenda do Cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_7.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_7.jpg",
             "type": "Image",
             "answer": "Pedúnculo cerebelar superior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_8.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_8.jpg",
             "type": "Image",
             "answer": "Lóbulo anterior do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_9.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_9.jpg",
             "type": "Image",
             "answer": "Véu medular superior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_10.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_10.jpg",
             "type": "Image",
             "answer": "Língula do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_11.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_11.jpg",
             "type": "Image",
             "answer": "Pedúnculo cereblar médio"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_12.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_12.jpg",
             "type": "Image",
             "answer": "Túber do vérmis"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_13.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_13.jpg",
             "type": "Image",
             "answer": "Lóbulo quadrangular anterior do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_14.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_14.jpg",
             "type": "Image",
             "answer": "Declive"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_15.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_15.jpg",
             "type": "Image",
             "answer": "Lóbulo semilunar inferior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_16.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_16.jpg",
             "type": "Image",
             "answer": "Cúlmen"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_17.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_17.jpg",
             "type": "Image",
             "answer": "Fissura horizontal do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_18.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_18.jpg",
             "type": "Image",
             "answer": "Tenda do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_19.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_19.jpg",
             "type": "Image",
             "answer": "Tonsila do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_20.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_20.jpg",
             "type": "Image",
             "answer": "Cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_21.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_21.jpg",
             "type": "Image",
             "answer": "Pedúnculo cerebelar inferior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_22.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_22.jpg",
             "type": "Image",
             "answer": "Lobo posterior do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_23.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_23.jpg",
             "type": "Image",
             "answer": "Fissura retrotonsilar do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_24.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_24.jpg",
             "type": "Image",
             "answer": "Incisura do tentório"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_25.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_25.jpg",
             "type": "Image",
             "answer": "Lóbulo quadrangular posterior do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_26.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_26.jpg",
             "type": "Image",
             "answer": "Lóbulo biventre do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_27.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_27.jpg",
             "type": "Image",
             "answer": "Véu medular inferior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_28.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_28.jpg",
             "type": "Image",
             "answer": "Folium"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_29.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_29.jpg",
             "type": "Image",
             "answer": "Quarto ventrículo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_30.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_30.jpg",
             "type": "Image",
             "answer": "Lóbulo central do vérmis"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_31.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_31.jpg",
             "type": "Image",
             "answer": "Flóculos"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_32.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_32.jpg",
             "type": "Image",
             "answer": "Fissura cerebelar primária"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_33.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_33.jpg",
             "type": "Image",
             "answer": "Vérmis"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Cortex_cerebelar_34.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Cortex_cerebelar_34.jpg",
             "type": "Image",
             "answer": "Nódulo do vérmis"
           }
@@ -633,82 +3708,82 @@
         "name": "Núcleos do cerebelo",
         "cards": [
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_1.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_1.jpg",
             "type": "Image",
             "answer": "Córtex cerebelar"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_2.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_2.jpg",
             "type": "Image",
             "answer": "Substância branca do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_3.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_3.jpg",
             "type": "Image",
             "answer": "Zona medial do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_4.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_4.jpg",
             "type": "Image",
             "answer": "Zona intermediária do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_5.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_5.jpg",
             "type": "Image",
             "answer": "Zona lateral do cerebelo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_6.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_6.jpg",
             "type": "Image",
             "answer": "Núcleo fastigial"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_7.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_7.jpg",
             "type": "Image",
             "answer": "Núcleo emboliforme"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_8.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_8.jpg",
             "type": "Image",
             "answer": "Núcleo globoso"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_9.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_9.jpg",
             "type": "Image",
             "answer": "Núcleo denteado"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_10.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_10.jpg",
             "type": "Image",
             "answer": "Decussação do pedúnculo cerebelar superior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_11.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_11.jpg",
             "type": "Image",
             "answer": "Fascículo longitudinal medial"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_12.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_12.jpg",
             "type": "Image",
             "answer": "Quarto ventrículo"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_13.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_13.jpg",
             "type": "Image",
             "answer": "Véu medular superior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_14.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_14.jpg",
             "type": "Image",
             "answer": "Pedúnculo cerebelar superior"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_15.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_15.jpg",
             "type": "Image",
             "answer": "Vérmis"
           },
           {
-            "question": "src/cards/images/Anatomia/Neuroanatomia/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_16.jpg",
+            "question": "src/cards/images/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_16.jpg",
             "type": "Image",
             "answer": "Língula do cerebelo"
           }
