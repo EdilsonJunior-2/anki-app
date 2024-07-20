@@ -1,22 +1,12 @@
-import { Card } from "ts-fsrs";
-import ProjectCard from "./CardClass";
-
 class Student {
+  id: number;
   name: string;
-  registration: string;
-  cards: ProjectCard[];
+  code: string;
 
-  constructor(props: { name: string; registration: string }) {
+  constructor(props: Student) {
     this.name = props.name;
-    this.registration = props.registration;
-    this.cards = [];
-  }
-
-  addCard(card: any) {
-    this.cards.push(card);
-  }
-
-  upadateCardGrade(card: Card) {
+    this.code = props.code;
+    this.id = props.id;
   }
 }
 

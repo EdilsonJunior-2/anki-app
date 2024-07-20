@@ -1,4 +1,4 @@
-export default ((props: any) => {
+export default (() => {
     return <div>
         { }
     </div>
