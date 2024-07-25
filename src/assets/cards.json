@@ -8,115 +8,115 @@
         "cards": [
           {
             "id": 1,
-            "question": "./Geral/SNC/1.jpg",
+            "question": "src/assets/SNC_1.jpg",
             "type": "Image",
             "answer": "Cérebro"
           },
           {
             "id": 2,
-            "question": "./Geral/SNC/2.jpg",
+            "question": "src/assets/SNC_2.jpg",
             "type": "Image",
             "answer": "Lobo frontal"
           },
           {
             "id": 3,
-            "question": "./Geral/SNC/3.jpg",
+            "question": "src/assets/SNC_3.jpg",
             "type": "Image",
             "answer": "Lobo temporal"
           },
           {
             "id": 4,
-            "question": "./Geral/SNC/4.jpg",
+            "question": "src/assets/SNC_4.jpg",
             "type": "Image",
             "answer": "Lobo parietal"
           },
           {
             "id": 5,
-            "question": "./Geral/SNC/5.jpg",
+            "question": "src/assets/SNC_5.jpg",
             "type": "Image",
             "answer": "Lobo occipital"
           },
           {
             "id": 6,
-            "question": "./Geral/SNC/6.jpg",
+            "question": "src/assets/SNC_6.jpg",
             "type": "Image",
             "answer": "Lobo insular"
           },
           {
             "id": 7,
-            "question": "./Geral/SNC/7.jpg",
+            "question": "src/assets/SNC_7.jpg",
             "type": "Image",
             "answer": "Cerebelo"
           },
           {
             "id": 8,
-            "question": "./Geral/SNC/8.jpg",
+            "question": "src/assets/SNC_8.jpg",
             "type": "Image",
             "answer": "Tronco encefálico"
           },
           {
             "id": 9,
-            "question": "./Geral/SNC/9.jpg",
+            "question": "src/assets/SNC_9.jpg",
             "type": "Image",
             "answer": "Mesencéfalo"
           },
           {
             "id": 10,
-            "question": "./Geral/SNC/10.jpg",
+            "question": "src/assets/SNC_10.jpg",
             "type": "Image",
             "answer": "Ponte"
           },
           {
             "id": 11,
-            "question": "./Geral/SNC/11.jpg",
+            "question": "src/assets/SNC_11.jpg",
             "type": "Image",
             "answer": "Bulbo"
           },
           {
             "id": 12,
-            "question": "./Geral/SNC/12.jpg",
+            "question": "src/assets/SNC_12.jpg",
             "type": "Image",
             "answer": "Corpo caloso"
           },
           {
             "id": 13,
-            "question": "./Geral/SNC/13.jpg",
+            "question": "src/assets/SNC_13.jpg",
             "type": "Image",
             "answer": "Tálamo"
           },
           {
             "id": 14,
-            "question": "./Geral/SNC/14.jpg",
+            "question": "src/assets/SNC_14.jpg",
             "type": "Image",
             "answer": "Hipófise"
           },
           {
             "id": 15,
-            "question": "./Geral/SNC/15.jpg",
+            "question": "src/assets/SNC_15.jpg",
             "type": "Image",
             "answer": "Ventrículo lateral"
           },
           {
             "id": 16,
-            "question": "./Geral/SNC/16.jpg",
+            "question": "src/assets/SNC_16.jpg",
             "type": "Image",
             "answer": "Diencéfalo"
           },
           {
             "id": 17,
-            "question": "./Geral/SNC/17.jpg",
+            "question": "src/assets/SNC_17.jpg",
             "type": "Image",
             "answer": "Terceiro ventrículo"
           },
           {
             "id": 18,
-            "question": "./Geral/SNC/18.jpg",
+            "question": "src/assets/SNC_18.jpg",
             "type": "Image",
             "answer": "Quarto ventrículo"
           },
           {
             "id": 19,
-            "question": "./Geral/SNC/19.jpg",
+            "question": "src/assets/SNC_19.jpg",
             "type": "Image",
             "answer": "Lobo límbico"
           },
