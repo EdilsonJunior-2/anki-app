@@ -1,5 +1,5 @@
 import { CSSProperties, useContext } from "react";
-import DecksJson from "../../cards/cards.json";
+import DecksJson from "../../assets/cards.json";
 import { Collapse, CollapseProps } from "antd";
 import "./styles.scss";
 import StudyContext from "../../contexts/study";

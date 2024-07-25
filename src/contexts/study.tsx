@@ -1,6 +1,6 @@
 import { ReactNode, createContext, useState } from "react";
 import { getCards } from "../spacedRepetition";
-import DecksJson from "../cards/cards.json";
+import DecksJson from "../assets/cards.json";
 import Card from "../classes/CardClass";
 
 const StudyContext = createContext<StudyContextData>({} as StudyContextData);
