@@ -1,0 +1,19 @@
+.login-view {
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+
+    article {
+        width: 50%;
+
+        p {
+            font-size: 16px;
+            margin: .5rem 0;
+            color: #ff4d4f;
+        }
+
+        button {
+            margin: 1rem auto;
+        }
+    }
+}

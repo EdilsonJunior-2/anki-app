@@ -10,9 +10,9 @@ function changeCardRating(card: any, newRating: number) {
 	card.repeat = true;
 }
 
-const sendNewRatings = (cards: any[]): Promise<boolean> =>
+const sendNewRatings = (cards: any[], studentCode: string): Promise<boolean> =>
 	api
-		.post("/cards/newRating", { studentId: 1, cards })
+		.post("/cards/newRating", { studentId: studentCode, cards })
 		.then(() => {
 			return true;
 		})
@@ -20,9 +20,9 @@ const sendNewRatings = (cards: any[]): Promise<boolean> =>
 			return false;
 		});
 
-const getCards = async (id: number): Promise<any> =>
+const getCards = async (id: number, studentCode: string): Promise<any> =>
 	await api
-		.get(`/student/202100104001/deck/${id}`)
+		.get(`/student/${studentCode}/deck/${id}`)
 		.then((res) => {
 			return res.data;
 		})

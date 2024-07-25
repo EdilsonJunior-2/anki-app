@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: process.env.API_HOST || "http://localhost:3000"
+    baseURL: "https://anki-backend-gajj.onrender.com"
 })
 
 export default api; 

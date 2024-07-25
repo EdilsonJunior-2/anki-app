@@ -1,18 +1,13 @@
 import "./App.css";
-import api from "./api";
 import { useEffect } from "react";
 import "./assets/styles.scss";
 import { StudyProvider } from "./contexts/study";
+import { StudentProvider } from "./contexts/student";
 import Pages from "./pages";
 
 function App() {
 
 	useEffect(() => {
-		if (!window.sessionStorage.getItem("code"))
-			api.get("/studentData/202100104001").then((res) => {
-				window.sessionStorage.setItem("name", res.data[0].Name);
-				window.sessionStorage.setItem("code", res.data[0].Code);
-			});
 
 		// const previousInterval = 1;
 		// const rating = 1;
@@ -88,16 +83,16 @@ function App() {
 
 		// console.log(data);
 
-		let id = 1;
-		let finalId = 568;
-		const defaultStr = (i: number) => `(1, ${i}, 0, GETDATE(), 1, 1, 1)`;
-		let str = defaultStr(1);
+		// let id = 1;
+		// let finalId = 568;
+		// const defaultStr = (i: number) => `(1, ${i}, 0, GETDATE(), 1, 1, 1)`;
+		// let str = defaultStr(1);
 
-		for (var i = id + 1; i <= finalId; i++) {
-			str = str.concat(", ", defaultStr(i))
-		}
+		// for (var i = id + 1; i <= finalId; i++) {
+		// 	str = str.concat(", ", defaultStr(i))
+		// }
 
-		console.log(str);
+		// console.log(str);
 
 		// const deckDataArray: any[] = []
 		// json.map(category => category.decks.map(deck => {
@@ -112,9 +107,11 @@ function App() {
 	}, []);
 
 	return (
-		<StudyProvider>
-			<Pages />
-		</StudyProvider>
+		<StudentProvider>
+			<StudyProvider>
+				<Pages />
+			</StudyProvider>
+		</StudentProvider>
 	);
 }
 

@@ -12,8 +12,8 @@ export const StudyProvider = ({ children }: {
     const [cards, setCards] = useState<any[]>([]);
     const [study, letTheStudyBegin] = useState<boolean>(false);
 
-    async function pickCards(id: number) {
-        await getCards(id).then((data) => {
+    async function pickCards(id: number, studentCode: string) {
+        await getCards(id, studentCode).then((data) => {
             const deckCards = DecksJson[data.cards[0].category - 1]
                 .decks
                 .find(d => d.id === data.deck)
@@ -49,6 +49,6 @@ interface StudyContextData {
     letTheStudyBegin: (study: boolean) => void;
     cards: any[];
     setCards: (cards: any[]) => void;
-    pickCards: (id: number) => void;
+    pickCards: (id: number, studentCode: string) => void;
     // updateRating(rating: number): void;
 }

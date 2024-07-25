@@ -3,6 +3,7 @@ import DecksJson from "../../cards/cards.json";
 import { Collapse, CollapseProps } from "antd";
 import "./styles.scss";
 import StudyContext from "../../contexts/study";
+import StudentContext from "../../contexts/student";
 
 export default () => {
 	const panelStyle: CSSProperties = {
@@ -10,7 +11,7 @@ export default () => {
 		width: "100%",
 		padding: ".5rem",
 	};
-
+	const { student } = useContext(StudentContext);
 	const { pickCards } = useContext(StudyContext);
 
 	const items: (panelStyle: CSSProperties) => CollapseProps["items"] = (
@@ -27,7 +28,7 @@ export default () => {
 								{deck.name}
 							</p>
 							<button
-								onClick={() => pickCards(deck.id)}>Estudar</button>
+								onClick={() => pickCards(deck.id, student?.code as string)}>Estudar</button>
 						</li>
 					))}
 				</ul>
@@ -35,5 +36,8 @@ export default () => {
 			style: panelStyle,
 			headerClass: "collapse-header",
 		}));
-	return <Collapse ghost collapsible="header" items={items(panelStyle)} />;
+	return <main>
+		<h2>Bem vindo, {student?.name.split(" ", 2)[0]}</h2>
+		<Collapse ghost collapsible="header" items={items(panelStyle)} />
+	</main>;
 };
