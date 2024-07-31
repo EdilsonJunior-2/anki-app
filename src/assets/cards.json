@@ -285,79 +285,79 @@
             "id": 44,
             "question": "/Cerebro/Geral/1.jpg",
             "type": "Image",
-            "answer": "Lóbulo parietal inferior"
+            "answer": "Cérebro"
           },
           {
             "id": 45,
             "question": "/Cerebro/Geral/2.jpg",
             "type": "Image",
-            "answer": "Corpo caloso"
+            "answer": "Cérebro"
           },
           {
             "id": 46,
             "question": "/Cerebro/Geral/3.jpg",
             "type": "Image",
-            "answer": "Lobo insular"
+            "answer": "Lobo Insular"
           },
           {
             "id": 47,
             "question": "/Cerebro/Geral/4.jpg",
             "type": "Image",
-            "answer": "Lóbulo parietal superior"
+            "answer": "Giro pré-central"
           },
           {
             "id": 48,
             "question": "/Cerebro/Geral/5.jpg",
             "type": "Image",
-            "answer": "Giro angular"
+            "answer": "Giro frontal superior"
           },
           {
             "id": 49,
             "question": "/Cerebro/Geral/6.jpg",
             "type": "Image",
-            "answer": "Giro longo da ínsula"
+            "answer": "Giro frontal médio"
           },
           {
             "id": 50,
             "question": "/Cerebro/Geral/7.jpg",
             "type": "Image",
-            "answer": "Giro pós-central"
+            "answer": "Giro frontal inferior"
           },
           {
             "id": 51,
             "question": "/Cerebro/Geral/8.jpg",
             "type": "Image",
-            "answer": "Giro parahipocampal"
+            "answer": "Sulco central"
           },
           {
             "id": 52,
             "question": "/Cerebro/Geral/9.jpg",
             "type": "Image",
-            "answer": "Sulco central"
+            "answer": "Lobo parietal"
           },
           {
             "id": 53,
             "question": "/Cerebro/Geral/10.jpg",
             "type": "Image",
-            "answer": "Lobo occipital"
+            "answer": "Giro pós-central"
           },
           {
             "id": 54,
             "question": "/Cerebro/Geral/11.jpg",
             "type": "Image",
-            "answer": "Giro frontal superior"
+            "answer": "Lóbulo parietal superior"
           },
           {
             "id": 55,
             "question": "/Cerebro/Geral/12.jpg",
             "type": "Image",
-            "answer": "Sulco lateral"
+            "answer": "Lóbulo parietal inferior"
           },
           {
             "id": 56,
             "question": "/Cerebro/Geral/13.jpg",
             "type": "Image",
-            "answer": "Lobo frontal"
+            "answer": "Sulco lateral"
           },
           {
             "id": 57,
@@ -369,13 +369,13 @@
             "id": 58,
             "question": "/Cerebro/Geral/15.jpg",
             "type": "Image",
-            "answer": "Giro do cíngulo"
+            "answer": "Giro temporal superior"
           },
           {
             "id": 59,
             "question": "/Cerebro/Geral/16.jpg",
             "type": "Image",
-            "answer": "Lobo parietal"
+            "answer": "Giro temporal médio"
           },
           {
             "id": 60,
@@ -387,49 +387,49 @@
             "id": 61,
             "question": "/Cerebro/Geral/18.jpg",
             "type": "Image",
-            "answer": "Giro pré-central"
+            "answer": "Lobo occipital"
           },
           {
             "id": 62,
             "question": "/Cerebro/Geral/19.jpg",
             "type": "Image",
-            "answer": "Giro frontal médio"
+            "answer": "Giro angular"
           },
           {
             "id": 63,
             "question": "/Cerebro/Geral/20.jpg",
             "type": "Image",
-            "answer": "Cérebro"
+            "answer": "Lobo insular"
           },
           {
             "id": 64,
             "question": "/Cerebro/Geral/21.jpg",
             "type": "Image",
-            "answer": "Giro temporal superior"
+            "answer": "Giro longo da ínsula"
           },
           {
             "id": 65,
             "question": "/Cerebro/Geral/22.jpg",
             "type": "Image",
-            "answer": "Cérebro"
+            "answer": "Corpo caloso"
           },
           {
             "id": 66,
             "question": "/Cerebro/Geral/23.jpg",
             "type": "Image",
-            "answer": "Giro frontal inferior"
+            "answer": "Lobo límbico"
           },
           {
             "id": 67,
             "question": "/Cerebro/Geral/24.jpg",
             "type": "Image",
-            "answer": "Giro temporal médio"
+            "answer": "Giro do cíngulo"
           },
           {
             "id": 68,
             "question": "/Cerebro/Geral/25.jpg",
             "type": "Image",
-            "answer": "Lobo límbico"
+            "answer": "Giro parahipocampal"
           },
           {
             "id": 69,
@@ -3533,205 +3533,205 @@
         "cards": [
           {
             "id": 569,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_1.jpg",
+            "question": "/Cerebelo/CortexCerebelar/1.jpg",
             "type": "Image",
             "answer": "Lobo anterior do cerebelo"
           },
           {
             "id": 570,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_2.jpg",
+            "question": "/Cerebelo/CortexCerebelar/2.jpg",
             "type": "Image",
             "answer": "Óvula do vérmis"
           },
           {
             "id": 571,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_3.jpg",
+            "question": "/Cerebelo/CortexCerebelar/3.jpg",
             "type": "Image",
             "answer": "Pirâmide do vérmis"
           },
           {
             "id": 572,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_4.jpg",
+            "question": "/Cerebelo/CortexCerebelar/4.jpg",
             "type": "Image",
             "answer": "Lóbulo semilunar superior"
           },
           {
             "id": 573,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_5.jpg",
+            "question": "/Cerebelo/CortexCerebelar/5.jpg",
             "type": "Image",
             "answer": "Lóbulo flóculo-nodular"
           },
           {
             "id": 574,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_6.jpg",
+            "question": "/Cerebelo/CortexCerebelar/6.jpg",
             "type": "Image",
             "answer": "Tenda do Cerebelo"
           },
           {
             "id": 575,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_7.jpg",
+            "question": "/Cerebelo/CortexCerebelar/7.jpg",
             "type": "Image",
             "answer": "Pedúnculo cerebelar superior"
           },
           {
             "id": 576,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_8.jpg",
+            "question": "/Cerebelo/CortexCerebelar/8.jpg",
             "type": "Image",
             "answer": "Lóbulo anterior do cerebelo"
           },
           {
             "id": 577,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_9.jpg",
+            "question": "/Cerebelo/CortexCerebelar/9.jpg",
             "type": "Image",
             "answer": "Véu medular superior"
           },
           {
             "id": 578,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_10.jpg",
+            "question": "/Cerebelo/CortexCerebelar/10.jpg",
             "type": "Image",
             "answer": "Língula do cerebelo"
           },
           {
             "id": 579,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_11.jpg",
+            "question": "/Cerebelo/CortexCerebelar/11.jpg",
             "type": "Image",
             "answer": "Pedúnculo cereblar médio"
           },
           {
             "id": 580,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_12.jpg",
+            "question": "/Cerebelo/CortexCerebelar/12.jpg",
             "type": "Image",
             "answer": "Túber do vérmis"
           },
           {
             "id": 581,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_13.jpg",
+            "question": "/Cerebelo/CortexCerebelar/13.jpg",
             "type": "Image",
             "answer": "Lóbulo quadrangular anterior do cerebelo"
           },
           {
             "id": 582,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_14.jpg",
+            "question": "/Cerebelo/CortexCerebelar/14.jpg",
             "type": "Image",
             "answer": "Declive"
           },
           {
             "id": 583,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_15.jpg",
+            "question": "/Cerebelo/CortexCerebelar/15.jpg",
             "type": "Image",
             "answer": "Lóbulo semilunar inferior"
           },
           {
             "id": 584,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_16.jpg",
+            "question": "/Cerebelo/CortexCerebelar/16.jpg",
             "type": "Image",
             "answer": "Cúlmen"
           },
           {
             "id": 585,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_17.jpg",
+            "question": "/Cerebelo/CortexCerebelar/17.jpg",
             "type": "Image",
             "answer": "Fissura horizontal do cerebelo"
           },
           {
             "id": 586,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_18.jpg",
+            "question": "/Cerebelo/CortexCerebelar/18.jpg",
             "type": "Image",
             "answer": "Tenda do cerebelo"
           },
           {
             "id": 587,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_19.jpg",
+            "question": "/Cerebelo/CortexCerebelar/19.jpg",
             "type": "Image",
             "answer": "Tonsila do cerebelo"
           },
           {
             "id": 588,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_20.jpg",
+            "question": "/Cerebelo/CortexCerebelar/20.jpg",
             "type": "Image",
             "answer": "Cerebelo"
           },
           {
             "id": 589,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_21.jpg",
+            "question": "/Cerebelo/CortexCerebelar/21.jpg",
             "type": "Image",
             "answer": "Pedúnculo cerebelar inferior"
           },
           {
             "id": 590,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_22.jpg",
+            "question": "/Cerebelo/CortexCerebelar/22.jpg",
             "type": "Image",
             "answer": "Lobo posterior do cerebelo"
           },
           {
             "id": 591,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_23.jpg",
+            "question": "/Cerebelo/CortexCerebelar/23.jpg",
             "type": "Image",
             "answer": "Fissura retrotonsilar do cerebelo"
           },
           {
             "id": 592,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_24.jpg",
+            "question": "/Cerebelo/CortexCerebelar/24.jpg",
             "type": "Image",
             "answer": "Incisura do tentório"
           },
           {
             "id": 593,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_25.jpg",
+            "question": "/Cerebelo/CortexCerebelar/25.jpg",
             "type": "Image",
             "answer": "Lóbulo quadrangular posterior do cerebelo"
           },
           {
             "id": 594,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_26.jpg",
+            "question": "/Cerebelo/CortexCerebelar/26.jpg",
             "type": "Image",
             "answer": "Lóbulo biventre do cerebelo"
           },
           {
             "id": 595,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_27.jpg",
+            "question": "/Cerebelo/CortexCerebelar/27.jpg",
             "type": "Image",
             "answer": "Véu medular inferior"
           },
           {
             "id": 596,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_28.jpg",
+            "question": "/Cerebelo/CortexCerebelar/28.jpg",
             "type": "Image",
             "answer": "Folium"
           },
           {
             "id": 597,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_29.jpg",
+            "question": "/Cerebelo/CortexCerebelar/29.jpg",
             "type": "Image",
             "answer": "Quarto ventrículo"
           },
           {
             "id": 598,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_30.jpg",
+            "question": "/Cerebelo/CortexCerebelar/30.jpg",
             "type": "Image",
             "answer": "Lóbulo central do vérmis"
           },
           {
             "id": 599,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_31.jpg",
+            "question": "/Cerebelo/CortexCerebelar/31.jpg",
             "type": "Image",
             "answer": "Flóculos"
           },
           {
             "id": 590,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_32.jpg",
+            "question": "/Cerebelo/CortexCerebelar/32.jpg",
             "type": "Image",
             "answer": "Fissura cerebelar primária"
           },
           {
             "id": 591,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_33.jpg",
+            "question": "/Cerebelo/CortexCerebelar/33.jpg",
             "type": "Image",
             "answer": "Vérmis"
           },
           {
             "id": 592,
-            "question": "/Cerebelo/CortexCerebelar/Cortex_cerebelar_34.jpg",
+            "question": "/Cerebelo/CortexCerebelar/34.jpg",
             "type": "Image",
             "answer": "Nódulo do vérmis"
           }
@@ -3742,82 +3742,82 @@
         "name": "Núcleos do cerebelo",
         "cards": [
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_1.jpg",
+            "question": "/Cerebelo/CortexCerebelar/1.jpg",
             "type": "Image",
             "answer": "Córtex cerebelar"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_2.jpg",
+            "question": "/Cerebelo/CortexCerebelar/2.jpg",
             "type": "Image",
             "answer": "Substância branca do cerebelo"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_3.jpg",
+            "question": "/Cerebelo/CortexCerebelar/3.jpg",
             "type": "Image",
             "answer": "Zona medial do cerebelo"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_4.jpg",
+            "question": "/Cerebelo/CortexCerebelar/4.jpg",
             "type": "Image",
             "answer": "Zona intermediária do cerebelo"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_5.jpg",
+            "question": "/Cerebelo/CortexCerebelar/5.jpg",
             "type": "Image",
             "answer": "Zona lateral do cerebelo"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_6.jpg",
+            "question": "/Cerebelo/CortexCerebelar/6.jpg",
             "type": "Image",
             "answer": "Núcleo fastigial"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_7.jpg",
+            "question": "/Cerebelo/CortexCerebelar/7.jpg",
             "type": "Image",
             "answer": "Núcleo emboliforme"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_8.jpg",
+            "question": "/Cerebelo/CortexCerebelar/8.jpg",
             "type": "Image",
             "answer": "Núcleo globoso"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_9.jpg",
+            "question": "/Cerebelo/CortexCerebelar/9.jpg",
             "type": "Image",
             "answer": "Núcleo denteado"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_10.jpg",
+            "question": "/Cerebelo/CortexCerebelar/10.jpg",
             "type": "Image",
             "answer": "Decussação do pedúnculo cerebelar superior"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_11.jpg",
+            "question": "/Cerebelo/CortexCerebelar/11.jpg",
             "type": "Image",
             "answer": "Fascículo longitudinal medial"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_12.jpg",
+            "question": "/Cerebelo/CortexCerebelar/12.jpg",
             "type": "Image",
             "answer": "Quarto ventrículo"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_13.jpg",
+            "question": "/Cerebelo/CortexCerebelar/13.jpg",
             "type": "Image",
             "answer": "Véu medular superior"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_14.jpg",
+            "question": "/Cerebelo/CortexCerebelar/14.jpg",
             "type": "Image",
             "answer": "Pedúnculo cerebelar superior"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_15.jpg",
+            "question": "/Cerebelo/CortexCerebelar/15.jpg",
             "type": "Image",
             "answer": "Vérmis"
           },
           {
-            "question": "/Cerebelo/CortexCerebelar/Nucleos_do_cerebelo_16.jpg",
+            "question": "/Cerebelo/CortexCerebelar/16.jpg",
             "type": "Image",
             "answer": "Língula do cerebelo"
           }
