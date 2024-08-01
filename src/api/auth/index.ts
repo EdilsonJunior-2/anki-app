@@ -9,4 +9,8 @@ const login = async (code: string): Promise<Student> => {
 	return student;
 }
 
-export { login };
+const keepConnection = () =>
+	api.get("/keepConnection");
+
+
+export { login, keepConnection };

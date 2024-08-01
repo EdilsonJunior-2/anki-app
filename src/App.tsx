@@ -4,10 +4,16 @@ import "./assets/styles.scss";
 import { StudyProvider } from "./contexts/study";
 import { StudentProvider } from "./contexts/student";
 import Pages from "./pages";
+import { keepConnection } from "./api/auth";
 
 function App() {
 
 	useEffect(() => {
+		keepConnection();
+
+		setInterval(() => {
+			keepConnection();
+		}, 270000);
 
 		// const previousInterval = 1;
 		// const rating = 1;
