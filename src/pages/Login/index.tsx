@@ -1,15 +1,21 @@
-import { Input } from "antd";
 import { useContext, useEffect, useState } from "react";
+import { Input } from "antd";
+
+import { AuthApi } from "@api";
+import { StudentContext } from "@context";
+import { Student } from "@class";
+
 import "./styles.scss";
-import { login } from "../../api/auth";
-import StudentContext from "../../contexts/student";
-import Student from "../../classes/student";
 
 export default () => {
+
 	const [code, setCode] = useState<string>("");
 	const [error, setError] = useState<string | null>(null);
 	const [loading, setLoading] = useState<boolean>(false);
+
 	const { setStudent } = useContext(StudentContext);
+	const { login } = AuthApi;
+
 	useEffect(() => {
 		const user = window.sessionStorage.getItem("@user");
 		if (user)

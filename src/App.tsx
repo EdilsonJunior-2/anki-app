@@ -1,20 +1,12 @@
 import "./App.css";
 import { useEffect } from "react";
 import "./assets/styles.scss";
-import { StudyProvider } from "./contexts/study";
-import { StudentProvider } from "./contexts/student";
+import { Providers } from "@context";
 import Pages from "./pages";
-import { keepConnection } from "./api/auth";
 
 function App() {
 
 	useEffect(() => {
-		keepConnection();
-
-		setInterval(() => {
-			keepConnection();
-		}, 270000);
-
 		// const previousInterval = 1;
 		// const rating = 1;
 		// const meter = 0;
@@ -113,11 +105,15 @@ function App() {
 	}, []);
 
 	return (
-		<StudentProvider>
-			<StudyProvider>
-				<Pages />
-			</StudyProvider>
-		</StudentProvider>
+		<Providers.ThemeProvider>
+			<Providers.LoadingProvider>
+				<Providers.StudentProvider>
+					<Providers.StudyProvider>
+						<Pages />
+					</Providers.StudyProvider>
+				</Providers.StudentProvider>
+			</Providers.LoadingProvider>
+		</Providers.ThemeProvider>
 	);
 }
 

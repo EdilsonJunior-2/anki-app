@@ -13,6 +13,17 @@
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+    "baseUrl": "./src",
+    "paths": {
+      "@components": ["./commons/components/index.ts"],
+      "@class": ["./commons/classes/index.ts"],
+      "@interface": ["./commons/interfaces/index.ts"],
+      "@api": ["./commons/api/index.ts"],
+      "@enums": ["./commons/enums/index.ts"],
+      "@context": ["./contexts/index.ts"],
+      "@utils": ["./utils/index.ts"],
+      "@assets": ["./assets/index.ts"]
+    },
 
     /* Linting */
     "strict": true,

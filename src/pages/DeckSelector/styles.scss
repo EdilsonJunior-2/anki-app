@@ -5,6 +5,7 @@
     &-item {
         .collapse-header {
             padding: .5rem !important;
+            font-weight: bold;
         }
     }
 
@@ -23,5 +24,21 @@
                 }
             }
         }
+    }
+}
+
+.chapter {
+    margin: 2rem 0;
+    border-top: 1px dashed white;
+}
+
+.deck-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
+    gap: 1rem;
+    margin-top: 2rem;
+
+    .deck-title {
+        margin-top: 0;
     }
 }

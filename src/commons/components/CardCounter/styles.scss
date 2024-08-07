@@ -1,0 +1,47 @@
+.card-counter-alerts {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-around;
+
+    p {
+        margin: 0;
+        font-size: .875rem;
+        font-weight: bold;
+
+        svg {
+            margin: 0 .125rem;
+        }
+    }
+
+    .new-cards-alert {
+        color: #4a90e2;
+        margin-right: .5rem;
+
+        svg {
+            path {
+                fill: #4a90e2;
+            }
+        }
+    }
+
+    .repeated-cards-alert {
+        color: #edb95e;
+
+        svg {
+            path {
+                fill: #edb95e;
+            }
+        }
+    }
+
+    .no-cards-alert {
+        color: #82dd55;
+
+        svg {
+            path {
+                fill: #82dd55;
+            }
+        }
+    }
+}

@@ -1,4 +1,4 @@
-import ProjectCard from "./CardClass";
+import ProjectCard from "./studentCard";
 
 class Deck {
     public type: string;

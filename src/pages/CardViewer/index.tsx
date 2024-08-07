@@ -1,16 +1,18 @@
 import { useContext, useState } from "react";
-import "./styles.scss"
+
+import { StudyContext, StudentContext } from "@context";
+import { QuestionType } from "@enums";
+import { StudentCard } from "@class";
+import { indexLoop } from "@utils";
+
 import { changeCardRating, sendNewRatings } from "../../spacedRepetition";
-import { indexLoop } from "../../utils";
-import StudyContext from "../../contexts/study";
-import { QuestionType } from "../../commons/enums/QuestionType";
-import StudentContext from "../../contexts/student";
+import "./styles.scss"
 
 export default () => {
 
 	const [answerFlag, showAnswer] = useState(false);
 	const [index, setIndex] = useState<number>(0);
-	const [newRatedCards, setNewRatedCards] = useState<any[]>([]);
+	const [newRatedCards, setNewRatedCards] = useState<StudentCard[]>([]);
 
 	const { study, letTheStudyBegin, cards, setCards } = useContext(StudyContext);
 	const { student } = useContext(StudentContext);
@@ -32,7 +34,10 @@ export default () => {
 				setIndex(0);
 			setCards(newCardArray);
 		}
-		else setIndex(indexLoop(newCardArray, index));
+		else {
+			cards[index].repetitions += 1;
+			setIndex(indexLoop(newCardArray, index))
+		};
 	}
 
 	return study ? cards.length > 0 ?

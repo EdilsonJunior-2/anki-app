@@ -1,10 +1,10 @@
 import { useContext } from "react";
-import StudyContext from "../contexts/study";
+
+import { StudyContext, StudentContext } from "@context";
+
 import CardViewer from "./CardViewer";
 import DeckSelector from "./DeckSelector";
-import StudentContext from "../contexts/student";
 import Login from "./Login";
-
 
 const Pages = () => {
 	const { study } = useContext(StudyContext);

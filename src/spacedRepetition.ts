@@ -1,4 +1,4 @@
-import api from "./api";
+import api from "@api";
 
 function changeCardRating(card: any, newRating: number) {
 	card.rating = newRating;
@@ -23,10 +23,10 @@ const sendNewRatings = (cards: any[], studentCode: string): Promise<boolean> =>
 const getCards = async (id: number, studentCode: string): Promise<any> =>
 	await api
 		.get(`/student/${studentCode}/deck/${id}`)
-		.then((res) => {
+		.then((res: any) => {
 			return res.data;
 		})
-		.catch((err) => {
+		.catch((err: any) => {
 			throw (err);
 		});
 

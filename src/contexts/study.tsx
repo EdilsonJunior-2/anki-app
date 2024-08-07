@@ -1,7 +1,9 @@
 import { ReactNode, createContext, useState } from "react";
+
+import { StudentCard } from "@class";
+
 import { getCards } from "../spacedRepetition";
 import DecksJson from "../assets/cards.json";
-import Card from "../classes/CardClass";
 
 const StudyContext = createContext<StudyContextData>({} as StudyContextData);
 
@@ -18,12 +20,12 @@ export const StudyProvider = ({ children }: {
                 .decks
                 .find(d => d.id === data.deck)
                 ?.cards as any[];
-            const cardsToStudy: any[] = [];
+            const cardsToStudy: StudentCard[] = [];
             deckCards.map((card: any) => {
                 data.cards.find((c: any) => {
                     if (c.cardId === card.id) {
                         cardsToStudy.push(
-                            new Card({ ...card, ...c })
+                            new StudentCard({ ...card, ...c, repetitions: 1 })
                         );
                         return true;
                     }

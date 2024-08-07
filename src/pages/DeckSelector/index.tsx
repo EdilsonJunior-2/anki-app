@@ -1,43 +1,58 @@
-import { CSSProperties, useContext } from "react";
-import DecksJson from "../../assets/cards.json";
-import { Collapse, CollapseProps } from "antd";
+import { useContext, useEffect } from "react";
+
+import { StudyContext, StudentContext } from "@context";
+import { CardCounter, ProjectCard } from "@components";
+import { StudentDeck } from "@interface";
+import { decks } from "@assets";
+import { DeckApi } from "@api";
+
 import "./styles.scss";
-import StudyContext from "../../contexts/study";
-import StudentContext from "../../contexts/student";
 
 export default () => {
-	const panelStyle: CSSProperties = {
-		color: "white",
-		width: "100%",
-		padding: ".5rem",
-	};
-	const { student } = useContext(StudentContext);
+	const { student, studentDecks, setStudentDecks } = useContext(StudentContext);
 	const { pickCards } = useContext(StudyContext);
+	const { studentDecksInfo } = DeckApi;
 
-	const items: (panelStyle: CSSProperties) => CollapseProps["items"] = (
-		panelStyle
-	) =>
-		DecksJson.map((category, index) => ({
-			key: index,
-			label: category.name,
-			children: (
-				<ul>
-					{category.decks.map((deck) => (
-						<li key={deck.id}>
-							<p>
-								{deck.name}
-							</p>
-							<button
-								onClick={() => pickCards(deck.id, student?.code as string)}>Estudar</button>
-						</li>
-					))}
-				</ul>
-			),
-			style: panelStyle,
-			headerClass: "collapse-header",
-		}));
-	return <main>
-		<h2>Bem vindo, {student?.name.split(" ", 2)[0]}</h2>
-		<Collapse ghost collapsible="header" items={items(panelStyle)} />
-	</main>;
+	useEffect(() => {
+		studentDecksInfo(student?.code as string).then((sd: StudentDeck[]) => {
+			setStudentDecks(sd);
+		});
+	}, []);
+
+	return (
+		<main>
+			<h2>Bem vindo, {student?.name.split(" ", 2)[0]}</h2>
+			{decks.map((category, index) => (
+				<article key={category.name} className="chapter">
+					<div>
+						<h3>
+							Capítulo {index + 1}: {category.name}
+						</h3>
+						<section className="deck-list">
+							{category.decks.map((deck, deckIndex) => (
+								<ProjectCard
+									key={deck.id}
+									title={`${index + 1}.${deckIndex + 1}: ${deck.name}`}
+									actions={[
+										<button
+											disabled={false}
+											onClick={() =>
+												pickCards(deck.id, student?.code as string)
+											}
+										>
+											Estudar
+										</button>,
+									]}
+								>
+									{studentDecks && (
+										<CardCounter deckDetails={studentDecks[deck.id - 1]} />
+									)}
+								</ProjectCard>
+							))}
+						</section>
+					</div>
+				</article>
+			))}
+		</main>
+	);
 };

@@ -1,4 +1,4 @@
-class Card {
+class StudentCard {
 	id: number;
 	question: string;
 	answer: string;
@@ -7,8 +7,9 @@ class Card {
 	schId: number;
 	meter: number;
 	interval: number;
+	repetitions: number;
 
-	constructor(data: Card) {
+	constructor(data: StudentCard) {
 		this.id = data.id;
 		this.question = data.question;
 		this.answer = data.answer;
@@ -17,7 +18,8 @@ class Card {
 		this.schId = data.schId;
 		this.meter = data.meter;
 		this.interval = data.interval;
+		this.repetitions = data.repetitions;
 	}
 }
 
-export default Card;
+export default StudentCard;

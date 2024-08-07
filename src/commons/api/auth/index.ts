@@ -1,5 +1,5 @@
 import api from "..";
-import Student from "../../classes/student";
+import { Student } from "@class";
 
 const login = async (code: string): Promise<Student> => {
 	const res = await api.post("/login", { code });
@@ -9,8 +9,4 @@ const login = async (code: string): Promise<Student> => {
 	return student;
 }
 
-const keepConnection = () =>
-	api.get("/keepConnection");
-
-
-export { login, keepConnection };
+export default { login };
