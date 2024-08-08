@@ -1,7 +1,7 @@
 import { useContext, useEffect } from "react";
 
 import { StudyContext, StudentContext } from "@context";
-import { CardCounter, ProjectCard } from "@components";
+import { CardCounter, ProjectCard, TopBar } from "@components";
 import { StudentDeck } from "@interface";
 import { decks } from "@assets";
 import { DeckApi } from "@api";
@@ -20,11 +20,11 @@ export default () => {
 	}, []);
 
 	return (
-		<main>
-			<h2>Bem vindo, {student?.name.split(" ", 2)[0]}</h2>
+		<main className="deck-selector-container">
+			<TopBar title={`Bem vindo, ${student?.name.split(" ", 2)[0]}`} />
 			{decks.map((category, index) => (
 				<article key={category.name} className="chapter">
-					<div>
+					<div id={`chapter-${index + 1}`}>
 						<h3>
 							Capítulo {index + 1}: {category.name}
 						</h3>

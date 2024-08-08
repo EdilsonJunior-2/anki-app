@@ -3,7 +3,7 @@ import { ReactNode, createContext, useState } from "react";
 import { StudentCard } from "@class";
 
 import { getCards } from "../spacedRepetition";
-import DecksJson from "../assets/cards.json";
+import { decks } from "@assets";
 
 const StudyContext = createContext<StudyContextData>({} as StudyContextData);
 
@@ -16,7 +16,7 @@ export const StudyProvider = ({ children }: {
 
     async function pickCards(id: number, studentCode: string) {
         await getCards(id, studentCode).then((data) => {
-            const deckCards = DecksJson[data.cards[0].category - 1]
+            const deckCards = decks[data.cards[0].category - 1]
                 .decks
                 .find(d => d.id === data.deck)
                 ?.cards as any[];

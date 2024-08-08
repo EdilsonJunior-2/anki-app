@@ -1,4 +1,4 @@
 import CardCounter from "./CardCounter";
 import ProjectCard from "./ProjectCard";
-
-export { CardCounter, ProjectCard };
+import TopBar from "./TopBar";
+export { CardCounter, ProjectCard, TopBar };

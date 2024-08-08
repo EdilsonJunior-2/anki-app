@@ -10,6 +10,15 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => (
 					headerBg: "#2b2b2b",
 					colorBgContainer: "#2b2b2b",
 				},
+				Layout: {
+					headerBg: "#2b2b2b",
+					headerColor: "white",
+					headerPadding: "0 1rem"
+				},
+				Menu: {
+					itemBg: "#2b2b2b",
+					iconSize: 16,
+				}
 			},
 		}}
 	>
