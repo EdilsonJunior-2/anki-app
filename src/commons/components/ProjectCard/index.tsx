@@ -9,7 +9,7 @@ export default ({ title, children, actions }: ProjectCardProps) => (
 );
 
 interface ProjectCardProps {
-	title: string;
+	title: string | ReactNode;
 	children: ReactNode;
 	actions: ReactNode[];
 }

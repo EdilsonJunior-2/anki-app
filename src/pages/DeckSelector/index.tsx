@@ -1,6 +1,6 @@
 import { useContext, useEffect } from "react";
 
-import { StudyContext, StudentContext } from "@context";
+import { StudyContext, StudentContext, LoadingContext } from "@context";
 import { CardCounter, ProjectCard, TopBar } from "@components";
 import { StudentDeck } from "@interface";
 import { decks } from "@assets";
@@ -10,12 +10,20 @@ import "./styles.scss";
 
 export default () => {
 	const { student, studentDecks, setStudentDecks } = useContext(StudentContext);
+	const { setLoading } = useContext(LoadingContext);
 	const { pickCards } = useContext(StudyContext);
 	const { studentDecksInfo } = DeckApi;
 
+	const hasAnyCardToStudy = (
+		deck: StudentDeck[] | null,
+		index: number
+	): boolean => !!deck && deck[index].newCards + deck[index].repeatedCards > 0;
+
 	useEffect(() => {
+		setLoading(true);
 		studentDecksInfo(student?.code as string).then((sd: StudentDeck[]) => {
 			setStudentDecks(sd);
+			setLoading(false);
 		});
 	}, []);
 
@@ -35,9 +43,13 @@ export default () => {
 									title={`${index + 1}.${deckIndex + 1}: ${deck.name}`}
 									actions={[
 										<button
-											disabled={false}
+											disabled={!hasAnyCardToStudy(studentDecks, deck.id - 1)}
 											onClick={() =>
-												pickCards(deck.id, student?.code as string)
+												pickCards(
+													deck.id,
+													student?.code as string,
+													`${index + 1}.${deckIndex + 1}: ${deck.name}`
+												)
 											}
 										>
 											Estudar

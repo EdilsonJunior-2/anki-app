@@ -26,7 +26,7 @@ a:hover {
 p,
 span,
 li::marker {
-  color: #cccccc;
+  color: white;
 }
 
 svg {
@@ -65,6 +65,11 @@ button:hover {
 button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
+}
+
+button:disabled {
+  opacity: 0.7;
+  cursor: not-allowed;
 }
 
 @media (prefers-color-scheme: light) {

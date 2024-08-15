@@ -6,15 +6,16 @@ import { StudentCard } from "@class";
 import { indexLoop } from "@utils";
 
 import { changeCardRating, sendNewRatings } from "../../spacedRepetition";
-import "./styles.scss"
+import "./styles.scss";
+import { Skeleton } from "antd";
+import { ProjectCard } from "@components";
 
 export default () => {
-
 	const [answerFlag, showAnswer] = useState(false);
 	const [index, setIndex] = useState<number>(0);
 	const [newRatedCards, setNewRatedCards] = useState<StudentCard[]>([]);
 
-	const { study, letTheStudyBegin, cards, setCards } = useContext(StudyContext);
+	const { letTheStudyBegin, cards, setCards, currentChapter } = useContext(StudyContext);
 	const { student } = useContext(StudentContext);
 
 	function timeToRest() {
@@ -30,34 +31,53 @@ export default () => {
 		if (cards[index].rating !== 4) {
 			setNewRatedCards([...newRatedCards, cards[index]]);
 			newCardArray.splice(index, 1);
-			if (index >= newCardArray.length)
-				setIndex(0);
+			if (index >= newCardArray.length) setIndex(0);
 			setCards(newCardArray);
-		}
-		else {
+		} else {
 			cards[index].repetitions += 1;
-			setIndex(indexLoop(newCardArray, index))
-		};
+			setIndex(indexLoop(newCardArray, index));
+		}
 	}
 
-	return study ? cards.length > 0 ?
-		<main className="card-viewer">
-			{cards[index].type === `${QuestionType.Image}` ? <img src={cards[index].question} /> : <p>{cards[index].question}</p>}
-			{answerFlag ? (
-				<div className="card-viewer-answer">
-					<p>Resposta: <span>{cards[index].answer}</span></p>
-					<div className="card-viewer-rating-options">
-						<button onClick={() => updateRating(4)}>De novo</button>
-						<button onClick={() => updateRating(3)}>Difícil</button>
-						<button onClick={() => updateRating(2)}>Médio</button>
-						<button onClick={() => updateRating(1)}>Fácil</button>
-					</div>
-				</div>
-			) : <button onClick={() => showAnswer(true)}>Ver resposta</button>}
-		</main>
-		: <main>
-			<p>todos os cartões completos</p>
+	return <main className="card-viewer">
+		<h3>Capítulo {currentChapter}</h3>
+		{cards.length > 0 ? (
+			<>
+				<ProjectCard
+					key={cards[index].type}
+					title={
+						cards[index].type === `${QuestionType.Image}` ? (
+							<>
+								<p>Identifique a parte destacada em verde:</p>
+								<img src={cards[index].question} /></>
+						) : (
+							<p>{cards[index].question}</p>
+						)
+					}
+					actions={answerFlag ?
+						[<button onClick={() => updateRating(4)}>De novo</button>,
+						<button onClick={() => updateRating(3)}>Difícil</button>,
+						<button onClick={() => updateRating(2)}>Médio</button>,
+						<button onClick={() => updateRating(1)}>Fácil</button>]
+						: [
+							<button onClick={() => showAnswer(true)}>Ver resposta</button>
+						]}
+				>
+					<p className="card-answer">
+						Resposta:
+						<Skeleton
+							loading={!answerFlag}
+							title={false}
+							paragraph={{ rows: 1, width: 128 }}
+						>
+							<span>{cards[index].answer}</span>
+						</Skeleton>
+					</p>
+				</ProjectCard>
+			</>
+		) : (<>
+			<p>Todos os cartões da sessão estudados</p>
 			<button onClick={timeToRest}>Voltar</button>
-		</main>
-		: <></>;
+		</>
+		)}</main>
 };

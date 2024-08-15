@@ -11,16 +11,18 @@ export const StudyProvider = ({ children }: {
     children: ReactNode
 }) => {
 
-    const [cards, setCards] = useState<any[]>([]);
+    const [cards, setCards] = useState<StudentCard[]>([]);
+    const [currentChapter, setCurrentChapter] = useState<string>("");
     const [study, letTheStudyBegin] = useState<boolean>(false);
 
-    async function pickCards(id: number, studentCode: string) {
+    async function pickCards(id: number, studentCode: string, chapter: string) {
         await getCards(id, studentCode).then((data) => {
             const deckCards = decks[data.cards[0].category - 1]
                 .decks
                 .find(d => d.id === data.deck)
                 ?.cards as any[];
             const cardsToStudy: StudentCard[] = [];
+            setCurrentChapter(chapter);
             deckCards.map((card: any) => {
                 data.cards.find((c: any) => {
                     if (c.cardId === card.id) {
@@ -38,7 +40,7 @@ export const StudyProvider = ({ children }: {
     }
 
     return (
-        <StudyContext.Provider value={{ study, letTheStudyBegin, cards, setCards, pickCards }}>
+        <StudyContext.Provider value={{ study, letTheStudyBegin, cards, setCards, pickCards, currentChapter }}>
             {children}
         </StudyContext.Provider>
     )
@@ -51,6 +53,7 @@ interface StudyContextData {
     letTheStudyBegin: (study: boolean) => void;
     cards: any[];
     setCards: (cards: any[]) => void;
-    pickCards: (id: number, studentCode: string) => void;
+    pickCards: (id: number, studentCode: string, chapter: string) => void;
+    currentChapter: string;
     // updateRating(rating: number): void;
 }

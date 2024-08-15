@@ -1,9 +1,11 @@
 import { useContext, useEffect, useState } from "react";
-import { Input } from "antd";
+import { Input, Spin } from "antd";
 
 import { AuthApi } from "@api";
 import { StudentContext } from "@context";
 import { Student } from "@class";
+
+import { LoadingOutlined } from "@ant-design/icons";
 
 import "./styles.scss";
 
@@ -48,9 +50,12 @@ export default () => {
 					onChange={(e) => setCode(e.target.value)}
 				/>
 				{error && <p>{error}</p>}
-				<button type="button" disabled={loading} onClick={log}>
-					Entrar
-				</button>
+				<div>
+					<button className="login-button" type="button" disabled={loading} onClick={log}>
+						Entrar
+					</button>
+					{loading && <Spin indicator={<LoadingOutlined spin />} size="large" />}
+				</div>
 			</article>
 		</main>
 	);

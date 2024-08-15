@@ -4,13 +4,26 @@
     align-items: center;
     height: 100%;
 
+    .project-card {
+        min-width: 20rem;
+        max-width: 30rem;
+    }
+
+    .ant-card-body {
+        height: auto !important;
+    }
+
     img {
-        margin-bottom: 2rem;
+        margin: 1rem 0;
         width: 25rem;
     }
 
     button {
         width: 10rem;
+    }
+
+    li {
+        height: 100% !important;
     }
 
     &-answer {
@@ -37,5 +50,14 @@
                 width: 100%;
             }
         }
+    }
+}
+
+.card-answer {
+    display: flex;
+    margin: 0;
+
+    span {
+        margin-left: .25rem;
     }
 }

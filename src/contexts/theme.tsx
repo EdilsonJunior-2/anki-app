@@ -18,6 +18,12 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => (
 				Menu: {
 					itemBg: "#2b2b2b",
 					iconSize: 16,
+				},
+				Modal: {
+					contentBg: "#2b2b2b",
+					headerBg: "#2b2b2b",
+					titleColor: "white",
+					titleFontSize: 20
 				}
 			},
 		}}

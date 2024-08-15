@@ -8,3 +8,18 @@ html {
   scroll-padding-top: 84px;
   scroll-behavior: smooth;
 }
+
+.ant-skeleton {
+  margin-left: .5rem;
+  height: 100%;
+}
+
+.ant-skeleton-paragraph {
+  margin: 0;
+  height: 1.5rem;
+
+  li {
+    background: #aaaaaa22 !important;
+    height: 1.5rem;
+  }
+}
