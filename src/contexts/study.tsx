@@ -17,6 +17,7 @@ export const StudyProvider = ({ children }: {
 
     async function pickCards(id: number, studentCode: string, chapter: string) {
         await getCards(id, studentCode).then((data) => {
+            console.log(data)
             const deckCards = decks[data.cards[0].category - 1]
                 .decks
                 .find(d => d.id === data.deck)

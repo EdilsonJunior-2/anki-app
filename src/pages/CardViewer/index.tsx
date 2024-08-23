@@ -45,6 +45,7 @@ export default () => {
 			<>
 				<ProjectCard
 					key={cards[index].type}
+					actionColumns={answerFlag ? 2 : 1}
 					title={
 						cards[index].type === `${QuestionType.Image}` ? (
 							<>

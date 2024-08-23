@@ -25,5 +25,5 @@ interface StudentData {
     student: Student | null;
     setStudent: (s: Student) => void;
     studentDecks: StudentDeck[] | null;
-    setStudentDecks: (sd: StudentDeck[]) => void;
+    setStudentDecks: (sd: StudentDeck[] | null) => void;
 }

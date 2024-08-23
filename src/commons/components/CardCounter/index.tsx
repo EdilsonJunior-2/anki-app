@@ -2,14 +2,15 @@ import { BulbOutlined, CheckOutlined, InfoCircleOutlined } from "@ant-design/ico
 import { StudentDeck } from "@interface";
 import "./styles.scss";
 import { useContext } from "react";
-import { LoadingContext } from "@context";
+import { LoadingContext, StudentContext } from "@context";
 import { Skeleton } from "antd";
 export default (props: CardCounterProps) => {
 	const { deckDetails } = props;
 	const { loading } = useContext(LoadingContext);
+	const { studentDecks } = useContext(StudentContext);
 	return (
 		<div className="card-counter-alerts">
-			<Skeleton active loading={loading} paragraph={{ rows: 1 }} title={false} />
+			<Skeleton active loading={loading && !studentDecks} paragraph={{ rows: 1 }} title={false} />
 			{deckDetails.newCards > 0 &&
 				<p className="new-cards-alert">
 					<BulbOutlined width="1rem" height="1rem" />

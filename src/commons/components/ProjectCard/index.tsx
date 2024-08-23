@@ -1,11 +1,12 @@
-import { Card } from "antd";
 import { ReactNode } from "react";
+import StyledCard, { StyledCardProps } from "./styles";
 import "./styles.scss";
 
-export default ({ title, children, actions }: ProjectCardProps) => (
-	<Card className="project-card" title={title} actions={actions}>
+export default ({ children, ...props }: ProjectCardProps & StyledCardProps) => (
+
+	<StyledCard {...props}>
 		{children}
-	</Card>
+	</StyledCard>
 );
 
 interface ProjectCardProps {

@@ -20,11 +20,12 @@ export default () => {
 	): boolean => !!deck && deck[index].newCards + deck[index].repeatedCards > 0;
 
 	useEffect(() => {
+		setStudentDecks(null);
 		setLoading(true);
-		studentDecksInfo(student?.code as string).then((sd: StudentDeck[]) => {
+		setTimeout(() => studentDecksInfo(student?.code as string).then((sd: StudentDeck[]) => {
 			setStudentDecks(sd);
 			setLoading(false);
-		});
+		}), 1000);
 	}, []);
 
 	return (
@@ -41,6 +42,7 @@ export default () => {
 								<ProjectCard
 									key={deck.id}
 									title={`${index + 1}.${deckIndex + 1}: ${deck.name}`}
+									bodyHeight="5rem"
 									actions={[
 										<button
 											disabled={!hasAnyCardToStudy(studentDecks, deck.id - 1)}

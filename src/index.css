@@ -55,11 +55,12 @@ button {
   font-family: inherit;
   background-color: #1a1a1a;
   cursor: pointer;
-  transition: border-color 0.25s;
+  transition: 300ms;
 }
 
-button:hover {
+button:not(:disabled):hover {
   border-color: #646cff;
+  background-color: #4d4d4d;
 }
 
 button:focus,
