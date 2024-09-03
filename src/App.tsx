@@ -2,6 +2,7 @@ import "./App.css";
 import { useEffect } from "react";
 import "./assets/styles.scss";
 import { Providers } from "@context";
+import Themes from "@themes";
 import Pages from "./pages";
 
 function App() {
@@ -105,15 +106,18 @@ function App() {
 	}, []);
 
 	return (
-		<Providers.ThemeProvider>
-			<Providers.LoadingProvider>
-				<Providers.StudentProvider>
-					<Providers.StudyProvider>
-						<Pages />
-					</Providers.StudyProvider>
-				</Providers.StudentProvider>
-			</Providers.LoadingProvider>
-		</Providers.ThemeProvider>
+		<Themes.BaseThemeProvider>
+			<Themes.AntThemeProvider>
+				<Providers.LoadingProvider>
+					<Providers.StudentProvider>
+						<Providers.StudyProvider>
+							<Pages />
+						</Providers.StudyProvider>
+					</Providers.StudentProvider>
+				</Providers.LoadingProvider>
+			</Themes.AntThemeProvider>
+		</Themes.BaseThemeProvider>
+
 	);
 }
 

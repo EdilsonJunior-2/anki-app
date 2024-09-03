@@ -23,7 +23,8 @@
       "@context": ["./contexts/index.ts"],
       "@utils": ["./utils/index.ts"],
       "@assets": ["./assets/index.ts"],
-      "@types": ["./commons/types/index.ts"]
+      "@types": ["./commons/types/index.ts"],
+      "@themes": ["./themes/index.ts"]
     },
 
     /* Linting */

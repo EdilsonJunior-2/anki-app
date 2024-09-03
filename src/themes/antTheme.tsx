@@ -1,7 +1,7 @@
 import { ConfigProvider } from "antd";
 import { ReactNode } from "react";
 
-const ThemeProvider = ({ children }: ThemeProviderProps) => (
+const AntThemeProvider = ({ children }: AntThemeProviderProps) => (
 	<ConfigProvider
 		theme={{
 			components: {
@@ -33,8 +33,8 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => (
 	</ConfigProvider>
 );
 
-interface ThemeProviderProps {
+interface AntThemeProviderProps {
 	children: ReactNode;
 }
 
-export default ThemeProvider;
+export default AntThemeProvider;
