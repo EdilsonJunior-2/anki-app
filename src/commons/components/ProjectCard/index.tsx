@@ -1,6 +1,5 @@
 import { ReactNode } from "react";
 import StyledCard, { StyledCardProps } from "./styles";
-import "./styles.scss";
 
 export default ({ children, ...props }: ProjectCardProps & StyledCardProps) => (
 

@@ -1,5 +1,2 @@
 import { StudentDeck } from "./StudentDeck";
-
-export type {
-    StudentDeck
-}
+export type { StudentDeck };

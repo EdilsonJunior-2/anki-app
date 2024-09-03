@@ -15,7 +15,7 @@
     "@jridgewell/gen-mapping" "^0.3.5"
     "@jridgewell/trace-mapping" "^0.3.24"
 
-"@ant-design/colors@^7.0.0", "@ant-design/colors@^7.0.2":
+"@ant-design/colors@^7.0.0", "@ant-design/colors@^7.0.2", "@ant-design/colors@^7.1.0":
   version "7.1.0"
   resolved "https://registry.yarnpkg.com/@ant-design/colors/-/colors-7.1.0.tgz#60eadfa2e21871d8948dac5d50b9f056062f8af3"
   integrity sha512-MMoDGWn1y9LdQJQSHiCC20x3uZ3CwQnv9QMz6pCmJOrqdgM9YxsoVVY0wtrdXbmfSgnV0KNk6zi09NAhMR2jvg==

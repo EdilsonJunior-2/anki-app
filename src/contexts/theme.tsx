@@ -24,7 +24,8 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => (
 					headerBg: "#2b2b2b",
 					titleColor: "white",
 					titleFontSize: 20
-				}
+				},
+
 			},
 		}}
 	>

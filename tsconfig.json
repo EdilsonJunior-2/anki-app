@@ -22,7 +22,8 @@
       "@enums": ["./commons/enums/index.ts"],
       "@context": ["./contexts/index.ts"],
       "@utils": ["./utils/index.ts"],
-      "@assets": ["./assets/index.ts"]
+      "@assets": ["./assets/index.ts"],
+      "@types": ["./commons/types/index.ts"]
     },
 
     /* Linting */

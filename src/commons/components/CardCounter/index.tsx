@@ -1,35 +1,56 @@
-import { BulbOutlined, CheckOutlined, InfoCircleOutlined } from "@ant-design/icons";
+import {
+	BulbOutlined,
+	CheckOutlined,
+	InfoCircleOutlined,
+} from "@ant-design/icons";
 import { StudentDeck } from "@interface";
-import "./styles.scss";
 import { useContext } from "react";
 import { LoadingContext, StudentContext } from "@context";
 import { Skeleton } from "antd";
+import StyledCardCounter from "./styles";
+import ProjectIcon from "../ProjectIcon";
+import ProjectText from "../ProjectText";
+
 export default (props: CardCounterProps) => {
 	const { deckDetails } = props;
 	const { loading } = useContext(LoadingContext);
 	const { studentDecks } = useContext(StudentContext);
 	return (
-		<div className="card-counter-alerts">
-			<Skeleton active loading={loading && !studentDecks} paragraph={{ rows: 1 }} title={false} />
-			{deckDetails.newCards > 0 &&
-				<p className="new-cards-alert">
-					<BulbOutlined width="1rem" height="1rem" />
+		<StyledCardCounter>
+			<Skeleton
+				active
+				loading={loading && !studentDecks}
+				paragraph={{ rows: 1 }}
+				title={false}
+			/>
+			{deckDetails.newCards > 0 && (
+				<ProjectText type="info" variant="light" bold>
+					<ProjectIcon
+						component={BulbOutlined}
+						type="info"
+						variant="light"
+						size="1rem"
+					/>
 					{deckDetails.newCards} novos cartões a serem estudados
-				</p>
-			}
-			{deckDetails.repeatedCards > 0 &&
-				<p className="repeated-cards-alert">
-					<InfoCircleOutlined width="1rem" height="1rem" />
+				</ProjectText>
+			)}
+			{deckDetails.repeatedCards > 0 && (
+				<ProjectText type="warning" bold>
+					<ProjectIcon
+						component={InfoCircleOutlined}
+						type="warning"
+						size="1rem"
+					/>
 					{deckDetails.repeatedCards} cartões a serem revisados
-				</p>
-			}{
-				deckDetails.repeatedCards + deckDetails.newCards == 0 &&
-				<p className="no-cards-alert">
-					<CheckOutlined width="1rem" height="1rem" />
+				</ProjectText>
+			)}
+			{deckDetails.repeatedCards + deckDetails.newCards == 0 && (
+				<ProjectText type="success" bold>
+					<ProjectIcon component={CheckOutlined} type="success" size="1rem" />
 					Não existem cartões a serem estudados nesse baralho, parabéns!
-				</p>
-			}
-		</div>
+				</ProjectText>
+			)}
+		</StyledCardCounter>
 	);
 };
 
