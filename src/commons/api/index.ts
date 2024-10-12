@@ -4,7 +4,7 @@ import AuthApi from "./auth";
 
 const api = axios.create({
   // "https://terrible-clementia-thatsmytcc-10e74d42.koyeb.app/",
-  baseURL: "http://localhost:3000",
+  baseURL: "terrible-clementia-thatsmytcc-10e74d42.koyeb.app/",
 });
 
 export default api;
