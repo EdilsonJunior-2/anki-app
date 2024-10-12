@@ -1,51 +1,49 @@
 import { useContext, useEffect } from "react";
 
 import { StudyContext, StudentContext, LoadingContext } from "@context";
-import { CardCounter, ProjectCard, TopBar } from "@components";
-import { StudentDeck } from "@interface";
-import { decks } from "@assets";
+import { CardCounter, ProjectCard, ProjectText, TopBar } from "@components";
+import { Chapter } from "@class";
 import { DeckApi } from "@api";
 
 import "./styles.scss";
 
 export default () => {
-	const { student, studentDecks, setStudentDecks } = useContext(StudentContext);
+	const { student, chapters, setChapters } = useContext(StudentContext);
 	const { setLoading } = useContext(LoadingContext);
 	const { pickCards } = useContext(StudyContext);
 	const { studentDecksInfo } = DeckApi;
 
-	const hasAnyCardToStudy = (
-		deck: StudentDeck[] | null,
-		index: number
-	): boolean => !!deck && deck[index].newCards + deck[index].repeatedCards > 0;
-
 	useEffect(() => {
-		setStudentDecks(null);
+		setChapters(null);
 		setLoading(true);
-		setTimeout(() => studentDecksInfo(student?.code as string).then((sd: StudentDeck[]) => {
-			setStudentDecks(sd);
-			setLoading(false);
-		}), 1000);
+		setTimeout(
+			() =>
+				studentDecksInfo(student?.code as string).then((sd: Chapter[]) => {
+					setChapters(sd);
+					setLoading(false);
+				}),
+			1000
+		);
 	}, []);
 
 	return (
 		<main className="deck-selector-container">
 			<TopBar title={`Bem vindo, ${student?.name.split(" ", 2)[0]}`} />
-			{decks.map((category, index) => (
-				<article key={category.name} className="chapter">
+			{chapters?.map((chapter, index) => (
+				<article key={chapter.name} className="chapter">
 					<div id={`chapter-${index + 1}`}>
-						<h3>
-							Capítulo {index + 1}: {category.name}
-						</h3>
+						<ProjectText headerLevel={4} margin="1rem 0 0">
+							Capítulo {index + 1}: {chapter.name}
+						</ProjectText>
 						<section className="deck-list">
-							{category.decks.map((deck, deckIndex) => (
+							{chapter.decks.map((deck, deckIndex) => (
 								<ProjectCard
 									key={deck.id}
 									title={`${index + 1}.${deckIndex + 1}: ${deck.name}`}
 									bodyHeight="5rem"
 									actions={[
 										<button
-											disabled={!hasAnyCardToStudy(studentDecks, deck.id - 1)}
+											disabled={deck.cardsData.hasAnyCardToStudy}
 											onClick={() =>
 												pickCards(
 													deck.id,
@@ -55,12 +53,10 @@ export default () => {
 											}
 										>
 											Estudar
-										</button>,
+										</button>
 									]}
 								>
-									{studentDecks && (
-										<CardCounter deckDetails={studentDecks[deck.id - 1]} />
-									)}
+									<CardCounter deckDetails={deck.cardsData} />
 								</ProjectCard>
 							))}
 						</section>

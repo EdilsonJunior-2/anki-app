@@ -1,10 +1,14 @@
 import { ReactNode } from "react";
-import StyledText, { StyledTextProps } from "./styles"
+import { StyledTitle, StyledText, StyledTitleProps } from "./styles";
 
-export default (({ children, ...props }: ProjectTextProps) => {
-    return <StyledText {...props}>{children}</StyledText>
-});
+export default ({ children, headerLevel, ...props }: ProjectTextProps) => {
+	return headerLevel ? (
+		<StyledTitle {...props} level={headerLevel}>{children}</StyledTitle>
+	) : (
+		<StyledText {...props}>{children}</StyledText>
+	);
+};
 
-interface ProjectTextProps extends StyledTextProps {
-    children: ReactNode;
+interface ProjectTextProps extends StyledTitleProps {
+	children: ReactNode;
 }

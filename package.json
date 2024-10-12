@@ -12,6 +12,8 @@
   "dependencies": {
     "@ant-design/colors": "^7.1.0",
     "@ant-design/icons": "^5.4.0",
+    "@itacorp/designsystem.base-theme": "^1.0.0",
+    "@testing-library/react": "^16.0.1",
     "@types/node": "^20.14.11",
     "antd": "^5.19.0",
     "axios": "^1.6.8",

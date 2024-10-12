@@ -3,7 +3,6 @@ import { ReactNode, createContext, useState } from "react";
 import { StudentCard } from "@class";
 
 import { getCards } from "../spacedRepetition";
-import { decks } from "@assets";
 
 const StudyContext = createContext<StudyContextData>({} as StudyContextData);
 
@@ -12,29 +11,16 @@ export const StudyProvider = ({ children }: {
 }) => {
 
     const [cards, setCards] = useState<StudentCard[]>([]);
-    const [currentChapter, setCurrentChapter] = useState<string>("");
+    const [currentChapter, setCurrentChapter] = useState<number>(0);
     const [study, letTheStudyBegin] = useState<boolean>(false);
 
-    async function pickCards(id: number, studentCode: string, chapter: string) {
+    async function pickCards(id: number, studentCode: string) {
         await getCards(id, studentCode).then((data) => {
             console.log(data)
-            const deckCards = decks[data.cards[0].category - 1]
-                .decks
-                .find(d => d.id === data.deck)
-                ?.cards as any[];
-            const cardsToStudy: StudentCard[] = [];
-            setCurrentChapter(chapter);
-            deckCards.map((card: any) => {
-                data.cards.find((c: any) => {
-                    if (c.cardId === card.id) {
-                        cardsToStudy.push(
-                            new StudentCard({ ...card, ...c, repetitions: 1 })
-                        );
-                        return true;
-                    }
-                    return false;
-                });
-            });
+            const cardsToStudy = data.cards.map((card: any) => (
+                new StudentCard({ ...card, repetitions: 1 })
+            ));
+            setCurrentChapter(data.deck)
             setCards(cardsToStudy);
             letTheStudyBegin(true);
         });
@@ -55,6 +41,6 @@ interface StudyContextData {
     cards: any[];
     setCards: (cards: any[]) => void;
     pickCards: (id: number, studentCode: string, chapter: string) => void;
-    currentChapter: string;
+    currentChapter: number;
     // updateRating(rating: number): void;
 }

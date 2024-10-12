@@ -1,19 +1,26 @@
 import Icon from "@ant-design/icons";
-import { color } from "assets/colors";
-import { ThemeTypes, VariantTypes } from "@types";
+import { ThemeFontSizes, ThemeTypes, ThemeVariants } from "@types";
 import styled from "styled-components";
+
 const StyledIcon = styled(Icon)<StyledIconProps>`
-  font-size: ${(props) => props.size || "1rem"};
+  font-size: ${({ size, theme }) => {
+    return size ? theme.font.size[size] : theme.font.size.default;
+  }};
   svg {
-    fill: ${(props) => color(props.type, props.variant)};
+    fill: ${({ type, variant, theme }) =>
+      type
+        ? variant
+          ? theme.color[type][variant].main
+          : theme.color[type].default.main
+        : theme.color.text};
   }
 `;
 
 interface StyledIconProps {
   component: any;
   type?: ThemeTypes;
-  variant?: VariantTypes;
-  size?: string;
+  variant?: ThemeVariants;
+  size?: ThemeFontSizes;
 }
 
 export default StyledIcon;

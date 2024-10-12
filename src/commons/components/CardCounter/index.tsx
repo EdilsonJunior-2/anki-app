@@ -3,50 +3,48 @@ import {
 	CheckOutlined,
 	InfoCircleOutlined,
 } from "@ant-design/icons";
-import { StudentDeck } from "@interface";
 import { useContext } from "react";
 import { LoadingContext, StudentContext } from "@context";
 import { Skeleton } from "antd";
 import StyledCardCounter from "./styles";
 import ProjectIcon from "../ProjectIcon";
 import ProjectText from "../ProjectText";
+import { CardsData } from "@class";
 
 export default (props: CardCounterProps) => {
 	const { deckDetails } = props;
 	const { loading } = useContext(LoadingContext);
-	const { studentDecks } = useContext(StudentContext);
+	const { chapters } = useContext(StudentContext);
 	return (
 		<StyledCardCounter>
 			<Skeleton
 				active
-				loading={loading && !studentDecks}
+				loading={loading && !chapters}
 				paragraph={{ rows: 1 }}
 				title={false}
 			/>
-			{deckDetails.newCards > 0 && (
-				<ProjectText type="info" variant="light" bold>
+			{deckDetails.new > 0 && (
+				<ProjectText type="info" variant="light" weight="bold">
 					<ProjectIcon
 						component={BulbOutlined}
 						type="info"
 						variant="light"
-						size="1rem"
 					/>
-					{deckDetails.newCards} novos cartões a serem estudados
+					{deckDetails.new} novos cartões a serem estudados
 				</ProjectText>
 			)}
-			{deckDetails.repeatedCards > 0 && (
-				<ProjectText type="warning" bold>
+			{deckDetails.repeated > 0 && (
+				<ProjectText type="warning">
 					<ProjectIcon
 						component={InfoCircleOutlined}
 						type="warning"
-						size="1rem"
 					/>
-					{deckDetails.repeatedCards} cartões a serem revisados
+					{deckDetails.repeated} cartões a serem revisados
 				</ProjectText>
 			)}
-			{deckDetails.repeatedCards + deckDetails.newCards == 0 && (
-				<ProjectText type="success" bold>
-					<ProjectIcon component={CheckOutlined} type="success" size="1rem" />
+			{deckDetails.repeated + deckDetails.new == 0 && (
+				<ProjectText type="success">
+					<ProjectIcon component={CheckOutlined} type="success" />
 					Não existem cartões a serem estudados nesse baralho, parabéns!
 				</ProjectText>
 			)}
@@ -55,5 +53,5 @@ export default (props: CardCounterProps) => {
 };
 
 interface CardCounterProps {
-	deckDetails: StudentDeck;
+	deckDetails: CardsData;
 }

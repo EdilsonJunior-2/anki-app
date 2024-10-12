@@ -6,6 +6,8 @@ import "./styles.scss";
 import { useState } from "react";
 import { QuestionCircleOutlined } from "@ant-design/icons";
 import TipsModal from "../TipsModal";
+import ProjectIcon from "../ProjectIcon";
+import ProjectText from "../ProjectText";
 
 type MenuItem = Required<MenuProps>["items"][number];
 
@@ -20,7 +22,7 @@ export default (props: TopBarProps) => {
                 <button
                     onClick={() => openModal(true)}
                 >
-                    <QuestionCircleOutlined />
+                    <ProjectIcon component={QuestionCircleOutlined} />
                 </button>
             ),
         },
@@ -42,7 +44,7 @@ export default (props: TopBarProps) => {
 
     return (
         <Header>
-            <h2>{props.title}</h2>
+            <ProjectText headerLevel={3}>{props.title}</ProjectText>
             <Menu
                 mode="horizontal"
                 onClick={onClick}

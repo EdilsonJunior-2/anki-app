@@ -1,7 +1,6 @@
 import { useContext, useState } from "react";
 
 import { StudyContext, StudentContext } from "@context";
-import { QuestionType } from "@enums";
 import { StudentCard } from "@class";
 import { indexLoop } from "@utils";
 
@@ -46,14 +45,10 @@ export default () => {
 				<ProjectCard
 					key={cards[index].type}
 					actionColumns={answerFlag ? 2 : 1}
-					title={
-						cards[index].type === `${QuestionType.Image}` ? (
-							<>
-								<p>Identifique a parte destacada em verde:</p>
-								<img src={cards[index].question} /></>
-						) : (
-							<p>{cards[index].question}</p>
-						)
+					title={<>
+						<p>{cards[index].question}</p>
+						{cards[index].requiresImage && <img src={`/images/${currentChapter}.png`} alt={`${currentChapter}`} />}</>
+
 					}
 					actions={answerFlag ?
 						[<button onClick={() => updateRating(4)}>De novo</button>,

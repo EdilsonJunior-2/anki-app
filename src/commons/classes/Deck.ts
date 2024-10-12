@@ -1,17 +1,18 @@
-import ProjectCard from "./studentCard";
-
+import Card from "./Card";
+import CardsData from "./CardsData";
 class Deck {
-    public type: string;
-    public cards: ProjectCard[];
-
-    constructor(props: { type: string, cards: ProjectCard[] }) {
-        this.type = props.type;
-        this.cards = props.cards;
-    }
-
-    public addCards(newCards: ProjectCard[]): void {
-        this.cards = this.cards.concat(newCards);
-    }
+  public id: number;
+  public name: string;
+  public image: string;
+  public cardsData: CardsData;
+  public cards?: Card[];
+  constructor(props: Deck) {
+    this.id = props.id;
+    this.name = props.name;
+    this.image = props.image;
+    this.cardsData = props.cardsData;
+    this.cards = props.cards;
+  }
 }
 
 export default Deck;
