@@ -1,10 +1,9 @@
 import AntThemeProvider from "./antTheme";
-import BaseThemeProvider, { BaseThemeProps } from "./baseTheme";
+import BaseThemeProvider from "./baseTheme";
 
 const Themes = {
   AntThemeProvider,
   BaseThemeProvider,
 };
 
-export type { BaseThemeProps };
 export default Themes;
