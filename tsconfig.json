@@ -2,10 +2,14 @@
   "compilerOptions": {
     "target": "ES2020",
     "useDefineForClassFields": true,
-    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "lib": [
+      "ES2020",
+      "DOM",
+      "DOM.Iterable",
+      "WebWorker"
+    ],
     "module": "ESNext",
     "skipLibCheck": true,
-
     /* Bundler mode */
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,
@@ -15,24 +19,49 @@
     "jsx": "react-jsx",
     "baseUrl": "./src",
     "paths": {
-      "@components": ["./commons/components/index.ts"],
-      "@class": ["./commons/classes/index.ts"],
-      "@interface": ["./commons/interfaces/index.ts"],
-      "@api": ["./commons/api/index.ts"],
-      "@enums": ["./commons/enums/index.ts"],
-      "@context": ["./contexts/index.ts"],
-      "@utils": ["./utils/index.ts"],
-      "@assets": ["./assets/index.ts"],
-      "@types": ["./commons/types/index.ts"],
-      "@themes": ["./themes/index.ts"]
+      "@components": [
+        "./commons/components/index.ts"
+      ],
+      "@class": [
+        "./commons/classes/index.ts"
+      ],
+      "@interface": [
+        "./commons/interfaces/index.ts"
+      ],
+      "@api": [
+        "./commons/api/index.ts"
+      ],
+      "@enums": [
+        "./commons/enums/index.ts"
+      ],
+      "@context": [
+        "./contexts/index.ts"
+      ],
+      "@utils": [
+        "./utils/index.ts"
+      ],
+      "@assets": [
+        "./assets/index.ts"
+      ],
+      "@types": [
+        "./commons/types/index.ts"
+      ],
+      "@themes": [
+        "./themes/index.ts"
+      ]
     },
-
     /* Linting */
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
-  "references": [{ "path": "./tsconfig.node.json" }]
+  "include": [
+    "src"
+  ],
+  "references": [
+    {
+      "path": "./tsconfig.node.json"
+    }
+  ]
 }

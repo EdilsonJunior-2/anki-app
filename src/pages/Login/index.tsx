@@ -19,7 +19,7 @@ export default () => {
 	const { login } = AuthApi;
 
 	useEffect(() => {
-		const user = window.sessionStorage.getItem("@user");
+		const user = window.sessionStorage.getItem(`@${import.meta.env.VITE_APP_KEY}_user`);
 		if (user)
 			setStudent(JSON.parse(user));
 	}, []);

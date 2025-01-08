@@ -51,7 +51,7 @@ export default () => {
 
 					}
 					actions={answerFlag ?
-						[<button onClick={() => updateRating(4)}>De novo</button>,
+						[<button onClick={() => updateRating(4)}>Errei</button>,
 						<button onClick={() => updateRating(3)}>Difícil</button>,
 						<button onClick={() => updateRating(2)}>Médio</button>,
 						<button onClick={() => updateRating(1)}>Fácil</button>]
