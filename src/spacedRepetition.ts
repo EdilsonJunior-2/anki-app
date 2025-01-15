@@ -12,7 +12,7 @@ function changeCardRating(card: any, newRating: number) {
 
 const sendNewRatings = (cards: any[], studentCode: string): Promise<boolean> =>
   api
-    .post("/cards/newRating", { studentCode, cards })
+    .post("/updateRecords", { studentCode, cards })
     .then(() => {
       return true;
     })
@@ -22,7 +22,7 @@ const sendNewRatings = (cards: any[], studentCode: string): Promise<boolean> =>
 
 const getCards = async (id: number, studentCode: string): Promise<any> =>
   await api
-    .get(`/student/${studentCode}/deck/${id}`)
+    .get(`/study/${studentCode}/${id}`)
     .then((res: any) => {
       return res.data;
     })

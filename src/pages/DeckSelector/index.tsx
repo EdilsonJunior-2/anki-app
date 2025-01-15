@@ -6,6 +6,7 @@ import { Chapter } from "@class";
 import { DeckApi } from "@api";
 
 import "./styles.scss";
+import { Tooltip } from "antd";
 
 export default () => {
 	const { student, chapters, setChapters } = useContext(StudentContext);
@@ -37,27 +38,29 @@ export default () => {
 						</ProjectText>
 						<section className="deck-list">
 							{chapter.decks.map((deck, deckIndex) => (
-								<ProjectCard
-									key={deck.id}
-									title={`${index + 1}.${deckIndex + 1}: ${deck.name}`}
-									bodyHeight="5rem"
-									actions={[
-										<button
-											disabled={deck.cardsData.hasAnyCardToStudy}
-											onClick={() =>
-												pickCards(
-													deck.id,
-													student?.code as string,
-													`${index + 1}.${deckIndex + 1}: ${deck.name}`
-												)
-											}
-										>
-											Estudar
-										</button>
-									]}
-								>
-									<CardCounter deckDetails={deck.cardsData} />
-								</ProjectCard>
+								<Tooltip title={deck.name} placement="top">
+									<ProjectCard
+										key={deck.id}
+										title={`${index + 1}.${deckIndex + 1}: ${deck.name}`}
+										bodyHeight="5rem"
+										actions={[
+											<button
+												disabled={deck.cardsData.hasAnyCardToStudy}
+												onClick={() =>
+													pickCards(
+														deck.id,
+														student?.code as string,
+														`${index + 1}.${deckIndex + 1}: ${deck.name}`
+													)
+												}
+											>
+												Estudar
+											</button>
+										]}
+									>
+										<CardCounter deckDetails={deck.cardsData} />
+									</ProjectCard>
+								</Tooltip>
 							))}
 						</section>
 					</div>
