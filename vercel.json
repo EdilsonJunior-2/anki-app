@@ -1,8 +1,12 @@
 {
   "routes": [
     {
-      "src": "/(.*)",
+      "src": "^/(?!_next|static|assets|favicon\\.ico|robots\\.txt).*$",
       "dest": "/index.html"
+    },
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
     }
   ]
 }
