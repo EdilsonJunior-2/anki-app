@@ -7,7 +7,7 @@ class CardsData {
     this.repeated = props.repeated;
   }
 
-  public get hasAnyCardToStudy() {
+  public get hasAnyCardToStudy(): boolean {
     return this.new + this.repeated === 0;
   }
 }

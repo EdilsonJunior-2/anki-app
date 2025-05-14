@@ -1,7 +1,7 @@
 import axios from "axios";
 import DeckApi from "./decks";
 import AuthApi from "./auth";
-
+import AdminApi from "./admin";
 const api = axios.create({
   // "https://terrible-clementia-thatsmytcc-10e74d42.koyeb.app/",
   baseURL: `${
@@ -11,4 +11,4 @@ const api = axios.create({
 
 export default api;
 
-export { AuthApi, DeckApi };
+export { AuthApi, DeckApi, AdminApi };

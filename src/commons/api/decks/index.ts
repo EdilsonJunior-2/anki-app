@@ -1,5 +1,5 @@
 import api from "..";
-import { Chapter } from "@class";
+import { Chapter } from "@classes";
 
 const studentDecksInfo = async (studentCode: string): Promise<Chapter[]> => {
   const res = await api.get(`/study/decksInfo/${studentCode}`);

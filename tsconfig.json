@@ -22,23 +22,44 @@
       "@components": [
         "./commons/components/index.ts"
       ],
-      "@class": [
+      "@components/*": [
+        "./commons/components/*"
+      ],
+      "@classes/*": [
+        "./commons/classes/*"
+      ],
+      "@classes": [
         "./commons/classes/index.ts"
       ],
-      "@interface": [
+      "@interfaces": [
         "./commons/interfaces/index.ts"
+      ],
+      "@interfaces/*": [
+        "./commons/interfaces/*"
       ],
       "@api": [
         "./commons/api/index.ts"
       ],
+      "@api/*": [
+        "./commons/api/*"
+      ],
       "@enums": [
         "./commons/enums/index.ts"
+      ],
+      "@enums/*": [
+        "./commons/enums/*"
       ],
       "@context": [
         "./contexts/index.ts"
       ],
+      "@context/*": [
+        "./contexts/*"
+      ],
       "@utils": [
         "./utils/index.ts"
+      ],
+      "@utils/*": [
+        "./utils/*"
       ],
       "@assets": [
         "./assets/index.ts"
@@ -46,8 +67,14 @@
       "@types": [
         "./commons/types/index.ts"
       ],
+      "@types/*": [
+        "./commons/types/*"
+      ],
       "@themes": [
         "./themes/index.ts"
+      ],
+      "@themes/*": [
+        "./themes/*"
       ]
     },
     /* Linting */

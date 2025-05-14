@@ -1,5 +1,5 @@
 import api from "..";
-import { Student } from "@class";
+import { Student } from "@classes";
 
 const login = async (code: string): Promise<Student> => {
   const res = await api.post(`/login`, { code });

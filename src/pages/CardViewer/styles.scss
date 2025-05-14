@@ -4,6 +4,10 @@
     align-items: center;
     height: 100%;
 
+    .card-content {
+        margin-top: 1.5rem;
+    }
+
     .project-card {
         min-width: 20rem;
         max-width: 30rem;

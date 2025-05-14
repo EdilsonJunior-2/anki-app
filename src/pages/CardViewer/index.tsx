@@ -1,79 +1,104 @@
-import { useContext, useState } from "react";
-
+import { useContext, useEffect, useState } from "react";
+import { useParams } from "react-router";
 import { StudyContext, StudentContext } from "@context";
-import { StudentCard } from "@class";
+import { StudentCard } from "@classes";
 import { indexLoop } from "@utils";
+import { useNavigate } from "react-router";
 
 import { changeCardRating, sendNewRatings } from "../../spacedRepetition";
 import "./styles.scss";
 import { Skeleton } from "antd";
-import { ProjectCard } from "@components";
+import { ProjectCard, TopBar } from "@components";
 
 export default () => {
-	const [answerFlag, showAnswer] = useState(false);
-	const [index, setIndex] = useState<number>(0);
-	const [newRatedCards, setNewRatedCards] = useState<StudentCard[]>([]);
+  const [answerFlag, showAnswer] = useState(false);
+  const [index, setIndex] = useState<number>(0);
+  const [newRatedCards, setNewRatedCards] = useState<StudentCard[]>([]);
 
-	const { letTheStudyBegin, cards, setCards, currentChapter } = useContext(StudyContext);
-	const { student } = useContext(StudentContext);
+  const { studentCode, deckId } = useParams();
+  const navigate = useNavigate();
 
-	function timeToRest() {
-		sendNewRatings(newRatedCards, student?.code as string).then(() => {
-			letTheStudyBegin(false);
-		});
-	}
+  const { pickCards, cards, setCards, currentChapter } =
+    useContext(StudyContext);
+  const { student } = useContext(StudentContext);
 
-	function updateRating(rating: number) {
-		showAnswer(false);
-		changeCardRating(cards[index], rating);
-		const newCardArray = cards;
-		if (cards[index].rating !== 4) {
-			setNewRatedCards([...newRatedCards, cards[index]]);
-			newCardArray.splice(index, 1);
-			if (index >= newCardArray.length) setIndex(0);
-			setCards(newCardArray);
-		} else {
-			cards[index].repetitions += 1;
-			setIndex(indexLoop(newCardArray, index));
-		}
-	}
+  function timeToRest() {
+    sendNewRatings(newRatedCards, student?.code as string).then(() => {
+      navigate("/student");
+    });
+  }
 
-	return <main className="card-viewer">
-		<h3>Capítulo {currentChapter}</h3>
-		{cards.length > 0 ? (
-			<>
-				<ProjectCard
-					key={cards[index].type}
-					actionColumns={answerFlag ? 2 : 1}
-					title={<>
-						<p>{cards[index].question}</p>
-						{cards[index].requiresImage && <img src={`/images/${currentChapter}.png`} alt={`${currentChapter}`} />}</>
+  function updateRating(rating: number) {
+    showAnswer(false);
+    changeCardRating(cards[index], rating);
+    const newCardArray = cards;
+    if (cards[index].rating !== 4) {
+      setNewRatedCards([...newRatedCards, cards[index]]);
+      newCardArray.splice(index, 1);
+      if (index >= newCardArray.length) setIndex(0);
+      setCards(newCardArray);
+    } else {
+      cards[index].repetitions += 1;
+      setIndex(indexLoop(newCardArray, index));
+    }
+  }
 
-					}
-					actions={answerFlag ?
-						[<button onClick={() => updateRating(4)}>Errei</button>,
-						<button onClick={() => updateRating(3)}>Difícil</button>,
-						<button onClick={() => updateRating(2)}>Médio</button>,
-						<button onClick={() => updateRating(1)}>Fácil</button>]
-						: [
-							<button onClick={() => showAnswer(true)}>Ver resposta</button>
-						]}
-				>
-					<p className="card-answer">
-						Resposta:
-						<Skeleton
-							loading={!answerFlag}
-							title={false}
-							paragraph={{ rows: 1, width: 128 }}
-						>
-							<span>{cards[index].answer}</span>
-						</Skeleton>
-					</p>
-				</ProjectCard>
-			</>
-		) : (<>
-			<p>Todos os cartões da sessão estudados</p>
-			<button onClick={timeToRest}>Voltar</button>
-		</>
-		)}</main>
+  useEffect(() => {
+    pickCards(Number(deckId), studentCode as string);
+  }, []);
+
+  return (
+    <main className="card-viewer">
+      <TopBar title={`Capítulo ${currentChapter}`} hideOptions showBackButton />
+      {cards.length > 0 ? (
+        <div className="card-content">
+          <ProjectCard
+            key={cards[index].type}
+            actionColumns={answerFlag ? 2 : 1}
+            title={
+              <>
+                <p>{cards[index].question}</p>
+                {cards[index].requiresImage && (
+                  <img
+                    src={`/images/${currentChapter}.png`}
+                    alt={`${currentChapter}`}
+                  />
+                )}
+              </>
+            }
+            actions={
+              answerFlag
+                ? [
+                    <button onClick={() => updateRating(4)}>De novo</button>,
+                    <button onClick={() => updateRating(3)}>Difícil</button>,
+                    <button onClick={() => updateRating(2)}>Médio</button>,
+                    <button onClick={() => updateRating(1)}>Fácil</button>,
+                  ]
+                : [
+                    <button onClick={() => showAnswer(true)}>
+                      Ver resposta
+                    </button>,
+                  ]
+            }
+          >
+            <p className="card-answer">
+              Resposta:
+              <Skeleton
+                loading={!answerFlag}
+                title={false}
+                paragraph={{ rows: 1, width: 128 }}
+              >
+                <span>{cards[index].answer}</span>
+              </Skeleton>
+            </p>
+          </ProjectCard>
+        </div>
+      ) : (
+        <>
+          <p>Todos os cartões da sessão estudados</p>
+          <button onClick={timeToRest}>Voltar</button>
+        </>
+      )}
+    </main>
+  );
 };

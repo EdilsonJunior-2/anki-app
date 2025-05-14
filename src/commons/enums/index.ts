@@ -1,5 +1,3 @@
 import { QuestionType } from "./QuestionType";
-
-export {
-    QuestionType
-}
+import { CardStatus } from "./CardStatus";
+export { QuestionType, CardStatus };

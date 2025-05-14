@@ -1,7 +1,16 @@
-export type ThemeTypes = "success" | "error" | "info" | "warning";
+export type ThemeTypes =
+  | "success"
+  | "error"
+  | "info"
+  | "warning"
+  | "red"
+  | "volcano"
+  | "cyan"
+  | "lime";
 export type ThemeVariants = "light" | "primary" | "dark";
 export type ThemeFontWeights = "thin" | "small" | "normal" | "big" | "bold";
 export type ThemeFontSizes =
+  | "xSmall"
   | "small"
   | "default"
   | "big"
