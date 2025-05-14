@@ -30,13 +30,13 @@ export default (props: CardCounterProps) => {
         </ProjectText>
       )}
       {deckDetails.repeated > 0 && (
-        <ProjectText type="warning">
+        <ProjectText type="warning" weight="bold">
           <ProjectIcon component={InfoCircleOutlined} type="warning" />
           {deckDetails.repeated} cartões a serem revisados
         </ProjectText>
       )}
       {deckDetails.repeated + deckDetails.new == 0 && (
-        <ProjectText type="success">
+        <ProjectText type="success" weight="bold">
           <ProjectIcon component={CheckOutlined} type="success" />
           Não existem cartões a serem estudados nesse baralho, parabéns!
         </ProjectText>

@@ -7,29 +7,31 @@ import {
   ThemeHeaderLevels,
 } from "@types";
 import styled from "styled-components";
+import Theme from "@themes/theme";
 
 const { Text, Title } = Typography;
 
 const StyledText = styled(Text)<StyledTextProps>`
-  color: ${({ type, variant, theme }) =>
+  color: ${({ type, variant }) =>
     type
       ? variant
-        ? theme.color[type][variant].main
-        : theme.color[type].default.main
-      : theme.color.text};
-  font-weight: ${({ weight, theme }) =>
-    weight ? theme.font.weight[weight] : theme.font.weight.normal};
-  font-size: ${({ size, theme }) =>
-    size ? theme.font.size[size] : theme.font.size.default};
+        ? //
+          Theme.color[type][variant].main
+        : Theme.color[type].default.main
+      : Theme.color.text};
+  font-weight: ${({ weight }) =>
+    weight ? Theme.font.weight[weight] : Theme.font.weight.normal};
+  font-size: ${({ size }) =>
+    size ? Theme.font.size[size] : Theme.font.size.default};
 `;
 
 const StyledTitle = styled(Title)<StyledTitleProps>`
-  color: ${({ type, variant, theme }) => {
+  color: ${({ type, variant }) => {
     return type
       ? variant
-        ? theme.color[type][variant].main
-        : theme.color[type].default.main
-      : theme.color.text;
+        ? Theme.color[type][variant].main
+        : Theme.color[type].default.main
+      : Theme.color.text;
   }}!important;
   margin: ${({ margin }) => margin || "auto 0"} !important ;
 `;

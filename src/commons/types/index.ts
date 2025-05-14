@@ -7,7 +7,7 @@ export type ThemeTypes =
   | "volcano"
   | "cyan"
   | "lime";
-export type ThemeVariants = "light" | "primary" | "dark";
+export type ThemeVariants = "light" | "default" | "dark";
 export type ThemeFontWeights = "thin" | "small" | "normal" | "big" | "bold";
 export type ThemeFontSizes =
   | "xSmall"

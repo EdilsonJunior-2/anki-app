@@ -1,18 +1,18 @@
 import Icon from "@ant-design/icons";
 import { ThemeFontSizes, ThemeTypes, ThemeVariants } from "@types";
 import styled from "styled-components";
-
+import Theme from "@themes/theme";
 const StyledIcon = styled(Icon)<StyledIconProps>`
-  font-size: ${({ size, theme }) => {
-    return size ? theme.font.size[size] : theme.font.size.default;
+  font-size: ${({ size }) => {
+    return size ? Theme.font.size[size] : Theme.font.size.default;
   }};
   svg {
-    fill: ${({ type, variant, theme }) =>
+    fill: ${({ type, variant }) =>
       type
         ? variant
-          ? theme.color[type][variant].main
-          : theme.color[type].default.main
-        : theme.color.text};
+          ? Theme.color[type][variant].main
+          : Theme.color[type].default.main
+        : Theme.color.text};
   }
 `;
 

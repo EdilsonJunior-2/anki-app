@@ -1,1 +1,0 @@
-import { StudentDataInterface } from "./StudentData";
