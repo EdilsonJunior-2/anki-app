@@ -3,34 +3,21 @@ import type { MenuProps } from "antd";
 
 import "./styles.scss";
 import { useContext, useState } from "react";
-import {
-  QuestionCircleOutlined,
-  TrademarkCircleOutlined,
-} from "@ant-design/icons";
+import { QuestionCircleOutlined } from "@ant-design/icons";
 import TipsModal from "../TipsModal";
 import ProjectIcon from "../ProjectIcon";
 import ProjectText from "../ProjectText";
 import { StudentContext } from "@context";
-import CreditsModal from "@components/CreditsModal";
 
 type MenuItem = Required<MenuProps>["items"][number];
 
 export default (props: TopBarProps) => {
   const { Header } = Layout;
   const [modal, openModal] = useState<boolean>(false);
-  const [trademarkModal, openTrademarkModal] = useState<boolean>(false);
   const { chapters } = useContext(StudentContext);
 
   const items: MenuItem[] = chapters
     ? [
-        {
-          key: 0,
-          label: (
-            <button onClick={() => openTrademarkModal(true)}>
-              <ProjectIcon component={TrademarkCircleOutlined} />
-            </button>
-          ),
-        },
         {
           key: 1,
           label: (
@@ -67,10 +54,6 @@ export default (props: TopBarProps) => {
           items={items}
         />
       )}
-      <CreditsModal
-        open={trademarkModal}
-        onOk={() => openTrademarkModal(false)}
-      />
       <TipsModal open={modal} onOk={() => openModal(false)} />
     </Header>
   );
