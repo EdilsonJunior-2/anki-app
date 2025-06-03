@@ -36,7 +36,9 @@ export default () => {
           setError(null);
           res.admin ? navigate("/admin") : navigate("/student");
         })
-        .catch((err) => setError(err.response.data));
+        .catch((err) => {
+          setError(err.response.data.message);
+        });
       setLoading(false);
     }, 500);
   }

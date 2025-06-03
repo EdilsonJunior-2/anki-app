@@ -15,4 +15,9 @@ const login = async (code: string): Promise<Student> => {
   return student;
 };
 
-export default { login };
+const logout = () => {
+  window.sessionStorage.clear();
+  return window.location.replace("");
+};
+
+export default { login, logout };

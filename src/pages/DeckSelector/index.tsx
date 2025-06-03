@@ -36,14 +36,14 @@ export default () => {
         <article key={chapter.name} className="chapter">
           <div id={`chapter-${index + 1}`}>
             <ProjectText headerLevel={4} margin="1rem 0 0">
-              Capítulo {index + 1}: {chapter.name}
+              {chapter.name}
             </ProjectText>
             <section className="deck-list">
-              {chapter.decks.map((deck, deckIndex) => (
+              {chapter.decks.map((deck) => (
                 <Tooltip title={deck.name} placement="top">
                   <ProjectCard
                     key={deck.id}
-                    title={`${index + 1}.${deckIndex + 1}: ${deck.name}`}
+                    title={`${deck.name}`}
                     bodyHeight="5rem"
                     actions={[
                       <button
