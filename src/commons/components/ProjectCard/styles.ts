@@ -3,8 +3,12 @@ import { Card, CardProps } from "antd";
 
 const StyledCard = styled(Card)<CardProps & StyledCardProps>`
   border-radius: 0.5rem 0.5rem 0 0;
+  max-width: 45rem;
   .ant-card-head {
     color: white;
+    .ant-card-head-title {
+      white-space: wrap;
+    }
   }
   .ant-card-body {
     height: ${(props) => props.bodyHeight || "auto"};
