@@ -23,7 +23,7 @@ const LoginRoute = ({ element }: any) => {
       student.admin ? (
         <Navigate to="/admin" />
       ) : (
-        <Navigate to="/home" />
+        <Navigate to="/student" />
       )
     ) : null;
   }
