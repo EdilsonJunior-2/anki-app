@@ -53,18 +53,13 @@ export default () => {
       {cards.length > 0 ? (
         <div className="card-content">
           <ProjectCard
+            wrap
             key={cards[index].type}
             actionColumns={answerFlag ? 2 : 1}
             title={
-              <>
-                <p>{cards[index].question}</p>
-                {cards[index].requiresImage && (
-                  <img
-                    src={`/images/${currentChapter}.png`}
-                    alt={`${currentChapter}`}
-                  />
-                )}
-              </>
+              <div
+                dangerouslySetInnerHTML={{ __html: cards[index].question }}
+              />
             }
             actions={
               answerFlag
@@ -82,13 +77,14 @@ export default () => {
             }
           >
             <p className="card-answer">
-              Resposta:
               <Skeleton
                 loading={!answerFlag}
                 title={false}
                 paragraph={{ rows: 1, width: 128 }}
               >
-                <span>{cards[index].answer}</span>
+                <div
+                  dangerouslySetInnerHTML={{ __html: cards[index].answer }}
+                />
               </Skeleton>
             </p>
           </ProjectCard>

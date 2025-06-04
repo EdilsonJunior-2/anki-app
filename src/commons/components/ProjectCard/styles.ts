@@ -7,10 +7,11 @@ const StyledCard = styled(Card)<CardProps & StyledCardProps>`
   .ant-card-head {
     color: white;
     .ant-card-head-title {
-      white-space: wrap;
+      white-space: ${(props) => (props.wrap ? "wrap" : "norwap")};
     }
   }
   .ant-card-body {
+    min-height: 8rem;
     height: ${(props) => props.bodyHeight || "auto"};
   }
   .ant-card-actions {
@@ -50,6 +51,7 @@ const StyledCard = styled(Card)<CardProps & StyledCardProps>`
 interface StyledCardProps {
   bodyHeight?: string;
   actionColumns?: number;
+  wrap?: boolean;
 }
 
 export default StyledCard;
