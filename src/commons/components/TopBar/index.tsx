@@ -59,7 +59,6 @@ export default (props: TopBarProps) => {
 
   return (
     <Header>
-      <img src="/brain.png" alt="brain" />
       <ProjectText headerLevel={3}>{props.title}</ProjectText>
       {!props.hideOptions && chapters && (
         <Menu
