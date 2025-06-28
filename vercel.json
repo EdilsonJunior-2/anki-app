@@ -1,7 +1,7 @@
 {
   "routes": [
     {
-      "src": "^/(?!_next|static|assets|favicon\\.ico|robots\\.txt).*$",
+      "src": "^/(?!_next|static|assets|favicon\\.ico|robots\\.txt|images).*$",
       "dest": "/index.html"
     },
     {
